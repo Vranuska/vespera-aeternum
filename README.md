@@ -43,6 +43,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 
 ## Novas portas do arquivo
 
+- **[O vestido vermelho e as penas do bispo](arquivo/padre-tomas/o-vestido-vermelho-e-as-penas-do-bispo-v1.md)** — Um domingo de escândalo, preconceito e humanidade na paróquia.
 - **[O demônio que veio me matar e ficou para o jantar](arquivo/azrakhel/o-demonio-que-veio-me-matar-e-ficou-para-o-jantar-v1.md)** — Azrakhel, Eva e o Esquecimento.
 - **[A mulher que chorava antes dos mortos](arquivo/bestiario/a-mulher-que-chorava-antes-dos-mortos-v1.md)** — Eithne e a injustiça feita às banshees.
 - **[Sobre a primeira vez que fui expulsa do Céu](arquivo/fragmentos/sobre-a-primeira-vez-que-fui-expulsa-do-ceu.md)** — Um jantar, um lugar vazio e uma pena negra.
