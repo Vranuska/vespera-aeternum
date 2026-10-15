@@ -142,7 +142,7 @@ Naquele domingo, porém, havia outro inconveniente.
 
 O bispo visitava a paróquia.
 
-Chegou acompanhado de dois clérigos, um ajudante e a convicção de que a nave inteira devia reorganizar sua respiração em homenagem à sua presença.
+Chegou acompanhado de dois clérigos, um ajudante e a convicção de que a nave* inteira devia reorganizar sua respiração em homenagem à sua presença.
 
 Não era um homem mau. Descobri mais tarde que financiava discretamente uma enfermaria e visitava os doentes quando ninguém importante estava olhando.
 
@@ -429,5 +429,9 @@ Quanto ao bispo, ainda nos encontraríamos outras vezes.
 Nenhuma delas particularmente tranquila.
 
 Mas isso pertence a outra história.
+
+## Glossário
+
+* Nave — espaço principal da igreja onde os fiéis se reúnem, normalmente entre a entrada e o altar.
 
 — Vespera
