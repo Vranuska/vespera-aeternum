@@ -2,7 +2,7 @@
 
 ## Versão 1.0 — manuscrito original
 
-A primeira redação foi escrita numa conversa anterior e é a preferida da autora. O texto integral ainda não foi recuperado. **Não substituir por uma reconstrução.**
+Primeira edição do conto, preservada como versão de referência. O manuscrito integral está pendente de incorporação ao arquivo. **Não substituir por uma reconstrução.**
 
 ## Versão 2.0 — edição Recanto das Letras
 
