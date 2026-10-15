@@ -41,6 +41,15 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 | **[O retorno depois de onze meses](arquivo/padre-tomas/o-retorno-depois-de-onze-meses-v1.md)** | Um reencontro, uma guerra distante e uma tigela de sopa. |
 | **[Sobre o chá de padre Tomás](arquivo/padre-tomas/sobre-o-cha-de-padre-tomas-v1.md)** | Uma demonstração de afeto disfarçada de reclamação. |
 
+## Novas portas do arquivo
+
+- **[O demônio que veio me matar e ficou para o jantar](arquivo/azrakhel/o-demonio-que-veio-me-matar-e-ficou-para-o-jantar-v1.md)** — Azrakhel, Eva e o Esquecimento.
+- **[A mulher que chorava antes dos mortos](arquivo/bestiario/a-mulher-que-chorava-antes-dos-mortos-v1.md)** — Eithne e a injustiça feita às banshees.
+- **[Sobre a primeira vez que fui expulsa do Céu](arquivo/fragmentos/sobre-a-primeira-vez-que-fui-expulsa-do-ceu.md)** — Um jantar, um lugar vazio e uma pena negra.
+- **[A segunda vida do sapato vermelho](arquivo/fragmentos/a-segunda-vida-do-sapato-vermelho.md)** — O reencontro com a menina que aprendeu a voar.
+- **[O espelho pediu desculpas](arquivo/fragmentos/o-espelho-pediu-desculpas.md)** — Uma promessa esquecida e um reflexo impossível.
+- **[Outros fragmentos](arquivo/fragmentos/)** — Cartas, memórias e pequenas inconveniências de uma vida sem fim.
+
 ## Algumas presenças recorrentes
 
 **Vespera** — Narradora, testemunha e, em ocasiões especialmente inconvenientes, participante dos acontecimentos. Pode atravessar eras, mas ainda não aprendeu a vencer todas as discussões.
@@ -50,6 +59,22 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 **Padre Tomás** — Teimoso, compassivo, falível e dono de um talento singular para arruinar folhas de chá. Sua amizade com Vespera atravessa vinte anos e inúmeras pequenas divergências.
 
 **Malpherion, ou Malphie** — Um demônio cuja dignidade sofre consideravelmente quando alguém se lembra de sua família.
+
+**Azrakhel** — Devastador de Reinos, visitante desastroso e pai desesperado de Eva. O destino da menina o envolve num mistério que nem Vespera domina.
+
+**Eva** — Uma criança ameaçada por um esquecimento mais antigo que a própria morte.
+
+**Eithne** — Uma banshee que cultivava cebolas e lamentava as partidas de uma família que nunca soube compreendê-la.
+
+**Dona Inês** — Uma senhora que venceu Vespera num leilão por uma colher de estanho, com sessenta e uma moedas e uma memória de infância.
+
+**Dona Beatriz** — Vizinha da paróquia de padre Tomás; suas galinhas desaparecidas quase custaram a reputação de um menino inocente.
+
+**Mateus** — O menino de doze anos injustamente acusado de roubo, cuja dignidade obriga Tomás a reconhecer o próprio erro.
+
+**Majestade** — Um gato de opiniões severas, que certa vez devorou um pequeno deus da fertilidade.
+
+**Aurelian** — Um serafim ligado ao jantar que terminou na primeira expulsão de Vespera do Céu.
 
 **Os mortais** — Os verdadeiros responsáveis por tornar a eternidade interessante.
 
