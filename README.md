@@ -43,6 +43,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 
 ## Novas portas do arquivo
 
+- **[O arcanjo que chegou tarde para um milagre](arquivo/padre-tomas/o-arcanjo-que-chegou-tarde-para-um-milagre-v1.md)** — Ithariel, Mateus e um sino que salvou a aldeia.
 - **[O vestido vermelho e as penas do bispo](arquivo/padre-tomas/o-vestido-vermelho-e-as-penas-do-bispo-v1.md)** — Um domingo de escândalo, preconceito e humanidade na paróquia.
 - **[O demônio que veio me matar e ficou para o jantar](arquivo/azrakhel/o-demonio-que-veio-me-matar-e-ficou-para-o-jantar-v1.md)** — Azrakhel, Eva e o Esquecimento.
 - **[A mulher que chorava antes dos mortos](arquivo/bestiario/a-mulher-que-chorava-antes-dos-mortos-v1.md)** — Eithne e a injustiça feita às banshees.
@@ -60,6 +61,8 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 **Padre Tomás** — Teimoso, compassivo, falível e dono de um talento singular para arruinar folhas de chá. Sua amizade com Vespera atravessa vinte anos e inúmeras pequenas divergências.
 
 **Malpherion, ou Malphie** — Um demônio cuja dignidade sofre consideravelmente quando alguém se lembra de sua família.
+
+**Ithariel** — Um arcanjo com quem Vespera dividiu a intimidade de outros séculos. De volta à aldeia de Tomás, descobre que a coragem dos mortais dispensa explicações sobrenaturais.
 
 **Azrakhel** — Devastador de Reinos, visitante desastroso e pai desesperado de Eva. O destino da menina o envolve num mistério que nem Vespera domina.
 
