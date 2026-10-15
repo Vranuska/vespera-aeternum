@@ -12,7 +12,7 @@ Ou, para ser mais precisa, por me recusar a concordar que um dos convidados jama
 
 Mas estou me adiantando.
 
-Naquele tempo, o Terceiro Firmamento era governado por uma assembleia de seres tão antigos que haviam começado a confundir longevidade com sabedoria.
+Naquele tempo, o Terceiro Firmamento* era governado por uma assembleia de seres tão antigos que haviam começado a confundir longevidade com sabedoria.
 
 Não eram criaturas perversas.
 
@@ -44,7 +44,7 @@ Nenhuma civilização, por mais sublime que se considere, consegue escapar à ne
 
 Fui convidada para acompanhar a renovação do Pacto das Portas, um acordo antigo que estabelecia as condições de passagem entre determinados domínios.
 
-Minha presença era conveniente porque o Entre não pertencia à jurisdição celestial.
+Minha presença era conveniente porque o Entre não pertencia à jurisdição* celestial.
 
 Eu podia testemunhar o acordo sem me submeter a ele.
 
@@ -112,7 +112,7 @@ Gostei imediatamente daquela criatura.
 
 Aurelian aguardava junto à entrada do salão.
 
-Era um serafim de seis asas, cabelos prateados e olhos da cor que o céu adquire alguns instantes antes de uma tempestade.
+Era um serafim* de seis asas, cabelos prateados e olhos da cor que o céu adquire alguns instantes antes de uma tempestade.
 
 Aurelian me conhecia havia eras. Sabia perfeitamente o que acontecia quando me convidavam para cerimônias solenes.
 
