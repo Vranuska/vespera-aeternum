@@ -86,7 +86,7 @@ Ele interrompeu o trabalho.
 
 — Você acha que ele é inocente?
 
-— Acho que suas galinhas têm uma opinião bastante independente sobre propriedade privada.
+— Acho que as galinhas de dona Beatriz têm uma opinião bastante independente sobre propriedade privada.
 
 — Helena.
 
