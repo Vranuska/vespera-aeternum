@@ -274,7 +274,7 @@ Eu me lembrava de suas mãos manchadas de tinta, de uma manhã passada juntos nu
 
 Lembrava-me também de seu corpo junto ao meu, das asas espalhadas sobre os lençóis e de uma noite em que nos escondemos entre os sinos de uma cidade celestial para evitar uma recepção interminável.
 
-O escândalo, minha querida, não foi imaginário.
+O escândalo não foi imaginário.
 
 Tampouco foram as noites.
 
@@ -330,7 +330,7 @@ Havia ocasiões em que Ithariel parecia incapaz de pronunciar uma frase simples.
 
 Não nos beijamos.
 
-Talvez você considere uma oportunidade desperdiçada. Eu também considerei, por alguns segundos.
+Por alguns segundos, considerei o beijo que não aconteceu uma oportunidade desperdiçada.
 
 Mas havia uma aldeia inteira reconstruindo suas casas, um padre que precisava levar Mateus ao médico da cidade vizinha e uma viúva que provavelmente empregaria o arcanjo como carpinteiro até o fim da semana.
 
@@ -508,6 +508,6 @@ Mas ri.
 
 Ele também.
 
-E, naquela noite, minha querida, não houve ninguém suficientemente indiscreto para nos perguntar onde dormimos.
+E, naquela noite, não houve ninguém suficientemente indiscreto para nos perguntar onde dormimos.
 
 — Vespera
