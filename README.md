@@ -43,6 +43,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 
 ## Novas portas do arquivo
 
+- **[A primeira vez que Ithariel me chamou de insuportável](arquivo/ithariel/a-primeira-vez-que-ithariel-me-chamou-de-insuportavel-v1.md)** — A biblioteca do Sétimo Firmamento e o nascimento de um amor antigo.
 - **[O arcanjo que chegou tarde para um milagre](arquivo/padre-tomas/o-arcanjo-que-chegou-tarde-para-um-milagre-v1.md)** — Ithariel, Mateus e um sino que salvou a aldeia.
 - **[O vestido vermelho e as penas do bispo](arquivo/padre-tomas/o-vestido-vermelho-e-as-penas-do-bispo-v1.md)** — Um domingo de escândalo, preconceito e humanidade na paróquia.
 - **[O demônio que veio me matar e ficou para o jantar](arquivo/azrakhel/o-demonio-que-veio-me-matar-e-ficou-para-o-jantar-v1.md)** — Azrakhel, Eva e o Esquecimento.
