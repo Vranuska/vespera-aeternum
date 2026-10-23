@@ -1,0 +1,105 @@
+{
+  "projeto": "Vespera Aeternum",
+  "formato": "romance-mosaico",
+  "versao": 2,
+  "atualizado_em": "2026-10-23",
+  "nota": "Este índice registra apenas decisões editoriais explicitamente adotadas para o Ciclo das Inacabadas. Não reorganiza as demais obras do acervo nem pressupõe identidades ainda não reveladas.",
+  "volumes": [
+    {
+      "id": "as-inacabadas",
+      "titulo_provisorio": "As Inacabadas",
+      "arco": "O sino de São Bartolomeu",
+      "ordem_editorial": [
+        {
+          "posicao": 1,
+          "id": "2026-10-21-o-inventario-das-coisas-que-ainda-funcionam",
+          "titulo": "O inventário das coisas que ainda funcionam",
+          "tempo_narrativo": "novembro de 1891",
+          "ponto_de_vista": "Mara de Alencastre / terceira pessoa"
+        },
+        {
+          "posicao": 2,
+          "id": "2026-10-22-o-recibo-que-nao-tinha-data",
+          "titulo": "O recibo que não tinha data",
+          "tempo_narrativo": "dia seguinte ao furto, novembro de 1891",
+          "ponto_de_vista": "Estevão Ferreira / terceira pessoa"
+        },
+        {
+          "posicao": 3,
+          "id": "2026-10-23-a-prova-de-impressao",
+          "titulo": "A prova de impressão",
+          "tempo_narrativo": "17 de novembro de 1943",
+          "ponto_de_vista": "Lídia Faria / terceira pessoa"
+        }
+      ],
+      "cronologia": [
+        {
+          "tempo": "novembro de 1891",
+          "acontecimentos": [
+            "sino de São Bartolomeu transportado para oficina de Mara",
+            "Teresa aparece e a data futura é descoberta"
+          ]
+        },
+        {
+          "tempo": "dia seguinte, novembro de 1891",
+          "acontecimentos": [
+            "Estevão assina declarações incompatíveis e cria contra-recibo"
+          ]
+        },
+        {
+          "tempo": "17 de novembro de 1943",
+          "acontecimentos": [
+            "Lídia recebe sino e recusa certificar sua fundição",
+            "Lídia e Nuno preservam duas provas e livro de contas"
+          ]
+        }
+      ],
+      "personagens": [
+        "Mara Augusta de Alencastre",
+        "Teresa (nome provisório)",
+        "Estevão Ferreira",
+        "Bento",
+        "Leonor",
+        "Anselmo",
+        "visitante de luvas escuras",
+        "Lídia Faria",
+        "Nuno"
+      ],
+      "lugares": [
+        "Lisboa (1891, 1943)",
+        "igreja ficcional de São Bartolomeu",
+        "oficina de Mara",
+        "cocheira de Estevão",
+        "tipografia de Lídia"
+      ],
+      "motivos": [
+        "estrela de oito pontas com uma raspada",
+        "sino e seus três toques",
+        "testemunhos contraditórios",
+        "cópias de recibos",
+        "sapato vermelho como eco, sem identidade estabelecida"
+      ],
+      "pontas_soltas": [
+        "natureza do sino e da data de 1943",
+        "identidade do visitante de luvas",
+        "a oitava assinatura ausente",
+        "origem de Teresa",
+        "destino da terceira prova",
+        "relação entre memória e testemunho"
+      ],
+      "referencias_cruzadas": [
+        {
+          "id": "2026-10-22-o-recibo-que-nao-tinha-data",
+          "ref": "2026-10-21-o-inventario-das-coisas-que-ainda-funcionam",
+          "tipo": "sequencia"
+        },
+        {
+          "id": "2026-10-23-a-prova-de-impressao",
+          "ref": "2026-10-22-o-recibo-que-nao-tinha-data",
+          "tipo": "retomada futura"
+        }
+      ]
+    }
+  ],
+  "demais_obras": "Mantidas em sua ordem original; curadoria editorial global ainda não definida."
+}
