@@ -1,9 +1,9 @@
 {
   "projeto": "Vespera Aeternum",
   "formato": "romance-mosaico",
-  "versao": 2,
-  "atualizado_em": "2026-10-23",
-  "nota": "Este índice registra apenas decisões editoriais explicitamente adotadas para o Ciclo das Inacabadas. Não reorganiza as demais obras do acervo nem pressupõe identidades ainda não reveladas.",
+  "versao": 3,
+  "atualizado_em": "2026-10-24",
+  "nota": "Índice editorial incremental do Ciclo das Inacabadas; separa ordem de leitura de cronologia diegética e não pressupõe identidade de Teresa, natureza do visitante nem explicação definitiva das certidões. Não altera a ordem das demais obras.",
   "volumes": [
     {
       "id": "as-inacabadas",
@@ -30,6 +30,13 @@
           "titulo": "A prova de impressão",
           "tempo_narrativo": "17 de novembro de 1943",
           "ponto_de_vista": "Lídia Faria / terceira pessoa"
+        },
+        {
+          "posicao": 4,
+          "id": "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes",
+          "titulo": "A mulher que se lembrava de duas mortes",
+          "tempo_narrativo": "primeira semana de dezembro de 1943",
+          "ponto_de_vista": "Lídia Faria e Amélia Tavares / terceira pessoa"
         }
       ],
       "cronologia": [
@@ -52,6 +59,14 @@
             "Lídia recebe sino e recusa certificar sua fundição",
             "Lídia e Nuno preservam duas provas e livro de contas"
           ]
+        },
+        {
+          "tempo": "primeira semana de dezembro de 1943",
+          "acontecimentos": [
+            "Amélia Tavares apresenta a Lídia certidões de duas mortes incompatíveis do marido Duarte (1912 e 1938)",
+            "Lídia imprime doze cartões com as duas datas e preserva a décima terceira prova",
+            "Elisa, filha de Amélia, leva uma cópia; a certidão de 1912 apresenta a estrela de oito pontas raspada"
+          ]
         }
       ],
       "personagens": [
@@ -63,7 +78,10 @@
         "Anselmo",
         "visitante de luvas escuras",
         "Lídia Faria",
-        "Nuno"
+        "Nuno",
+        "Amélia Tavares",
+        "Duarte Tavares",
+        "Elisa Tavares"
       ],
       "lugares": [
         "Lisboa (1891, 1943)",
@@ -77,7 +95,10 @@
         "sino e seus três toques",
         "testemunhos contraditórios",
         "cópias de recibos",
-        "sapato vermelho como eco, sem identidade estabelecida"
+        "sapato vermelho como eco, sem identidade estabelecida",
+        "memória de duas vidas incompatíveis",
+        "certidões de óbito contraditórias",
+        "ameixas guardadas para o Natal"
       ],
       "pontas_soltas": [
         "natureza do sino e da data de 1943",
@@ -85,7 +106,8 @@
         "a oitava assinatura ausente",
         "origem de Teresa",
         "destino da terceira prova",
-        "relação entre memória e testemunho"
+        "relação entre memória e testemunho",
+        "como Amélia se lembra de duas histórias incompatíveis e por que a certidão de 1912 traz a estrela raspada"
       ],
       "referencias_cruzadas": [
         {
@@ -97,6 +119,11 @@
           "id": "2026-10-23-a-prova-de-impressao",
           "ref": "2026-10-22-o-recibo-que-nao-tinha-data",
           "tipo": "retomada futura"
+        },
+        {
+          "id": "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes",
+          "ref": "2026-10-23-a-prova-de-impressao",
+          "tipo": "consequência imediata; Lídia preserva a prova"
         }
       ]
     }
