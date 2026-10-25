@@ -1,9 +1,9 @@
 {
   "projeto": "Vespera Aeternum",
   "formato": "romance-mosaico",
-  "versao": 3,
-  "atualizado_em": "2026-10-24",
-  "nota": "Índice editorial incremental do Ciclo das Inacabadas; separa ordem de leitura de cronologia diegética e não pressupõe identidade de Teresa, natureza do visitante nem explicação definitiva das certidões. Não altera a ordem das demais obras.",
+  "versao": 4,
+  "atualizado_em": "2026-10-25",
+  "nota": "Índice incremental: o capítulo V ocorre em 1926, entre os eventos de 1891 e 1943, embora seja lido após o capítulo IV. A identidade de Teresa, a oitava assinatura e a natureza do visitante permanecem reservadas.",
   "volumes": [
     {
       "id": "as-inacabadas",
@@ -37,6 +37,13 @@
           "titulo": "A mulher que se lembrava de duas mortes",
           "tempo_narrativo": "primeira semana de dezembro de 1943",
           "ponto_de_vista": "Lídia Faria e Amélia Tavares / terceira pessoa"
+        },
+        {
+          "posicao": 5,
+          "id": "2026-10-25-o-homem-que-nunca-tirava-as-luvas",
+          "titulo": "O homem que nunca tirava as luvas",
+          "tempo_narrativo": "25 de novembro de 1926, Porto; anterior aos capítulos III e IV na cronologia",
+          "ponto_de_vista": "visitante de luvas e Eulália Vale / terceira pessoa"
         }
       ],
       "cronologia": [
@@ -67,6 +74,14 @@
             "Lídia imprime doze cartões com as duas datas e preserva a décima terceira prova",
             "Elisa, filha de Amélia, leva uma cópia; a certidão de 1912 apresenta a estrela de oito pontas raspada"
           ]
+        },
+        {
+          "tempo": "25 de novembro de 1926, Porto",
+          "acontecimentos": [
+            "visitante procura a assinatura de Artur Vale, morto em 1919, mas atribuída a 16 de novembro de 1926",
+            "Eulália compara assinaturas de 1886 e 1926, recusa entregar o livro azul e conserva carta dirigida ao visitante",
+            "a cópia em papel vegetal perde o grafite; a pressão deixada pela mão de Eulália persiste"
+          ]
         }
       ],
       "personagens": [
@@ -81,14 +96,18 @@
         "Nuno",
         "Amélia Tavares",
         "Duarte Tavares",
-        "Elisa Tavares"
+        "Elisa Tavares",
+        "Eulália Vale",
+        "Artur Vale"
       ],
       "lugares": [
         "Lisboa (1891, 1943)",
         "igreja ficcional de São Bartolomeu",
         "oficina de Mara",
         "cocheira de Estevão",
-        "tipografia de Lídia"
+        "tipografia de Lídia",
+        "Porto (1926)",
+        "livraria ficcional de Eulália Vale"
       ],
       "motivos": [
         "estrela de oito pontas com uma raspada",
@@ -98,7 +117,11 @@
         "sapato vermelho como eco, sem identidade estabelecida",
         "memória de duas vidas incompatíveis",
         "certidões de óbito contraditórias",
-        "ameixas guardadas para o Natal"
+        "ameixas guardadas para o Natal",
+        "livro azul de recibos de 1886",
+        "assinatura falsificada de um morto",
+        "carta sobre dívida de quem ainda não nasceu",
+        "luvas que evitam contato direto com documentos"
       ],
       "pontas_soltas": [
         "natureza do sino e da data de 1943",
@@ -107,7 +130,10 @@
         "origem de Teresa",
         "destino da terceira prova",
         "relação entre memória e testemunho",
-        "como Amélia se lembra de duas histórias incompatíveis e por que a certidão de 1912 traz a estrela raspada"
+        "como Amélia se lembra de duas histórias incompatíveis e por que a certidão de 1912 traz a estrela raspada",
+        "por que a assinatura de Artur reaparece em 1926 e quem a imitou",
+        "a quem se destina a dívida futura e qual o custo da recusa",
+        "o que acontece quando o visitante toca um documento sem luvas"
       ],
       "referencias_cruzadas": [
         {
@@ -124,6 +150,16 @@
           "id": "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes",
           "ref": "2026-10-23-a-prova-de-impressao",
           "tipo": "consequência imediata; Lídia preserva a prova"
+        },
+        {
+          "id": "2026-10-25-o-homem-que-nunca-tirava-as-luvas",
+          "ref": "2026-10-22-o-recibo-que-nao-tinha-data",
+          "tipo": "antecedente temático e aparição do visitante em 1926"
+        },
+        {
+          "id": "2026-10-25-o-homem-que-nunca-tirava-as-luvas",
+          "ref": "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes",
+          "tipo": "antecedente cronológico da busca por documentos incompatíveis"
         }
       ]
     }
