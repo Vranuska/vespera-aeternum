@@ -5,7 +5,7 @@
 
 > Ciclo das Inacabadas · Volume I · Capítulo 6 · Narrativa situada em 1886, antes dos acontecimentos publicados nos capítulos 1–5.
 
-Em junho de 1886, Artur Vale deixou de apontar as dívidas no livro azul. Não foi por ter enriquecido. Foi porque uma mulher lhe pediu emprestada uma página e, ao devolvê-la, já não havia maneira de fazer as contas caberem no mesmo mundo.
+Em junho de 1886, Artur Vale deixou de apontar as dívidas no livro azul. Não foi por ter enriquecido. Foi porque uma mulher lhe pediu lugar para uma página e, depois de a guardar, já não havia maneira de fazer as contas caberem no mesmo mundo.
 
 Naquela manhã, a chuva entrava pelo telhado da oficina de encadernação, pingando com uma pontualidade ofensiva sobre um alguidar. Artur afastara os livros mais valiosos. Deixara os de poesia onde estavam: nenhum freguês pagaria o suficiente por eles para justificar o esforço.
 
@@ -347,7 +347,7 @@ Artur viu-a sair com ele escondido sob o vestido.
 
 Não disse nada.
 
-Afinal, algumas dívidas valia a pena deixar por cobrar.
+Afinal, algumas dívidas valiam a pena deixar por cobrar.
 
 ---
 
