@@ -329,7 +329,7 @@ Era verdade. Nenhuma das duas pediu desculpa.
 
 Antes de dormir, Elisa abriu a gaveta onde guardava as fotografias que não eram encomendas: a mãe aos vinte anos, o pai com o cão, uma janela do atelier numa manhã de chuva, a sombra de Correia projetada sobre um fundo de pano.
 
-Colocou a nova prova entre elas.
+Colocou a nova prova entre elas. O negativo ficou num envelope separado, com a data escrita a lápis: se o papel se perdesse, a imagem ainda poderia ser refeita.
 
 Depois tirou a fotografia do pai com o cão. O animal tentava alcançar o biscoito escondido na mão esquerda de Duarte. A menina no colo, Elisa aos seis anos, estava a rir. O pai parecia um homem que tinha acabado de descobrir uma maneira de enganar um cão sem grande sucesso.
 
