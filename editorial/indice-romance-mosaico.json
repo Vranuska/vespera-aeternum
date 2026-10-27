@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "project": "Vespera Aeternum",
   "purpose": "Índice editorial não destrutivo: a ordem do romance-mosaico não coincide necessariamente com a cronologia do universo.",
   "editorial_reading_order": {
@@ -55,6 +55,14 @@
         "universe_time": "18 de junho de 1886 · oficina de Artur Vale",
         "pov": "terceira pessoa limitada — Artur Vale",
         "place": "Porto · oficina de encadernação de Artur Vale"
+      },
+      {
+        "number": 7,
+        "entry_id": "2026-10-27-a-mulher-que-guardou-o-negativo",
+        "title": "A mulher que guardou o negativo",
+        "universe_time": "12 de janeiro de 1944 · atelier de fotografia",
+        "pov": "terceira pessoa limitada — Elisa Tavares",
+        "place": "Lisboa"
       }
     ]
   },
@@ -101,6 +109,14 @@
       "time": "1943-12",
       "label": "Primeira semana de dezembro de 1943",
       "precision": "week"
+    },
+    {
+      "entry_id": "2026-10-27-a-mulher-que-guardou-o-negativo",
+      "title": "A mulher que guardou o negativo",
+      "time": "1944-01-12",
+      "label": "12 de janeiro de 1944 · Elisa fotografa as duas certidões",
+      "precision": "day",
+      "after": "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes"
     }
   ],
   "unplaced_archive": [
@@ -298,7 +314,8 @@
       "livros de capa azul",
       "oito linhas e uma estrela com ponta raspada",
       "cópias imperfeitas",
-      "a possibilidade de recusar"
+      "a possibilidade de recusar",
+      "negativos fotográficos como prova material sem garantia de interpretação"
     ],
     "open_threads": [
       {
@@ -345,13 +362,22 @@
         ],
         "note": "A frase incompleta 'Quando regressar, não...' surge como pressão sem folha de origem.",
         "reveal_plan": "Retomar a frase por meio de um objeto, não de exposição explicativa."
+      },
+      {
+        "key": "photographs",
+        "seeded_in": [
+          "2026-10-27-a-mulher-que-guardou-o-negativo",
+          "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes"
+        ],
+        "note": "Elisa conserva a reprodução fotográfica das duas certidões, e Beatriz Moura mantém em suspenso a escolha entre duas imagens de Rui.",
+        "reveal_plan": "Rui e Beatriz podem regressar como fio humano independente; evitar que cada fotografia se torne prova sobrenatural."
       }
     ]
   },
   "site_integration": {
     "data_file": "entries.json",
     "visual_page": "index.html#diario",
-    "archive_copy": "arquivo/ciclo-das-inacabadas/a-costura-invisivel-v1.md",
-    "note": "A página visual lê entries.json dinamicamente; os IDs funcionam como âncoras de referência cruzada."
+    "archive_copy": "arquivo/ciclo-das-inacabadas/a-mulher-que-guardou-o-negativo-v1.md",
+    "note": "A página visual lê entries.json dinamicamente; a nova entrada é ligada às obras de 1943 por related_entries."
   }
 }
