@@ -62,6 +62,12 @@
       ],
       "cronologia": [
         {
+          "tempo": "18 de junho de 1886",
+          "acontecimentos": [
+            "Artur Vale encaderna a folha de oito linhas no livro azul; testemunha uma entrega sem verificar o conteúdo"
+          ]
+        },
+        {
           "tempo": "novembro de 1891",
           "acontecimentos": [
             "sino de São Bartolomeu transportado para oficina de Mara",
@@ -98,12 +104,6 @@
           ]
         },
         {
-          "tempo": "18 de junho de 1886",
-          "acontecimentos": [
-            "Artur Vale encaderna a folha de oito linhas no livro azul; testemunha uma entrega sem verificar o conteúdo"
-          ]
-        },
-        {
           "tempo": "12 de janeiro de 1944",
           "acontecimentos": [
             "Elisa Tavares fotografa as duas certidões de Duarte e preserva a reprodução; atende Beatriz Moura, que hesita entre duas fotografias de Rui"
@@ -137,7 +137,8 @@
         "cocheira de Estevão",
         "tipografia de Lídia",
         "Porto (1926)",
-        "livraria ficcional de Eulália Vale"
+        "livraria ficcional de Eulália Vale",
+        "atelier fotográfico da Rua da Madalena (Lisboa, 1944)"
       ],
       "motivos": [
         "estrela de oito pontas com uma raspada",
