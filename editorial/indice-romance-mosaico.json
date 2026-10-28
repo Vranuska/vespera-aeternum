@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "project": "Vespera Aeternum",
   "purpose": "Índice editorial não destrutivo: a ordem do romance-mosaico não coincide necessariamente com a cronologia do universo.",
   "editorial_reading_order": {
@@ -63,6 +63,14 @@
         "universe_time": "12 de janeiro de 1944 · atelier de fotografia",
         "pov": "terceira pessoa limitada — Elisa Tavares",
         "place": "Lisboa"
+      },
+      {
+        "number": 8,
+        "entry_id": "2026-10-28-o-lugar-onde-a-agua-ferve",
+        "title": "O lugar onde a água ferve",
+        "universe_time": "Última semana de novembro de 1891 · após a carta de Estevão",
+        "pov": "terceira pessoa limitada — Leonor Ferreira",
+        "place": "Lisboa · Arroios"
       }
     ]
   },
@@ -88,6 +96,14 @@
       "label": "Novembro de 1891 · dia seguinte ao desaparecimento",
       "precision": "month",
       "after": "2026-10-21-o-inventario-das-coisas-que-ainda-funcionam"
+    },
+    {
+      "entry_id": "2026-10-28-o-lugar-onde-a-agua-ferve",
+      "title": "O lugar onde a água ferve",
+      "time": "1891-11",
+      "label": "Última semana de novembro de 1891 · Leonor repara o fogão e escreve ao irmão",
+      "precision": "week",
+      "after": "2026-10-22-o-recibo-que-nao-tinha-data"
     },
     {
       "entry_id": "2026-10-25-o-homem-que-nunca-tirava-as-luvas",
@@ -315,7 +331,8 @@
       "oito linhas e uma estrela com ponta raspada",
       "cópias imperfeitas",
       "a possibilidade de recusar",
-      "negativos fotográficos como prova material sem garantia de interpretação"
+      "negativos fotográficos como prova material sem garantia de interpretação",
+      "cartas familiares que sobrevivem à incerteza e objetos comuns que não precisam ser sobrenaturais"
     ],
     "open_threads": [
       {
@@ -372,12 +389,23 @@
         "note": "Elisa conserva a reprodução fotográfica das duas certidões, e Beatriz Moura mantém em suspenso a escolha entre duas imagens de Rui.",
         "reveal_plan": "Rui e Beatriz podem regressar como fio humano independente; evitar que cada fotografia se torne prova sobrenatural."
       }
+    ],
+    "secondary_arcs": [
+      {
+        "id": "leonor-e-estevao",
+        "seeded_in": [
+          "2026-10-28-o-lugar-onde-a-agua-ferve",
+          "2026-10-22-o-recibo-que-nao-tinha-data"
+        ],
+        "note": "Leonor Ferreira, irmã de Estevão, compra um fogão de ferro incompleto, consegue uma porta de dona Quitéria, recebe ajuda de Joaquim e António, e escreve ao irmão oferecendo sopa e abrigo. A carta é enviada; seu recebimento ainda não é mostrado. O conto fecha o conflito do fogão, não atribuir poder ao objeto.",
+        "planned_use": "Reencontro familiar pode oferecer contraponto ao arco documental de Estevão; não forçar participação de Leonor na origem do sino."
+      }
     ]
   },
   "site_integration": {
     "data_file": "entries.json",
     "visual_page": "index.html#diario",
-    "archive_copy": "arquivo/ciclo-das-inacabadas/a-mulher-que-guardou-o-negativo-v1.md",
-    "note": "A página visual lê entries.json dinamicamente; a nova entrada é ligada às obras de 1943 por related_entries."
+    "archive_copy": "arquivo/ciclo-das-inacabadas/o-lugar-onde-a-agua-ferve-v1.md",
+    "note": "A página visual lê entries.json dinamicamente; o capítulo VIII de Leonor é relacionado ao recibo de Estevão (1891) e aparece como entrada nova."
   }
 }
