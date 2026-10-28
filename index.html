@@ -94,6 +94,14 @@ fetch('./entries.json')
       article.appendChild(footer);
       host.appendChild(article);
     });
+    // Entries are inserted asynchronously; native initial hash scrolling happens too early.
+    if (window.location.hash.length > 1) {
+      try {
+        const targetId = decodeURIComponent(window.location.hash.slice(1));
+        const target = document.getElementById(targetId);
+        if (target) requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+      } catch (_) { /* Ignore malformed fragments. */ }
+    }
   })
   .catch(() => {
     document.getElementById('entries').textContent = 'O silêncio tomou os arquivos. Tente novamente mais tarde.';
