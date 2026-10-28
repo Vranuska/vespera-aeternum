@@ -1,9 +1,9 @@
 {
   "projeto": "Vespera Aeternum",
   "formato": "romance-mosaico",
-  "versao": 5,
-  "atualizado_em": "2026-10-27",
-  "nota": "Índice legado sincronizado com capítulos VI (1886) e VII (1944); o índice principal atualizado está em editorial/indice-romance-mosaico.json.",
+  "versao": 6,
+  "atualizado_em": "2026-10-28",
+  "nota": "Índice legado sincronizado até o capítulo VIII (Leonor, 1891); índice principal em editorial/indice-romance-mosaico.json.",
   "volumes": [
     {
       "id": "as-inacabadas",
@@ -58,6 +58,13 @@
           "titulo": "A mulher que guardou o negativo",
           "tempo_narrativo": "12 de janeiro de 1944, Lisboa",
           "ponto_de_vista": "Elisa Tavares / terceira pessoa"
+        },
+        {
+          "posicao": 8,
+          "id": "2026-10-28-o-lugar-onde-a-agua-ferve",
+          "titulo": "O lugar onde a água ferve",
+          "tempo_narrativo": "última semana de novembro de 1891, Lisboa; após o recibo de Estevão",
+          "ponto_de_vista": "Leonor Ferreira / terceira pessoa limitada"
         }
       ],
       "cronologia": [
@@ -78,6 +85,13 @@
           "tempo": "dia seguinte, novembro de 1891",
           "acontecimentos": [
             "Estevão assina declarações incompatíveis e cria contra-recibo"
+          ]
+        },
+        {
+          "tempo": "última semana de novembro de 1891",
+          "acontecimentos": [
+            "Leonor Ferreira recebe fogão incompleto, repara-o com ajuda do serralheiro Joaquim e de dona Quitéria",
+            "Leonor envia a Estevão carta oferecendo jantar e abrigo; entrega ao irmão não confirmada"
           ]
         },
         {
@@ -128,7 +142,11 @@
         "Beatriz Moura",
         "Rui Moura",
         "senhor Correia",
-        "Álvaro"
+        "Álvaro",
+        "Leonor Ferreira",
+        "dona Quitéria",
+        "Joaquim (serralheiro)",
+        "António (filho de Joaquim)"
       ],
       "lugares": [
         "Lisboa (1891, 1943)",
@@ -138,7 +156,8 @@
         "tipografia de Lídia",
         "Porto (1926)",
         "livraria ficcional de Eulália Vale",
-        "atelier fotográfico da Rua da Madalena (Lisboa, 1944)"
+        "atelier fotográfico da Rua da Madalena (Lisboa, 1944)",
+        "Lisboa, Arroios (1891) — cozinha de Leonor Ferreira"
       ],
       "motivos": [
         "estrela de oito pontas com uma raspada",
@@ -154,7 +173,8 @@
         "carta sobre dívida de quem ainda não nasceu",
         "luvas que evitam contato direto com documentos",
         "negativos fotográficos e cópias de certidões",
-        "fotografia de aniversário com duas versões"
+        "fotografia de aniversário com duas versões",
+        "fogão de ferro incompleto e porta emprestada como contraponto não sobrenatural às provas documentais"
       ],
       "pontas_soltas": [
         "natureza do sino e da data de 1943",
@@ -198,6 +218,11 @@
           "id": "2026-10-27-a-mulher-que-guardou-o-negativo",
           "ref": "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes",
           "tipo": "continuidade de Elisa, Amélia e das certidões de Duarte"
+        },
+        {
+          "id": "2026-10-28-o-lugar-onde-a-agua-ferve",
+          "ref": "2026-10-22-o-recibo-que-nao-tinha-data",
+          "tipo": "consequência familiar da carta de Estevão"
         }
       ]
     }
