@@ -53,6 +53,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 - **[O espelho pediu desculpas](arquivo/fragmentos/o-espelho-pediu-desculpas.md)** — Uma promessa esquecida e um reflexo impossível.
 - **[Outros fragmentos](arquivo/fragmentos/)** — Cartas, memórias e pequenas inconveniências de uma vida sem fim.
 
+- **[O lugar onde a água ferve](arquivo/ciclo-das-inacabadas/o-lugar-onde-a-agua-ferve-v1.md)** — Leonor Ferreira, um fogão sem porta e uma carta que convida o irmão a regressar.
 - **[A costura invisível](arquivo/ciclo-das-inacabadas/a-costura-invisivel-v1.md)** — Artur Vale, uma folha de oito linhas e a assinatura que Eulália aprenderia a reconhecer.
 - **[Índice editorial do romance-mosaico](editorial/indice-romance-mosaico.json)** — Ordem de leitura, cronologia do universo e continuidade dos arcos.
 
