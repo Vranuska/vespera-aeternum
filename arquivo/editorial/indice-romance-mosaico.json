@@ -1,9 +1,9 @@
 {
   "projeto": "Vespera Aeternum",
   "formato": "romance-mosaico",
-  "versao": 6,
-  "atualizado_em": "2026-10-28",
-  "nota": "Índice legado sincronizado até o capítulo VIII (Leonor, 1891); índice principal em editorial/indice-romance-mosaico.json.",
+  "versao": 7,
+  "atualizado_em": "2026-10-29",
+  "nota": "Índice legado sincronizado até o capítulo IX (Beatriz, 1944); índice principal em editorial/indice-romance-mosaico.json.",
   "volumes": [
     {
       "id": "as-inacabadas",
@@ -65,6 +65,13 @@
           "titulo": "O lugar onde a água ferve",
           "tempo_narrativo": "última semana de novembro de 1891, Lisboa; após o recibo de Estevão",
           "ponto_de_vista": "Leonor Ferreira / terceira pessoa limitada"
+        },
+        {
+          "posicao": 9,
+          "id": "2026-10-29-o-avesso-da-moldura",
+          "titulo": "O avesso da moldura",
+          "tempo_narrativo": "14 de janeiro de 1944, Lisboa; dois dias após Elisa guardar as provas",
+          "ponto_de_vista": "Beatriz Moura / terceira pessoa limitada"
         }
       ],
       "cronologia": [
@@ -122,6 +129,13 @@
           "acontecimentos": [
             "Elisa Tavares fotografa as duas certidões de Duarte e preserva a reprodução; atende Beatriz Moura, que hesita entre duas fotografias de Rui"
           ]
+        },
+        {
+          "tempo": "14 de janeiro de 1944",
+          "acontecimentos": [
+            "Beatriz entrega a Adelaide a prova com a cadeira vazia, volta ao atelier de Elisa e obtém a fotografia original de Rui",
+            "Adelaide conserva a fotografia original sem a abrir; Beatriz escreve carta sem endereço ao sobrinho, cujo paradeiro permanece desconhecido"
+          ]
         }
       ],
       "personagens": [
@@ -146,7 +160,8 @@
         "Leonor Ferreira",
         "dona Quitéria",
         "Joaquim (serralheiro)",
-        "António (filho de Joaquim)"
+        "António (filho de Joaquim)",
+        "Adelaide Moura"
       ],
       "lugares": [
         "Lisboa (1891, 1943)",
@@ -157,7 +172,8 @@
         "Porto (1926)",
         "livraria ficcional de Eulália Vale",
         "atelier fotográfico da Rua da Madalena (Lisboa, 1944)",
-        "Lisboa, Arroios (1891) — cozinha de Leonor Ferreira"
+        "Lisboa, Arroios (1891) — cozinha de Leonor Ferreira",
+        "Lisboa, casa de Adelaide Moura (1944)"
       ],
       "motivos": [
         "estrela de oito pontas com uma raspada",
@@ -174,7 +190,8 @@
         "luvas que evitam contato direto com documentos",
         "negativos fotográficos e cópias de certidões",
         "fotografia de aniversário com duas versões",
-        "fogão de ferro incompleto e porta emprestada como contraponto não sobrenatural às provas documentais"
+        "fogão de ferro incompleto e porta emprestada como contraponto não sobrenatural às provas documentais",
+        "moldura partida e retrato retocado como duas formas de lidar com a ausência"
       ],
       "pontas_soltas": [
         "natureza do sino e da data de 1943",
@@ -186,7 +203,8 @@
         "como Amélia se lembra de duas histórias incompatíveis e por que a certidão de 1912 traz a estrela raspada",
         "por que a assinatura de Artur reaparece em 1926 e quem a imitou",
         "a quem se destina a dívida futura e qual o custo da recusa",
-        "o que acontece quando o visitante toca um documento sem luvas"
+        "o que acontece quando o visitante toca um documento sem luvas",
+        "paradeiro de Rui Moura, conteúdo integral da briga com Adelaide e destino da carta sem endereço"
       ],
       "referencias_cruzadas": [
         {
@@ -223,6 +241,11 @@
           "id": "2026-10-28-o-lugar-onde-a-agua-ferve",
           "ref": "2026-10-22-o-recibo-que-nao-tinha-data",
           "tipo": "consequência familiar da carta de Estevão"
+        },
+        {
+          "id": "2026-10-29-o-avesso-da-moldura",
+          "ref": "2026-10-27-a-mulher-que-guardou-o-negativo",
+          "tipo": "sequência dois dias depois; Beatriz e as duas fotografias de Rui"
         }
       ]
     }
