@@ -51,6 +51,32 @@ body:before{background:radial-gradient(ellipse at 95% 0%,#4b142344,transparent 4
 .footer strong{color:#e5c69b}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.sidebar{grid-column:1;grid-row:1;position:static;min-height:0}.sidebar p{display:none}#entries{grid-column:1;grid-row:2}.mast{min-height:110px}.mast:before{font-size:54px}.mast nav{gap:12px;flex-wrap:wrap}.entry{padding:55px 30px}}
 @media(max-width:550px){.mast{padding:18px;flex-wrap:wrap}.mast:before{display:none}.mark{font-size:23px}.mast nav{font-size:10px}.shell{padding:12px 8px}.entry{padding:48px 25px}.entry h2{font-size:39px}}
+
+/* Leitor de um manuscrito por vez; bordas contínuas sem recortes triangulares */
+.entry{clip-path:none;border-radius:11px 8px 14px 9px;min-height:0;margin:0;background-image:radial-gradient(ellipse at 8% 10%,#fff4d866,transparent 35%),radial-gradient(ellipse at 95% 90%,#9c603a33,transparent 43%),repeating-linear-gradient(8deg,#7a4d1a05 0 1px,transparent 1px 17px)}
+.entry:first-child{padding-top:66px}
+.entry:after{content:"";position:absolute;inset:4px;pointer-events:none;border:1px solid #8a55252b;border-radius:8px}
+.entry .body p:first-child:first-letter{float:none;font:inherit;color:inherit;padding:0}
+.entry .body p:first-child::first-letter{float:left;font:76px/.75 'Cormorant Garamond',Georgia,serif;color:#651b1b;padding:9px 7px 0 0}
+.archive-menu{display:flex;flex-direction:column;gap:5px;margin-bottom:25px}
+.archive-menu button{width:100%;background:transparent;border:1px solid transparent;color:#e3c79d;text-align:left;padding:12px 9px;font:13px Georgia,serif;letter-spacing:.08em;cursor:pointer}
+.archive-menu button:hover,.archive-menu button[aria-current="page"]{border-color:#aa8752;background:#6b42231f;color:#f4d5a0}
+.archive-menu button:focus-visible,.reading-nav button:focus-visible{outline:2px solid #a67633}
+.archive-menu .menu-label{font-size:10px;color:#a98a63;letter-spacing:.16em;padding:15px 8px 5px}
+.reading-nav{display:flex;gap:15px;justify-content:space-between;align-items:center;flex-wrap:wrap;margin-top:36px;padding-top:20px;border-top:1px solid #ad8862}
+.reading-nav button,.home-action{border:1px solid #8a6745;background:#f2dab5;color:#513321;padding:11px 16px;cursor:pointer;font:15px Georgia,serif}
+.reading-nav button:hover,.home-action:hover{background:#e4bd8a}
+.home-cover{text-align:center;padding:40px 15px}
+.home-cover .home-emblem{font:clamp(100px,16vw,210px)/1 Georgia,serif;color:#793c30;text-shadow:3px 4px 0 #b68e65}
+.home-cover h1{font:400 clamp(45px,6vw,86px) 'Cormorant Garamond',Georgia,serif;color:#3d231a;margin:10px 0}
+.home-cover .home-subtitle{font:italic 24px Georgia,serif;color:#684a32}
+.home-cover .home-quote{font:italic clamp(21px,2.5vw,30px)/1.45 'Cormorant Garamond',Georgia,serif;max-width:650px;margin:40px auto;color:#4e3023}
+.home-cover .home-rule{color:#805b3c;font-size:28px;margin:20px}
+.index-list{display:grid;gap:10px;margin-top:25px}
+.index-list button{border:0;border-bottom:1px solid #ad8862;background:transparent;color:#40271d;text-align:left;padding:14px 4px;cursor:pointer;font:24px 'Cormorant Garamond',Georgia,serif}
+.index-list button small{display:block;font:11px Georgia,serif;letter-spacing:.13em;color:#78583d;margin-bottom:6px}
+.index-list button:hover{text-decoration:underline}
+@media(max-width:900px){.archive-menu{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.archive-menu .menu-label{grid-column:1/-1}}
 </style></head><body>
 <header class="mast"><a class="mark" href="#diario">VESPERA AETERNUM</a><nav><a href="#diario">INÍCIO</a><a href="#diario">DIÁRIOS</a><a href="#arquivo">ARQUIVO</a><a href="#sobre">SOBRE</a></nav></header>
 <section class="hero" id="inicio"><div class="hero-inner"><div class="eyebrow">Os arquivos do crepúsculo</div><h1>Vespera<br><em>Aeternum</em></h1><p>Fragmentos de uma Eternidade Inconveniente</p><div class="seal">☽ ✧ ☾</div></div></section>
@@ -60,89 +86,67 @@ body:before{background:radial-gradient(ellipse at 95% 0%,#4b142344,transparent 4
 <aside class="sidebar" id="arquivo"><div class="ornament">✧</div><h3 id="sobre">Sobre Vespera</h3><p>Não é um deus. Não é um mortal. Às vezes irmã da Morte; outras, aquilo que a própria Morte não sabe nomear.</p><p class="quote">“A eternidade não é uma sucessão infinita de dias. É uma casa onde todas as portas permanecem abertas.”</p><div class="rule"></div><h3>O arquivo</h3><p>Um universo ficcional em expansão. Cada entrada é uma página de um diário impossível.</p></aside></div></section></main>
 <footer class="footer"><strong>Non omnis moriar.</strong>Vespera Aeternum · Uma ficção sobre o infinito e suas pequenas fraquezas</footer>
 <script>
-fetch('./entries.json')
-  .then(response => {
-    if (!response.ok) throw new Error('arquivo');
-    return response.json();
-  })
-  .then(items => {
-    const host = document.getElementById('entries');
-    host.replaceChildren();
-    const byId = new Map(items.map(item => [item.id, item]));
-    const bySeries = new Map();
-    for (const item of items) {
-      if (!item.series?.id) continue;
-      if (!bySeries.has(item.series.id)) bySeries.set(item.series.id, []);
-      bySeries.get(item.series.id).push(item);
-    }
-    for (const seriesItems of bySeries.values()) {
-      seriesItems.sort((a, b) => a.series.position - b.series.position);
-    }
-    items.sort((a, b) => b.id.localeCompare(a.id)).forEach(entry => {
-      const article = document.createElement('article');
-      article.className = 'entry';
-      article.id = entry.id;
-      const time = document.createElement('time');
-      time.textContent = entry.date;
-      const title = document.createElement('h2');
-      title.textContent = entry.title;
-      const place = document.createElement('div');
-      place.className = 'place';
-      place.textContent = entry.place;
-      article.append(time, title, place);
-      if (entry.series?.title) {
-        const label = document.createElement('div');
-        label.className = 'cycle-label';
-        label.textContent = entry.series.title + ' · Capítulo ' + entry.series.position;
-        article.appendChild(label);
-      }
-      const body = document.createElement('div');
-      body.className = 'body';
-      for (const paragraph of entry.paragraphs || []) {
-        const element = document.createElement('p');
-        element.textContent = paragraph;
-        body.appendChild(element);
-      }
-      article.appendChild(body);
-      const relatedIds = new Set(entry.related_entries || []);
-      if (entry.series?.id) {
-        const siblings = bySeries.get(entry.series.id) || [];
-        const position = siblings.findIndex(item => item.id === entry.id);
-        if (position > 0) relatedIds.add(siblings[position - 1].id);
-        if (position >= 0 && position < siblings.length - 1) relatedIds.add(siblings[position + 1].id);
-      }
-      const validRelated = [...relatedIds].filter(id => id !== entry.id && byId.has(id));
-      if (validRelated.length) {
-        const nav = document.createElement('nav');
-        nav.className = 'entry-related-nav';
-        nav.setAttribute('aria-label', 'Leituras relacionadas');
-        const caption = document.createElement('span');
-        caption.className = 'related-caption';
-        caption.textContent = 'No mesmo arquivo:';
-        nav.appendChild(caption);
-        for (const id of validRelated) {
-          const link = document.createElement('a');
-          link.href = '#' + encodeURIComponent(id);
-          link.textContent = byId.get(id).title;
-          nav.appendChild(link);
-        }
-        article.appendChild(nav);
-      }
-      const footer = document.createElement('footer');
-      footer.textContent = entry.series?.id === 'ciclo-das-inacabadas' ? '— Arquivo de Vespera' : '— Vespera';
-      article.appendChild(footer);
-      host.appendChild(article);
-    });
-    // Entries are inserted asynchronously; native initial hash scrolling happens too early.
-    if (window.location.hash.length > 1) {
-      try {
-        const targetId = decodeURIComponent(window.location.hash.slice(1));
-        const target = document.getElementById(targetId);
-        if (target) requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
-      } catch (_) { /* Ignore malformed fragments. */ }
-    }
-  })
-  .catch(() => {
-    document.getElementById('entries').textContent = 'O silêncio tomou os arquivos. Tente novamente mais tarde.';
-  });
+const entriesHost=document.getElementById('entries');
+const sidebar=document.getElementById('arquivo');
+const menu=document.createElement('nav');
+menu.className='archive-menu';
+menu.setAttribute('aria-label','Navegação dos arquivos');
+sidebar.insertBefore(menu,sidebar.querySelector('.ornament'));
+let library=[],ordered=[];
+const make=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
+const roman=n=>{const a=['','I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV','XVI','XVII','XVIII','XIX','XX'];return a[n]||String(n)};
+function go(route){location.hash=route;render()}
+function button(label,fn){const b=make('button','',label);b.type='button';b.addEventListener('click',fn);return b}
+function buildMenu(){
+ menu.replaceChildren();
+ const home=button('⌂   PÁGINA INICIAL',()=>go('inicio'));menu.append(home);
+ const index=button('☷   TODOS OS DIÁRIOS',()=>go('diarios'));menu.append(index);
+ menu.append(make('div','menu-label','ORDEM DE LEITURA'));
+ for(const e of ordered){const label=e.series?.position?'CAP. '+roman(e.series.position)+' · '+e.title:e.title;const b=button('❧   '+label,()=>go('conto/'+encodeURIComponent(e.id)));b.dataset.entry=e.id;menu.append(b)}
+}
+function updateMenu(route){for(const b of menu.querySelectorAll('button')){const active=(route==='inicio'&&b.textContent.includes('PÁGINA INICIAL'))||(route==='diarios'&&b.textContent.includes('TODOS OS DIÁRIOS'))||(route.startsWith('conto/')&&b.dataset.entry===decodeURIComponent(route.slice(6)));if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')}}
+function page(){const a=make('article','entry');entriesHost.replaceChildren(a);return a}
+function home(){
+ const a=page(),wrap=make('div','home-cover');
+ wrap.append(make('div','home-emblem','𝒱'),make('div','home-rule','❧ ✦ ❧'),make('h1','', 'Vespera Aeternum'),make('p','home-subtitle','Diários · Cartas · Mapas · Bestiário · Arquivo'),make('p','home-quote','“Não sou a Morte. Sou aquilo que permanece entre o desejo de existir e a obrigação de terminar.”'));
+ wrap.append(button('Abrir os diários  ❯',()=>go('diarios')));
+ a.append(wrap)
+}
+function index(){
+ const a=page();a.append(make('time','','ARQUIVO DE VESPERA'),make('h2','','Todos os diários'),make('p','place','Escolha um manuscrito para começar a leitura.'));
+ const list=make('div','index-list');
+ for(const e of ordered){const b=button('',()=>go('conto/'+encodeURIComponent(e.id)));b.append(make('small','',e.series?.title?(e.series.title+' · Capítulo '+roman(e.series.position||0)):e.date||'Arquivo'),document.createTextNode(e.title));list.append(b)}
+ a.append(list)
+}
+function reading(e){
+ const a=page();a.id=e.id;
+ a.append(make('time','',e.date||'FRAGMENTO SEM DATA'),make('h2','',e.title));
+ if(e.place)a.append(make('div','place',e.place));
+ if(e.series?.title)a.append(make('div','cycle-label',e.series.title+' · Capítulo '+roman(e.series.position||0)));
+ const body=make('div','body');for(const p of e.paragraphs||[]){body.append(make('p','',p))}a.append(body);
+ const nav=make('nav','reading-nav');nav.setAttribute('aria-label','Ordem de leitura');
+ const pos=ordered.findIndex(x=>x.id===e.id);
+ if(pos>0)nav.append(button('❮  Anterior: '+ordered[pos-1].title,()=>go('conto/'+encodeURIComponent(ordered[pos-1].id))));
+ nav.append(button('☷  Índice',()=>go('diarios')));
+ if(pos<ordered.length-1)nav.append(button('Próximo: '+ordered[pos+1].title+'  ❯',()=>go('conto/'+encodeURIComponent(ordered[pos+1].id))));
+ a.append(nav,make('footer','','— Vespera'));
+}
+function render(){
+ if(!library.length)return;
+ const route=decodeURIComponent(location.hash.replace(/^#/,'')||'inicio');
+ updateMenu(route);
+ if(route==='inicio')home();
+ else if(route==='diarios')index();
+ else if(route.startsWith('conto/')){const id=route.slice(6);const e=library.find(x=>x.id===id);if(e)reading(e);else index()}
+ else if(library.some(x=>x.id===route)){go('conto/'+encodeURIComponent(route));return}
+ else home();
+ window.scrollTo({top:0,behavior:'instant'});
+}
+fetch('./entries.json').then(r=>{if(!r.ok)throw Error('arquivo');return r.json()}).then(items=>{
+ library=items;
+ const inSeries=items.filter(e=>e.series?.id==='ciclo-das-inacabadas').sort((a,b)=>(a.series.position||0)-(b.series.position||0));
+ const other=items.filter(e=>e.series?.id!=='ciclo-das-inacabadas').sort((a,b)=>a.id.localeCompare(b.id));
+ ordered=[...inSeries,...other];buildMenu();render();
+}).catch(()=>{entriesHost.textContent='Não foi possível abrir os arquivos. Tente novamente mais tarde.'});
+window.addEventListener('hashchange',render);
 </script></body></html>
