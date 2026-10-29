@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "project": "Vespera Aeternum",
   "purpose": "Índice editorial não destrutivo: a ordem do romance-mosaico não coincide necessariamente com a cronologia do universo.",
   "editorial_reading_order": {
@@ -71,6 +71,14 @@
         "universe_time": "Última semana de novembro de 1891 · após a carta de Estevão",
         "pov": "terceira pessoa limitada — Leonor Ferreira",
         "place": "Lisboa · Arroios"
+      },
+      {
+        "number": 9,
+        "entry_id": "2026-10-29-o-avesso-da-moldura",
+        "title": "O avesso da moldura",
+        "universe_time": "14 de janeiro de 1944 · Beatriz regressa ao atelier e Adelaide guarda o retrato",
+        "pov": "terceira pessoa limitada — Beatriz Moura",
+        "place": "Lisboa"
       }
     ]
   },
@@ -133,6 +141,14 @@
       "label": "12 de janeiro de 1944 · Elisa fotografa as duas certidões",
       "precision": "day",
       "after": "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes"
+    },
+    {
+      "entry_id": "2026-10-29-o-avesso-da-moldura",
+      "title": "O avesso da moldura",
+      "time": "1944-01-14",
+      "label": "14 de janeiro de 1944 · Beatriz e Adelaide decidem o destino das duas provas de Rui",
+      "precision": "day",
+      "after": "2026-10-27-a-mulher-que-guardou-o-negativo"
     }
   ],
   "unplaced_archive": [
@@ -384,10 +400,11 @@
         "key": "photographs",
         "seeded_in": [
           "2026-10-27-a-mulher-que-guardou-o-negativo",
-          "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes"
+          "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes",
+          "2026-10-29-o-avesso-da-moldura"
         ],
-        "note": "Elisa conserva a reprodução fotográfica das duas certidões, e Beatriz Moura mantém em suspenso a escolha entre duas imagens de Rui.",
-        "reveal_plan": "Rui e Beatriz podem regressar como fio humano independente; evitar que cada fotografia se torne prova sobrenatural."
+        "note": "Elisa conserva a reprodução fotográfica das duas certidões, e Beatriz Moura mantém em suspenso a escolha entre duas imagens de Rui. Beatriz entrega a Adelaide a cópia retocada, volta para obter a prova original; Adelaide guarda a segunda sem a abrir. Rui permanece ausente, e uma carta sem endereço fica com Beatriz.",
+        "reveal_plan": "Manter a história de Rui e Adelaide como arco humano independente, sem converter cada ausência em mistério sobrenatural; possível reencontro só depois de aprofundar ambos os pontos de vista."
       }
     ],
     "secondary_arcs": [
@@ -399,13 +416,22 @@
         ],
         "note": "Leonor Ferreira, irmã de Estevão, compra um fogão de ferro incompleto, consegue uma porta de dona Quitéria, recebe ajuda de Joaquim e António, e escreve ao irmão oferecendo sopa e abrigo. A carta é enviada; seu recebimento ainda não é mostrado. O conto fecha o conflito do fogão, não atribuir poder ao objeto.",
         "planned_use": "Reencontro familiar pode oferecer contraponto ao arco documental de Estevão; não forçar participação de Leonor na origem do sino."
+      },
+      {
+        "id": "beatriz-adelaide-rui",
+        "seeded_in": [
+          "2026-10-27-a-mulher-que-guardou-o-negativo",
+          "2026-10-29-o-avesso-da-moldura"
+        ],
+        "note": "Rui saiu de casa meses antes de janeiro de 1944, depois de discussão narrada diferentemente por ele e Adelaide. Beatriz conserva carta anterior de Rui sem endereço; em 14/01 escreve outra sem saber para onde enviá-la. Adelaide conserva a prova fotográfica original, mas não a abre.",
+        "planned_use": "Um capítulo posterior pode acompanhar Rui sem desmentir a autonomia e ambiguidade dos relatos familiares; a foto retocada não é prova de desaparecimento sobrenatural."
       }
     ]
   },
   "site_integration": {
     "data_file": "entries.json",
     "visual_page": "index.html#diario",
-    "archive_copy": "arquivo/ciclo-das-inacabadas/o-lugar-onde-a-agua-ferve-v1.md",
-    "note": "A página visual lê entries.json dinamicamente; o capítulo VIII de Leonor é relacionado ao recibo de Estevão (1891) e aparece como entrada nova."
+    "archive_copy": "arquivo/ciclo-das-inacabadas/o-avesso-da-moldura-v1.md",
+    "note": "A página visual lê entries.json dinamicamente; capítulos I–IX disponíveis no catálogo. O capítulo IX continua o arco fotográfico de Elisa, Beatriz, Adelaide e Rui sem resolver o paradeiro do rapaz."
   }
 }
