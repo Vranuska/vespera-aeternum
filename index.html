@@ -1,152 +1,62 @@
 <!doctype html>
-<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#100d14"><meta name="description" content="Vespera Aeternum — Fragmentos de uma Eternidade Inconveniente. Um diário de fantasia gótica."><title>Vespera Aeternum | Arquivos do Crepúsculo</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{color-scheme:dark;--bg:#100d14;--fg:#e9dfd7;--muted:#aa9aab;--line:#544251;--wine:#b99a9d;--gold:#d0b996}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,sans-serif;font-weight:300}body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(ellipse at 70% 0%,#38233466,transparent 56%),radial-gradient(ellipse at 0% 100%,#32222d66,transparent 65%);pointer-events:none}a{color:inherit;text-decoration:none}button{font:inherit}.mast{padding:22px max(24px,calc((100vw - 1160px)/2));display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff18;gap:16px}.mark{font-family:'Cormorant Garamond',serif;letter-spacing:.19em;font-size:20px}.mast nav{display:flex;gap:28px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}.mast a:hover,.mast button:hover{color:white}.hero{position:relative;min-height:470px;display:flex;justify-content:center;align-items:center;text-align:center;overflow:hidden;padding:60px 20px;background:linear-gradient(180deg,#100d1440,#100d14ee),radial-gradient(ellipse at 50% 30%,#6a425b80,transparent 55%)}.hero:before{content:"☾";font-family:serif;position:absolute;color:#bca5a018;font-size:min(65vw,650px);top:-160px;left:50%;transform:translateX(-50%);pointer-events:none}.hero-inner{position:relative;max-width:750px}.eyebrow{font-size:11px;letter-spacing:.32em;color:var(--gold);text-transform:uppercase}.hero h1{font:400 clamp(64px,11vw,132px)/.9 'Cormorant Garamond',serif;margin:23px 0 20px;letter-spacing:.025em}.hero h1 em{font-weight:400}.hero p{font:italic 24px 'Cormorant Garamond',serif;color:#d0bcc7}.seal{margin-top:34px;font-size:24px;color:var(--gold)}.shell{max-width:1080px;margin:auto;padding:80px 25px 110px}.intro{text-align:center;max-width:660px;margin:0 auto 80px}.intro p{font:italic 25px/1.35 'Cormorant Garamond',serif}.rule{width:75px;height:1px;background:var(--line);margin:26px auto}.section-label{font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:25px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:75px}.entry{padding:30px 0 55px;border-top:1px solid var(--line)}.entry:first-child{border-top:0;padding-top:0}.entry time{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}.entry h2{font:400 clamp(36px,5vw,55px)/1.05 'Cormorant Garamond',serif;margin:17px 0;color:#f4e8e0}.entry .place{font:italic 19px 'Cormorant Garamond',serif;color:var(--wine)}.entry .body{font:20px/1.63 'Cormorant Garamond',serif;margin-top:26px}.entry .body p{margin:0 0 18px}.entry footer{font:italic 19px 'Cormorant Garamond',serif;color:var(--gold);margin-top:26px}.sidebar{border-left:1px solid var(--line);padding-left:30px}.sidebar h3{font:400 26px 'Cormorant Garamond',serif;margin:0 0 16px}.sidebar p{font:18px/1.5 'Cormorant Garamond',serif;color:var(--muted)}.ornament{font-size:40px;color:var(--gold);padding-bottom:18px}.sidebar .quote{font-style:italic;color:#e0d0ca}.footer{border-top:1px solid var(--line);text-align:center;padding:35px 20px 50px;color:var(--muted);font-size:11px;letter-spacing:.16em;text-transform:uppercase}.footer strong{font:italic 22px 'Cormorant Garamond',serif;color:var(--fg);display:block;letter-spacing:0;text-transform:none;margin-bottom:18px}.empty{font:italic 24px 'Cormorant Garamond',serif;color:var(--muted)}@media(max-width:720px){.layout{grid-template-columns:1fr;gap:35px}.sidebar{border-left:0;border-top:1px solid var(--line);padding:30px 0}.mast{padding:19px 22px}.mast nav{gap:13px;font-size:9px}.mark{font-size:16px}.hero{min-height:380px}.shell{padding-top:55px}.intro{margin-bottom:50px}.entry .body{font-size:21px}}
-.biography{max-width:760px;margin:0 auto 105px;text-align:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:65px 25px}.biography h2{font:400 clamp(40px,6vw,67px) 'Cormorant Garamond',serif;margin:23px 0 38px}.bio-prose{text-align:left;font:clamp(21px,2.5vw,26px)/1.55 'Cormorant Garamond',serif;color:#e7d9d3}.bio-prose p{margin:0 0 25px}.bio-prose p:last-child{color:#dac29e;font-style:italic}.bio-sign{font:italic 24px 'Cormorant Garamond',serif;margin-top:38px;color:var(--gold)}
-
-/* Ligações editoriais discretas para os capítulos do romance-mosaico */
-.entry .cycle-label{font:12px/1.5 Georgia,serif;letter-spacing:.09em;text-transform:uppercase;color:var(--gold);margin-top:12px}
-.entry .entry-related-nav{border-top:1px solid var(--line);margin-top:28px;padding-top:15px;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline}
-.entry .entry-related-nav .related-caption{font:italic 17px 'Cormorant Garamond',serif;color:var(--muted)}
-.entry .entry-related-nav a{font:16px/1.4 'Cormorant Garamond',serif;color:var(--gold);text-decoration:underline;text-underline-offset:3px}
-.entry .entry-related-nav a:hover,.entry .entry-related-nav a:focus-visible{color:var(--fg)}
-.entry:target{scroll-margin-top:80px}
-
-/* Vespera Aeternum — identidade editorial de manuscrito, 29.10.2026 */
-:root{color-scheme:dark;--bg:#140606;--fg:#e6cfa6;--muted:#c0a47c;--line:#705038;--gold:#c5a26a}
-body{background:#160607;color:#ead8b6;font-family:Georgia,serif}
-body:before{background:radial-gradient(ellipse at 95% 0%,#4b142344,transparent 43%),repeating-linear-gradient(35deg,#d0a16d08 0 1px,transparent 1px 21px)}
-.mast{max-width:none;padding:22px 4vw;min-height:150px;background:linear-gradient(90deg,#180707,#22090d 65%,#180707);border-bottom:1px solid #97744766;position:relative;z-index:3}
-.mast:before{content:"❦";font:90px Georgia,serif;color:#a78350;line-height:1;margin-right:14px;text-shadow:0 0 22px #d2a65c22}
-.mark{font:400 clamp(24px,3vw,43px) Georgia,serif;letter-spacing:.18em;color:#e8d1a5;text-transform:uppercase}
-.mast nav{gap:28px;align-items:center;color:#e8d4b5;font:12px Georgia,serif;letter-spacing:.18em}
-.mast nav a:hover{color:#e9b967}
-.hero{display:none}
-.shell{max-width:none;margin:0;padding:20px 2vw 75px}
-.intro{display:none}
-.biography{display:none}
-#diario>.section-label{display:none}
-.layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:22px;align-items:start}
-.sidebar{grid-column:1;grid-row:1;position:sticky;top:18px;min-height:690px;border:1px solid #80603e;padding:35px 24px;background:linear-gradient(160deg,#1c0b0a,#100606);box-shadow:inset 0 0 0 5px #170908,inset 0 0 0 6px #76533555;color:#d4ba8e}
-.sidebar:before{content:"☙  ARQUIVO DE VESPERA  ❧";display:block;text-align:center;font:12px Georgia,serif;letter-spacing:.15em;color:#c7a16b;border-bottom:1px solid #765335;padding-bottom:22px;margin-bottom:22px}
-.sidebar h3{font:20px Georgia,serif;color:#e3c79d}
-.sidebar p{font:italic 18px/1.55 Georgia,serif;color:#bca180}
-.sidebar .quote{color:#d5b98c}
-.sidebar .ornament{text-align:center}
-#entries{grid-column:2;grid-row:1;min-width:0}
-.entry{position:relative;min-height:730px;margin-bottom:28px;padding:66px clamp(28px,6vw,100px) 70px;border:1px solid #a87a4b;color:#302016;background:#e8c99d;background-image:radial-gradient(ellipse at 8% 10%,#fff4d866,transparent 35%),radial-gradient(ellipse at 95% 90%,#9c603a33,transparent 43%),repeating-linear-gradient(8deg,#7a4d1a08 0 1px,transparent 1px 7px);box-shadow:inset 0 0 0 9px #c39a6a33,inset 0 0 35px 8px #85512a55,0 12px 30px #0009;clip-path:polygon(0.5% 0.6%,4% 0.2%,8% .7%,13% .1%,18% .5%,24% 0%,30% .5%,38% .2%,46% .6%,53% .1%,60% .4%,69% 0%,76% .6%,84% .2%,92% .5%,99.4% .2%,99.8% 7%,99.4% 17%,100% 30%,99.5% 43%,99.9% 58%,99.5% 72%,100% 87%,99.5% 99.5%,90% 99.8%,82% 99.3%,73% 99.9%,65% 99.5%,57% 99.9%,47% 99.4%,38% 99.9%,29% 99.4%,20% 99.9%,10% 99.4%,.5% 99.7%,.2% 89%,.6% 77%,.1% 66%,.6% 54%,.1% 40%,.6% 26%,.2% 13%)}
-.entry:first-child{padding-top:66px;border-top:1px solid #a87a4b}
-.entry:before{content:"❧  ❦  ☙";display:block;text-align:center;font-size:20px;color:#866341;margin:-32px 0 25px}
-.entry time{color:#6d4b30;font:12px Georgia,serif;letter-spacing:.22em}
-.entry h2{font:400 clamp(36px,4.1vw,63px)/1.1 'Cormorant Garamond',Georgia,serif;color:#332016;margin:17px 0 12px}
-.entry .place{color:#67472e;font:italic 20px Georgia,serif}
-.entry .cycle-label{font:12px Georgia,serif;color:#69482e;letter-spacing:.2em;border-top:1px solid #9b7959;padding-top:14px;margin:18px 0 24px}
-.entry .body{font:clamp(19px,1.6vw,24px)/1.55 'Cormorant Garamond',Georgia,serif;color:#302016;margin-top:25px}
-.entry .body p:first-child:first-letter{float:left;font:76px/.75 'Cormorant Garamond',Georgia,serif;color:#651b1b;padding:9px 7px 0 0}
-.entry .entry-related-nav{border-color:#b18d69}
-.entry .entry-related-nav .related-caption,.entry .entry-related-nav a{color:#654229}
-.entry footer{color:#784d31;border-top:1px solid #b18d69;padding-top:16px}
-.footer{border-color:#7b5638;color:#c9ad87}
-.footer strong{color:#e5c69b}
-@media(max-width:900px){.layout{grid-template-columns:1fr}.sidebar{grid-column:1;grid-row:1;position:static;min-height:0}.sidebar p{display:none}#entries{grid-column:1;grid-row:2}.mast{min-height:110px}.mast:before{font-size:54px}.mast nav{gap:12px;flex-wrap:wrap}.entry{padding:55px 30px}}
-@media(max-width:550px){.mast{padding:18px;flex-wrap:wrap}.mast:before{display:none}.mark{font-size:23px}.mast nav{font-size:10px}.shell{padding:12px 8px}.entry{padding:48px 25px}.entry h2{font-size:39px}}
-
-/* Leitor de um manuscrito por vez; bordas contínuas sem recortes triangulares */
-.entry{clip-path:none;border-radius:11px 8px 14px 9px;min-height:0;margin:0;background-image:radial-gradient(ellipse at 8% 10%,#fff4d866,transparent 35%),radial-gradient(ellipse at 95% 90%,#9c603a33,transparent 43%),repeating-linear-gradient(8deg,#7a4d1a05 0 1px,transparent 1px 17px)}
-.entry:first-child{padding-top:66px}
-.entry:after{content:"";position:absolute;inset:4px;pointer-events:none;border:1px solid #8a55252b;border-radius:8px}
-.entry .body p:first-child:first-letter{float:none;font:inherit;color:inherit;padding:0}
-.entry .body p:first-child::first-letter{float:left;font:76px/.75 'Cormorant Garamond',Georgia,serif;color:#651b1b;padding:9px 7px 0 0}
-.archive-menu{display:flex;flex-direction:column;gap:5px;margin-bottom:25px}
-.archive-menu button{width:100%;background:transparent;border:1px solid transparent;color:#e3c79d;text-align:left;padding:12px 9px;font:13px Georgia,serif;letter-spacing:.08em;cursor:pointer}
-.archive-menu button:hover,.archive-menu button[aria-current="page"]{border-color:#aa8752;background:#6b42231f;color:#f4d5a0}
-.archive-menu button:focus-visible,.reading-nav button:focus-visible{outline:2px solid #a67633}
-.archive-menu .menu-label{font-size:10px;color:#a98a63;letter-spacing:.16em;padding:15px 8px 5px}
-.reading-nav{display:flex;gap:15px;justify-content:space-between;align-items:center;flex-wrap:wrap;margin-top:36px;padding-top:20px;border-top:1px solid #ad8862}
-.reading-nav button,.home-action{border:1px solid #8a6745;background:#f2dab5;color:#513321;padding:11px 16px;cursor:pointer;font:15px Georgia,serif}
-.reading-nav button:hover,.home-action:hover{background:#e4bd8a}
-.home-cover{text-align:center;padding:40px 15px}
-.home-cover .home-emblem{font:clamp(100px,16vw,210px)/1 Georgia,serif;color:#793c30;text-shadow:3px 4px 0 #b68e65}
-.home-cover h1{font:400 clamp(45px,6vw,86px) 'Cormorant Garamond',Georgia,serif;color:#3d231a;margin:10px 0}
-.home-cover .home-subtitle{font:italic 24px Georgia,serif;color:#684a32}
-.home-cover .home-quote{font:italic clamp(21px,2.5vw,30px)/1.45 'Cormorant Garamond',Georgia,serif;max-width:650px;margin:40px auto;color:#4e3023}
-.home-cover .home-rule{color:#805b3c;font-size:28px;margin:20px}
-.index-list{display:grid;gap:10px;margin-top:25px}
-.index-list button{border:0;border-bottom:1px solid #ad8862;background:transparent;color:#40271d;text-align:left;padding:14px 4px;cursor:pointer;font:24px 'Cormorant Garamond',Georgia,serif}
-.index-list button small{display:block;font:11px Georgia,serif;letter-spacing:.13em;color:#78583d;margin-bottom:6px}
-.index-list button:hover{text-decoration:underline}
-@media(max-width:900px){.archive-menu{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.archive-menu .menu-label{grid-column:1/-1}}
-</style></head><body>
-<header class="mast"><a class="mark" href="#diario">VESPERA AETERNUM</a><nav><a href="#diario">INÍCIO</a><a href="#diario">DIÁRIOS</a><a href="#arquivo">ARQUIVO</a><a href="#sobre">SOBRE</a></nav></header>
-<section class="hero" id="inicio"><div class="hero-inner"><div class="eyebrow">Os arquivos do crepúsculo</div><h1>Vespera<br><em>Aeternum</em></h1><p>Fragmentos de uma Eternidade Inconveniente</p><div class="seal">☽ ✧ ☾</div></div></section>
-<main class="shell"><section class="intro"><div class="eyebrow">Non omnis moriar</div><div class="rule"></div><p>“Não sou a Morte. Sou aquilo que permanece entre o desejo de existir e a obrigação de terminar.”</p></section>
-<section class="biography" id="biografia"><div class="eyebrow">II — A natureza do indizível</div><div class="rule"></div><h2>Quem é Vespera?</h2><div class="bio-prose"><p>Não me darei o nome de um deus que já existiu. Os deuses são criaturas curiosas: nascem da necessidade humana de explicar aquilo que não conseguem suportar. Eu sou mais antiga que suas explicações. Mais antiga, talvez, que a própria necessidade.</p><p>Chamarei a mim mesma de <em>Vespera</em>.</p><p>Não sou a Morte. Somos antigas conhecidas, embora chamá-la de minha irmã seja tão verdadeiro quanto chamá-la de meu irmão, meu pai ou da criança que certa vez adormeceu em meus braços. Nenhuma dessas relações depende da forma que assumimos. Somente os mortais insistem que uma coisa deva ser apenas uma coisa.</p><p>Sou aquilo que permanece entre o desejo de existir e a obrigação de terminar.</p></div><div class="bio-sign">— Vespera</div></section>
-<section id="diario"><div class="section-label">I — Páginas do infinito</div><div class="layout"><div id="entries" aria-live="polite"><p class="empty">Os arquivos ainda não despertaram.</p></div>
-<aside class="sidebar" id="arquivo"><div class="ornament">✧</div><h3 id="sobre">Sobre Vespera</h3><p>Não é um deus. Não é um mortal. Às vezes irmã da Morte; outras, aquilo que a própria Morte não sabe nomear.</p><p class="quote">“A eternidade não é uma sucessão infinita de dias. É uma casa onde todas as portas permanecem abertas.”</p><div class="rule"></div><h3>O arquivo</h3><p>Um universo ficcional em expansão. Cada entrada é uma página de um diário impossível.</p></aside></div></section></main>
-<footer class="footer"><strong>Non omnis moriar.</strong>Vespera Aeternum · Uma ficção sobre o infinito e suas pequenas fraquezas</footer>
-<script>
-const entriesHost=document.getElementById('entries');
-const sidebar=document.getElementById('arquivo');
-const menu=document.createElement('nav');
-menu.className='archive-menu';
-menu.setAttribute('aria-label','Navegação dos arquivos');
-sidebar.insertBefore(menu,sidebar.querySelector('.ornament'));
-let library=[],ordered=[];
-const make=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
-const roman=n=>{const a=['','I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV','XVI','XVII','XVIII','XIX','XX'];return a[n]||String(n)};
-function go(route){location.hash=route;render()}
-function button(label,fn){const b=make('button','',label);b.type='button';b.addEventListener('click',fn);return b}
-function buildMenu(){
- menu.replaceChildren();
- const home=button('⌂   PÁGINA INICIAL',()=>go('inicio'));menu.append(home);
- const index=button('☷   TODOS OS DIÁRIOS',()=>go('diarios'));menu.append(index);
- menu.append(make('div','menu-label','ORDEM DE LEITURA'));
- for(const e of ordered){const label=e.series?.position?'CAP. '+roman(e.series.position)+' · '+e.title:e.title;const b=button('❧   '+label,()=>go('conto/'+encodeURIComponent(e.id)));b.dataset.entry=e.id;menu.append(b)}
-}
-function updateMenu(route){for(const b of menu.querySelectorAll('button')){const active=(route==='inicio'&&b.textContent.includes('PÁGINA INICIAL'))||(route==='diarios'&&b.textContent.includes('TODOS OS DIÁRIOS'))||(route.startsWith('conto/')&&b.dataset.entry===decodeURIComponent(route.slice(6)));if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')}}
-function page(){const a=make('article','entry');entriesHost.replaceChildren(a);return a}
-function home(){
- const a=page(),wrap=make('div','home-cover');
- wrap.append(make('div','home-emblem','𝒱'),make('div','home-rule','❧ ✦ ❧'),make('h1','', 'Vespera Aeternum'),make('p','home-subtitle','Diários · Cartas · Mapas · Bestiário · Arquivo'),make('p','home-quote','“Não sou a Morte. Sou aquilo que permanece entre o desejo de existir e a obrigação de terminar.”'));
- wrap.append(button('Abrir os diários  ❯',()=>go('diarios')));
- a.append(wrap)
-}
-function index(){
- const a=page();a.append(make('time','','ARQUIVO DE VESPERA'),make('h2','','Todos os diários'),make('p','place','Escolha um manuscrito para começar a leitura.'));
- const list=make('div','index-list');
- for(const e of ordered){const b=button('',()=>go('conto/'+encodeURIComponent(e.id)));b.append(make('small','',e.series?.title?(e.series.title+' · Capítulo '+roman(e.series.position||0)):e.date||'Arquivo'),document.createTextNode(e.title));list.append(b)}
- a.append(list)
-}
-function reading(e){
- const a=page();a.id=e.id;
- a.append(make('time','',e.date||'FRAGMENTO SEM DATA'),make('h2','',e.title));
- if(e.place)a.append(make('div','place',e.place));
- if(e.series?.title)a.append(make('div','cycle-label',e.series.title+' · Capítulo '+roman(e.series.position||0)));
- const body=make('div','body');for(const p of e.paragraphs||[]){body.append(make('p','',p))}a.append(body);
- const nav=make('nav','reading-nav');nav.setAttribute('aria-label','Ordem de leitura');
- const pos=ordered.findIndex(x=>x.id===e.id);
- if(pos>0)nav.append(button('❮  Anterior: '+ordered[pos-1].title,()=>go('conto/'+encodeURIComponent(ordered[pos-1].id))));
- nav.append(button('☷  Índice',()=>go('diarios')));
- if(pos<ordered.length-1)nav.append(button('Próximo: '+ordered[pos+1].title+'  ❯',()=>go('conto/'+encodeURIComponent(ordered[pos+1].id))));
- a.append(nav,make('footer','','— Vespera'));
-}
-function render(){
- if(!library.length)return;
- const route=decodeURIComponent(location.hash.replace(/^#/,'')||'inicio');
- updateMenu(route);
- if(route==='inicio')home();
- else if(route==='diarios')index();
- else if(route.startsWith('conto/')){const id=route.slice(6);const e=library.find(x=>x.id===id);if(e)reading(e);else index()}
- else if(library.some(x=>x.id===route)){go('conto/'+encodeURIComponent(route));return}
- else home();
- window.scrollTo({top:0,behavior:'instant'});
-}
-fetch('./entries.json').then(r=>{if(!r.ok)throw Error('arquivo');return r.json()}).then(items=>{
- library=items;
- const inSeries=items.filter(e=>e.series?.id==='ciclo-das-inacabadas').sort((a,b)=>(a.series.position||0)-(b.series.position||0));
- const other=items.filter(e=>e.series?.id!=='ciclo-das-inacabadas').sort((a,b)=>a.id.localeCompare(b.id));
- ordered=[...inSeries,...other];buildMenu();render();
-}).catch(()=>{entriesHost.textContent='Não foi possível abrir os arquivos. Tente novamente mais tarde.'});
-window.addEventListener('hashchange',render);
-</script></body></html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#160507">
+<meta name="description" content="Vespera Aeternum: diários, cartas, mapas e bestiário de uma eternidade inconveniente.">
+<title>Vespera Aeternum — Arquivos do Crepúsculo</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/png/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/png/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<div class="vespera-site">
+<header class="masthead" role="banner">
+  <img class="masthead-bouquet" src="assets/png/flores-cabecalho.png" alt="" decoding="async">
+  <a class="brand" href="#inicio" aria-label="Vespera Aeternum — página inicial">
+    <img class="brand-mark" src="assets/png/monograma-ilustrado.png" alt="" width="188" height="202">
+    <span class="brand-copy"><strong>VESPERA AETERNUM</strong><small>DIÁRIOS · CARTAS · MAPAS · BESTIÁRIO · ARQUIVO</small></span>
+  </a>
+  <nav class="top-nav" aria-label="Menu principal">
+    <a href="#inicio" data-route="inicio">INÍCIO</a><a href="#diarios" data-route="diarios">DIÁRIOS</a>
+    <a href="#atlas" data-route="atlas">ATLAS</a><a href="#bestiario" data-route="bestiario">BESTIÁRIO</a><a href="#sobre" data-route="sobre">SOBRE</a>
+  </nav>
+  <div class="header-actions">
+    <button id="search-open" aria-label="Pesquisar arquivos" title="Pesquisar arquivos"><img src="assets/png/icon-busca.png" alt=""></button>
+    <button id="theme-switch" aria-label="Alternar iluminação do fundo" title="Alternar iluminação"><img src="assets/png/icon-lua.png" alt=""></button>
+  </div>
+</header>
+<div class="content-grid">
+  <aside class="sidebar" aria-label="Categorias e navegação dos arquivos">
+    <div class="sidebar-frame">
+      <nav id="sidebar-menu" class="side-links" aria-label="Arquivo de Vespera">
+        <a href="#diarios" data-route="diarios"><img src="assets/png/icon-diarios.png" alt="">TODOS OS DIÁRIOS</a>
+        <a href="#ordem" data-route="ordem"><img src="assets/png/icon-ordem.png" alt="">ORDEM DE LEITURA</a>
+        <a href="#cronologia" data-route="cronologia"><img src="assets/png/icon-cronologia.png" alt="">CRONOLOGIA</a>
+        <a href="#personagens" data-route="personagens"><img src="assets/png/icon-personagens.png" alt="">PERSONAGENS</a>
+        <a href="#lugares" data-route="lugares"><img src="assets/png/icon-lugares.png" alt="">LUGARES</a>
+        <a href="#objetos" data-route="objetos"><img src="assets/png/icon-objetos.png" alt="">OBJETOS</a>
+        <a href="#cartas" data-route="cartas"><img src="assets/png/icon-cartas.png" alt="">CARTAS</a>
+        <a href="#atlas" data-route="atlas"><img src="assets/png/icon-mapas.png" alt="">MAPAS</a>
+        <a href="#bestiario" data-route="bestiario"><img src="assets/png/icon-bestiario.png" alt="">BESTIÁRIO</a>
+      </nav>
+      <div class="side-motto"><img src="assets/png/divisor-simples.png" alt=""><blockquote>“Algumas histórias<br>não pertencem ao tempo.<br>Elas o atravessam.”</blockquote><span>— VESPERA AETERNUM</span></div>
+    </div>
+  </aside>
+  <main id="conteudo" class="manuscript" tabindex="-1"><div class="paper-interior">
+    <img class="top-ornament" src="assets/png/divisor-principal.png" alt="">
+    <div id="app" aria-live="polite"><p class="loading">Abrindo os arquivos...</p></div>
+  </div></main>
+</div>
+<footer class="site-footer"><span>❧</span> Vespera Aeternum · Os arquivos do crepúsculo <span>❧</span></footer>
+</div>
+<div id="search-dialog" class="search-overlay" hidden><div class="search-panel" role="dialog" aria-modal="true" aria-label="Pesquisar contos"><div class="search-panel-head"><strong>Pesquisar nos arquivos</strong><button id="search-close" aria-label="Fechar pesquisa">×</button></div><label for="search-field">Procure pelo título, lugar ou personagem</label><input id="search-field" type="search" placeholder="Nome do manuscrito..."><div id="search-results"></div></div></div>
+</body>
+</html>
