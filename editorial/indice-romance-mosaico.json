@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-30",
   "project": "Vespera Aeternum",
   "purpose": "Índice editorial não destrutivo: a ordem do romance-mosaico não coincide necessariamente com a cronologia do universo.",
   "editorial_reading_order": {
@@ -79,6 +79,14 @@
         "universe_time": "14 de janeiro de 1944 · Beatriz regressa ao atelier e Adelaide guarda o retrato",
         "pov": "terceira pessoa limitada — Beatriz Moura",
         "place": "Lisboa"
+      },
+      {
+        "number": 10,
+        "entry_id": "2026-10-30-o-bolso-de-dentro",
+        "title": "O bolso de dentro",
+        "universe_time": "18–19 de novembro de 1943 · após a entrega do sino",
+        "pov": "terceira pessoa limitada — Nuno",
+        "place": "Lisboa · oficina de Celeste e tipografia de Lídia"
       }
     ]
   },
@@ -126,6 +134,14 @@
       "time": "1943-11-17",
       "label": "17 de novembro de 1943 · tipografia de Lídia",
       "precision": "day"
+    },
+    {
+      "entry_id": "2026-10-30-o-bolso-de-dentro",
+      "title": "O bolso de dentro",
+      "time": "1943-11-18",
+      "label": "18–19 de novembro de 1943 · Nuno conserva a segunda prova e imprime etiquetas para Celeste",
+      "precision": "day",
+      "after": "2026-10-23-a-prova-de-impressao"
     },
     {
       "entry_id": "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes",
@@ -348,7 +364,8 @@
       "cópias imperfeitas",
       "a possibilidade de recusar",
       "negativos fotográficos como prova material sem garantia de interpretação",
-      "cartas familiares que sobrevivem à incerteza e objetos comuns que não precisam ser sobrenaturais"
+      "cartas familiares que sobrevivem à incerteza e objetos comuns que não precisam ser sobrenaturais",
+      "bolsos interiores, etiquetas e o limite do que um recibo pode atestar"
     ],
     "open_threads": [
       {
@@ -405,6 +422,15 @@
         ],
         "note": "Elisa conserva a reprodução fotográfica das duas certidões, e Beatriz Moura mantém em suspenso a escolha entre duas imagens de Rui. Beatriz entrega a Adelaide a cópia retocada, volta para obter a prova original; Adelaide guarda a segunda sem a abrir. Rui permanece ausente, e uma carta sem endereço fica com Beatriz.",
         "reveal_plan": "Manter a história de Rui e Adelaide como arco humano independente, sem converter cada ausência em mistério sobrenatural; possível reencontro só depois de aprofundar ambos os pontos de vista."
+      },
+      {
+        "key": "nuno-proof",
+        "seeded_in": [
+          "2026-10-23-a-prova-de-impressao",
+          "2026-10-30-o-bolso-de-dentro"
+        ],
+        "note": "Nuno leva a segunda prova do sino para casa em 18/11/1943, mostra-a a Celeste e decide mantê-la consigo; ela teme a repercussão para a família. Não é revelado onde ele a guardará definitivamente.",
+        "reveal_plan": "Retomar a custódia da segunda prova num momento em que Nuno possa agir por conta própria, sem transformar Celeste em depositária involuntária."
       }
     ],
     "secondary_arcs": [
@@ -425,13 +451,21 @@
         ],
         "note": "Rui saiu de casa meses antes de janeiro de 1944, depois de discussão narrada diferentemente por ele e Adelaide. Beatriz conserva carta anterior de Rui sem endereço; em 14/01 escreve outra sem saber para onde enviá-la. Adelaide conserva a prova fotográfica original, mas não a abre.",
         "planned_use": "Um capítulo posterior pode acompanhar Rui sem desmentir a autonomia e ambiguidade dos relatos familiares; a foto retocada não é prova de desaparecimento sobrenatural."
+      },
+      {
+        "id": "nuno-celeste",
+        "seeded_in": [
+          "2026-10-30-o-bolso-de-dentro"
+        ],
+        "note": "Celeste Dias, mãe de Nuno, costura em Lisboa; após uma disputa por cartões de abastecimento encontrados no forro de um casaco, Nuno imprime etiquetas para registrar os serviços. Ela conhece a existência da prova do sino, mas não a guarda.",
+        "planned_use": "Preservar Celeste como pessoa autônoma e o conflito entre segurança familiar e responsabilidade profissional, sem atribuir caráter mágico às etiquetas ou ao casaco."
       }
     ]
   },
   "site_integration": {
     "data_file": "entries.json",
     "visual_page": "index.html#diario",
-    "archive_copy": "arquivo/ciclo-das-inacabadas/o-avesso-da-moldura-v1.md",
-    "note": "A página visual lê entries.json dinamicamente; capítulos I–IX disponíveis no catálogo. O capítulo IX continua o arco fotográfico de Elisa, Beatriz, Adelaide e Rui sem resolver o paradeiro do rapaz."
+    "archive_copy": "arquivo/ciclo-das-inacabadas/o-bolso-de-dentro-v1.md",
+    "note": "O leitor visual lê entries.json; capítulos I–X no catálogo. Capítulo X acompanha Nuno e Celeste, em novembro de 1943, e conserva a segunda prova com Nuno."
   }
 }
