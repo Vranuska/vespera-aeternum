@@ -1,9 +1,9 @@
 {
   "projeto": "Vespera Aeternum",
   "formato": "romance-mosaico",
-  "versao": 7,
-  "atualizado_em": "2026-10-29",
-  "nota": "Índice legado sincronizado até o capítulo IX (Beatriz, 1944); índice principal em editorial/indice-romance-mosaico.json.",
+  "versao": 8,
+  "atualizado_em": "2026-10-30",
+  "nota": "Índice legado sincronizado até capítulo X (Nuno, 1943); índice principal em editorial/indice-romance-mosaico.json.",
   "volumes": [
     {
       "id": "as-inacabadas",
@@ -72,6 +72,13 @@
           "titulo": "O avesso da moldura",
           "tempo_narrativo": "14 de janeiro de 1944, Lisboa; dois dias após Elisa guardar as provas",
           "ponto_de_vista": "Beatriz Moura / terceira pessoa limitada"
+        },
+        {
+          "posicao": 10,
+          "id": "2026-10-30-o-bolso-de-dentro",
+          "titulo": "O bolso de dentro",
+          "tempo_narrativo": "18–19 de novembro de 1943, Lisboa; após a entrega do sino à tipografia",
+          "ponto_de_vista": "Nuno / terceira pessoa limitada"
         }
       ],
       "cronologia": [
@@ -114,6 +121,13 @@
           "acontecimentos": [
             "Lídia recebe sino e recusa certificar sua fundição",
             "Lídia e Nuno preservam duas provas e livro de contas"
+          ]
+        },
+        {
+          "tempo": "18–19 de novembro de 1943",
+          "acontecimentos": [
+            "Nuno leva a segunda prova do sino para casa, conta o ocorrido a Celeste e continua responsável pelo documento",
+            "Celeste recupera os cartões de abastecimento do forro de um casaco; Nuno imprime etiquetas para a oficina da mãe"
           ]
         },
         {
@@ -161,7 +175,9 @@
         "dona Quitéria",
         "Joaquim (serralheiro)",
         "António (filho de Joaquim)",
-        "Adelaide Moura"
+        "Adelaide Moura",
+        "Celeste Dias",
+        "senhor Valente"
       ],
       "lugares": [
         "Lisboa (1891, 1943)",
@@ -173,7 +189,8 @@
         "livraria ficcional de Eulália Vale",
         "atelier fotográfico da Rua da Madalena (Lisboa, 1944)",
         "Lisboa, Arroios (1891) — cozinha de Leonor Ferreira",
-        "Lisboa, casa de Adelaide Moura (1944)"
+        "Lisboa, casa de Adelaide Moura (1944)",
+        "Lisboa (1943) — oficina doméstica de Celeste Dias"
       ],
       "motivos": [
         "estrela de oito pontas com uma raspada",
@@ -191,7 +208,8 @@
         "negativos fotográficos e cópias de certidões",
         "fotografia de aniversário com duas versões",
         "fogão de ferro incompleto e porta emprestada como contraponto não sobrenatural às provas documentais",
-        "moldura partida e retrato retocado como duas formas de lidar com a ausência"
+        "moldura partida e retrato retocado como duas formas de lidar com a ausência",
+        "bolsos e etiquetas como registros domésticos de responsabilidade"
       ],
       "pontas_soltas": [
         "natureza do sino e da data de 1943",
@@ -204,7 +222,8 @@
         "por que a assinatura de Artur reaparece em 1926 e quem a imitou",
         "a quem se destina a dívida futura e qual o custo da recusa",
         "o que acontece quando o visitante toca um documento sem luvas",
-        "paradeiro de Rui Moura, conteúdo integral da briga com Adelaide e destino da carta sem endereço"
+        "paradeiro de Rui Moura, conteúdo integral da briga com Adelaide e destino da carta sem endereço",
+        "destino futuro da segunda prova conservada por Nuno e eventual retorno do visitante à tipografia"
       ],
       "referencias_cruzadas": [
         {
@@ -246,6 +265,16 @@
           "id": "2026-10-29-o-avesso-da-moldura",
           "ref": "2026-10-27-a-mulher-que-guardou-o-negativo",
           "tipo": "sequência dois dias depois; Beatriz e as duas fotografias de Rui"
+        },
+        {
+          "id": "2026-10-30-o-bolso-de-dentro",
+          "ref": "2026-10-23-a-prova-de-impressao",
+          "tipo": "consequência imediata e custódia da segunda prova"
+        },
+        {
+          "id": "2026-10-30-o-bolso-de-dentro",
+          "ref": "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes",
+          "tipo": "antecedente cronológico da continuidade de Nuno na tipografia"
         }
       ]
     }
