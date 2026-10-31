@@ -12,7 +12,7 @@ Na terceira semana, aprendera que se podia passar fome ao lado de uma mercearia.
 
 Em janeiro de 1944 já sabia preparar a madeira, lixar uma superfície sem lhe arrancar as fibras e distinguir, pelo cheiro, a lata de verniz da lata de óleo. Continuava, porém, incapaz de escrever uma carta à tia Beatriz.
 
-Era sexta-feira, dia 21. Tinha dezasseis anos, um quarto alugado em Alcântara e um emprego que, segundo o patrão, ainda não merecia o nome de emprego.
+Era sexta-feira, dia 21. Tinha quinze anos, um quarto alugado em Alcântara e um emprego que, segundo o patrão, ainda não merecia o nome de emprego.
 
 — Aprendizagem — corrigia o senhor Calado, sempre que Rui lhe perguntava pelo pagamento.
 
@@ -433,6 +433,6 @@ Pela primeira vez, não o confundiu com uma carta de casa.
 **Ordem editorial:** XI.  
 **Cronologia do universo:** 21–22 de janeiro de 1944, depois de *O avesso da moldura*.  
 **Conexões:** [O avesso da moldura](https://vranuska.github.io/vespera-aeternum/#conto/2026-10-29-o-avesso-da-moldura) · [A mulher que guardou o negativo](https://vranuska.github.io/vespera-aeternum/#conto/2026-10-27-a-mulher-que-guardou-o-negativo).  
-**Nota editorial:** Rui tem dezasseis anos, vive em Alcântara desde a saída de casa meses antes, aprende pintura de letreiros, escreve e deposita uma carta endereçada à tia Beatriz com sua morada completa. O recebimento da carta e a reação de Beatriz e Adelaide permanecem abertos; não há reencontro neste capítulo. Palmira Sequeira é proprietária da sua oficina de calçado e mantém a tabuleta antiga do pai, Joaquim, em sua posse.  
+**Nota editorial:** Rui tem quinze anos, vive em Alcântara desde a saída de casa meses antes, aprende pintura de letreiros, escreve e deposita uma carta endereçada à tia Beatriz com sua morada completa. O recebimento da carta e a reação de Beatriz e Adelaide permanecem abertos; não há reencontro neste capítulo. Palmira Sequeira é proprietária da sua oficina de calçado e mantém a tabuleta antiga do pai, Joaquim, em sua posse.  
 
 **Pesquisa histórica (fora da ficção):** [Lisboa: Bottleneck of Europe in World War II, 1939–1945 — Galerias Municipais de Lisboa](https://galeriasmunicipais.pt/en/publicacoes/lisboa-bottleneck-of-europe-in-world-war-ii-1939-1945/) · [A economia portuguesa na Segunda Guerra Mundial — Fundação Francisco Manuel dos Santos](https://ffms.pt/sites/default/files/2023-05/1939-1945.pdf) · [Elétricos com preço para operários em 1935 — Diário de Notícias](https://www.dn.pt/arquivo/diario-de-noticias/eletricos-com-preco-para-operarios-em-1935-5359545.html).
