@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-10-31",
   "project": "Vespera Aeternum",
   "purpose": "Índice editorial não destrutivo: a ordem do romance-mosaico não coincide necessariamente com a cronologia do universo.",
   "editorial_reading_order": {
@@ -87,6 +87,14 @@
         "universe_time": "18–19 de novembro de 1943 · após a entrega do sino",
         "pov": "terceira pessoa limitada — Nuno",
         "place": "Lisboa · oficina de Celeste e tipografia de Lídia"
+      },
+      {
+        "number": 11,
+        "entry_id": "2026-10-31-a-tinta-do-lado-de-fora",
+        "title": "A tinta do lado de fora",
+        "universe_time": "21–22 de janeiro de 1944 · Rui pinta o letreiro de Palmira e envia carta a Beatriz",
+        "pov": "terceira pessoa limitada — Rui Moura",
+        "place": "Lisboa · Alcântara"
       }
     ]
   },
@@ -165,6 +173,14 @@
       "label": "14 de janeiro de 1944 · Beatriz e Adelaide decidem o destino das duas provas de Rui",
       "precision": "day",
       "after": "2026-10-27-a-mulher-que-guardou-o-negativo"
+    },
+    {
+      "entry_id": "2026-10-31-a-tinta-do-lado-de-fora",
+      "title": "A tinta do lado de fora",
+      "time": "1944-01-21",
+      "label": "21–22 de janeiro de 1944 · Rui ganha o primeiro pagamento pelo letreiro e envia a carta à tia",
+      "precision": "day",
+      "after": "2026-10-29-o-avesso-da-moldura"
     }
   ],
   "unplaced_archive": [
@@ -365,7 +381,8 @@
       "a possibilidade de recusar",
       "negativos fotográficos como prova material sem garantia de interpretação",
       "cartas familiares que sobrevivem à incerteza e objetos comuns que não precisam ser sobrenaturais",
-      "bolsos interiores, etiquetas e o limite do que um recibo pode atestar"
+      "bolsos interiores, etiquetas e o limite do que um recibo pode atestar",
+      "nomes pintados à porta, endereços e a diferença entre estar ausente e ser inalcançável"
     ],
     "open_threads": [
       {
@@ -420,8 +437,8 @@
           "2026-10-24-a-mulher-que-se-lembrava-de-duas-mortes",
           "2026-10-29-o-avesso-da-moldura"
         ],
-        "note": "Elisa conserva a reprodução fotográfica das duas certidões, e Beatriz Moura mantém em suspenso a escolha entre duas imagens de Rui. Beatriz entrega a Adelaide a cópia retocada, volta para obter a prova original; Adelaide guarda a segunda sem a abrir. Rui permanece ausente, e uma carta sem endereço fica com Beatriz.",
-        "reveal_plan": "Manter a história de Rui e Adelaide como arco humano independente, sem converter cada ausência em mistério sobrenatural; possível reencontro só depois de aprofundar ambos os pontos de vista."
+        "note": "Elisa conserva a reprodução fotográfica das duas certidões, e Beatriz Moura mantém em suspenso a escolha entre duas imagens de Rui. Beatriz entrega a Adelaide a cópia retocada, volta para obter a prova original; Adelaide guarda a segunda sem a abrir. Rui permanece ausente, e uma carta sem endereço fica com Beatriz. Rui, sem saber das duas fotografias, envia a Beatriz uma carta com morada em 22/01/1944; ainda não foi entregue.",
+        "reveal_plan": "Prosseguir com o recebimento da carta e a autonomia de Adelaide, sem forçar reencontro; preservar as fotografias como objetos materiais."
       },
       {
         "key": "nuno-proof",
@@ -447,10 +464,11 @@
         "id": "beatriz-adelaide-rui",
         "seeded_in": [
           "2026-10-27-a-mulher-que-guardou-o-negativo",
-          "2026-10-29-o-avesso-da-moldura"
+          "2026-10-29-o-avesso-da-moldura",
+          "2026-10-31-a-tinta-do-lado-de-fora"
         ],
-        "note": "Rui saiu de casa meses antes de janeiro de 1944, depois de discussão narrada diferentemente por ele e Adelaide. Beatriz conserva carta anterior de Rui sem endereço; em 14/01 escreve outra sem saber para onde enviá-la. Adelaide conserva a prova fotográfica original, mas não a abre.",
-        "planned_use": "Um capítulo posterior pode acompanhar Rui sem desmentir a autonomia e ambiguidade dos relatos familiares; a foto retocada não é prova de desaparecimento sobrenatural."
+        "note": "Rui saiu de casa meses antes de janeiro de 1944, depois de discussão narrada diferentemente por ele e Adelaide. Beatriz conserva carta anterior de Rui sem endereço; em 14/01 escreve outra sem saber para onde enviá-la. Adelaide conserva a prova fotográfica original, mas não a abre. Em 21–22/01/1944, Rui (16 anos), aprendiz de pintura de letreiros em Alcântara, pinta a nova tabuleta de Palmira Sequeira e envia a Beatriz uma carta com endereço completo. Não sabe do agravamento da doença de Adelaide. A entrega e o teor da resposta permanecem desconhecidos.",
+        "planned_use": "Mostrar primeiro a recepção da carta por Beatriz e sua decisão de comunicá-la ou não a Adelaide; não impor reconciliação nem revelar o estado de saúde por coincidência. Palmira e seu trabalho podem retornar independentemente."
       },
       {
         "id": "nuno-celeste",
@@ -459,13 +477,21 @@
         ],
         "note": "Celeste Dias, mãe de Nuno, costura em Lisboa; após uma disputa por cartões de abastecimento encontrados no forro de um casaco, Nuno imprime etiquetas para registrar os serviços. Ela conhece a existência da prova do sino, mas não a guarda.",
         "planned_use": "Preservar Celeste como pessoa autônoma e o conflito entre segurança familiar e responsabilidade profissional, sem atribuir caráter mágico às etiquetas ou ao casaco."
+      },
+      {
+        "id": "rui-palmira-letreiros",
+        "seeded_in": [
+          "2026-10-31-a-tinta-do-lado-de-fora"
+        ],
+        "note": "Rui, 16 anos, mora em quarto alugado em Alcântara com dona Ercília, trabalha com Augusto Calado e pinta o letreiro de Palmira Sequeira, sapateira que substitui a tabuleta do pai Joaquim. A nova tabuleta fica na fachada, a antiga permanece guardada com Palmira. Rui deposita uma carta a Beatriz, com a morada completa.",
+        "planned_use": "Palmira deve ter vida profissional própria; o ofício de Rui não deve virar instrumento mágico. A entrega da carta é aberta, assim como a relação com Adelaide."
       }
     ]
   },
   "site_integration": {
     "data_file": "entries.json",
-    "visual_page": "index.html#diario",
-    "archive_copy": "arquivo/ciclo-das-inacabadas/o-bolso-de-dentro-v1.md",
-    "note": "O leitor visual lê entries.json; capítulos I–X no catálogo. Capítulo X acompanha Nuno e Celeste, em novembro de 1943, e conserva a segunda prova com Nuno."
+    "visual_page": "index.html#diarios",
+    "archive_copy": "arquivo/ciclo-das-inacabadas/a-tinta-do-lado-de-fora-v1.md",
+    "note": "O leitor visual lê entries.json; capítulos I–XI no catálogo. O capítulo XI acompanha Rui, sem Vespera presente, em Alcântara em janeiro de 1944, e registra carta enviada à tia Beatriz; entrega ainda não verificada."
   }
 }
