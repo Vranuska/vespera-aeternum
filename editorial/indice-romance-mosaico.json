@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-01",
   "project": "Vespera Aeternum",
   "purpose": "Índice editorial não destrutivo: a ordem do romance-mosaico não coincide necessariamente com a cronologia do universo.",
   "editorial_reading_order": {
@@ -103,6 +103,14 @@
         "universe_time": "25–26 de janeiro de 1944 · Beatriz recebe a carta de Rui e encaminha a resposta de Adelaide",
         "pov": "terceira pessoa limitada — Beatriz Moura",
         "place": "Lisboa"
+      },
+      {
+        "number": 13,
+        "entry_id": "2026-11-01-o-couro-do-avental",
+        "title": "O couro do avental",
+        "universe_time": "29 de janeiro de 1944 · Palmira repara os sapatos de Lurdes com couro do avental paterno",
+        "pov": "terceira pessoa limitada — Palmira Sequeira",
+        "place": "Lisboa · Alcântara"
       }
     ]
   },
@@ -197,6 +205,14 @@
       "label": "25–26 de janeiro de 1944 · carta recebida e resposta enviada",
       "precision": "day",
       "after": "2026-10-31-a-tinta-do-lado-de-fora"
+    },
+    {
+      "entry_id": "2026-11-01-o-couro-do-avental",
+      "title": "O couro do avental",
+      "time": "1944-01-29",
+      "label": "29 de janeiro de 1944 · após a colocação da tabuleta de Palmira e o envio da carta de Rui",
+      "precision": "day",
+      "after": "2026-10-31-a-carta-que-chegou-sem-pedir-licenca"
     }
   ],
   "unplaced_archive": [
@@ -399,7 +415,8 @@
       "cartas familiares que sobrevivem à incerteza e objetos comuns que não precisam ser sobrenaturais",
       "bolsos interiores, etiquetas e o limite do que um recibo pode atestar",
       "nomes pintados à porta, endereços e a diferença entre estar ausente e ser inalcançável",
-      "cartas enviadas sem endereço revelado, fotografias devolvidas e a diferença entre notícia e reconciliação"
+      "cartas enviadas sem endereço revelado, fotografias devolvidas e a diferença entre notícia e reconciliação",
+      "material reutilizado sem apagar a origem; o nome próprio à porta e a contabilidade dos trabalhos pequenos"
     ],
     "open_threads": [
       {
@@ -465,6 +482,15 @@
         ],
         "note": "Nuno leva a segunda prova do sino para casa em 18/11/1943, mostra-a a Celeste e decide mantê-la consigo; ela teme a repercussão para a família. Não é revelado onde ele a guardará definitivamente.",
         "reveal_plan": "Retomar a custódia da segunda prova num momento em que Nuno possa agir por conta própria, sem transformar Celeste em depositária involuntária."
+      },
+      {
+        "key": "palmira-boots",
+        "seeded_in": [
+          "2026-10-31-a-tinta-do-lado-de-fora",
+          "2026-11-01-o-couro-do-avental"
+        ],
+        "note": "As botas reparadas e nunca levantadas continuam na montra de Palmira.",
+        "reveal_plan": "Revisitar apenas se o proprietário ou o par tiver função dramática própria; não usar como pista automática do sino."
       }
     ],
     "secondary_arcs": [
@@ -507,8 +533,8 @@
   },
   "site_integration": {
     "data_file": "entries.json",
-    "visual_page": "index.html#diario",
-    "archive_copy": "arquivo/ciclo-das-inacabadas/a-carta-que-chegou-sem-pedir-licenca-v1.md",
-    "note": "Capítulo XII integrado ao catálogo visual; exibição pública depende da publicação do GitHub Pages."
+    "visual_page": "index.html#diarios",
+    "archive_copy": "arquivo/ciclo-das-inacabadas/o-couro-do-avental-v1.md",
+    "note": "Capítulo XIII inserido no catálogo dos Diários e no índice editorial; conferir a implantação pública separadamente."
   }
 }
