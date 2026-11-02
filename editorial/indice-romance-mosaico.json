@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01",
+  "updated_at": "2026-11-02",
   "project": "Vespera Aeternum",
   "purpose": "Índice editorial não destrutivo: a ordem do romance-mosaico não coincide necessariamente com a cronologia do universo.",
   "editorial_reading_order": {
@@ -111,6 +111,14 @@
         "universe_time": "29 de janeiro de 1944 · Palmira repara os sapatos de Lurdes com couro do avental paterno",
         "pov": "terceira pessoa limitada — Palmira Sequeira",
         "place": "Lisboa · Alcântara"
+      },
+      {
+        "number": 14,
+        "entry_id": "2026-11-02-as-notas-que-ficaram-de-fora",
+        "title": "As notas que ficaram de fora",
+        "universe_time": "10–13 de dezembro de 1943 · recital doméstico de Inácio e vinte programas impressos",
+        "pov": "terceira pessoa limitada — Lídia Faria",
+        "place": "Lisboa"
       }
     ]
   },
@@ -173,6 +181,14 @@
       "time": "1943-12",
       "label": "Primeira semana de dezembro de 1943",
       "precision": "week"
+    },
+    {
+      "entry_id": "2026-11-02-as-notas-que-ficaram-de-fora",
+      "title": "As notas que ficaram de fora",
+      "time": "1943-12-10",
+      "label": "10–13 de dezembro de 1943 · Lídia imprime programas após a chegada do sino",
+      "precision": "day",
+      "after": "2026-10-30-o-bolso-de-dentro"
     },
     {
       "entry_id": "2026-10-27-a-mulher-que-guardou-o-negativo",
@@ -416,7 +432,8 @@
       "bolsos interiores, etiquetas e o limite do que um recibo pode atestar",
       "nomes pintados à porta, endereços e a diferença entre estar ausente e ser inalcançável",
       "cartas enviadas sem endereço revelado, fotografias devolvidas e a diferença entre notícia e reconciliação",
-      "material reutilizado sem apagar a origem; o nome próprio à porta e a contabilidade dos trabalhos pequenos"
+      "material reutilizado sem apagar a origem; o nome próprio à porta e a contabilidade dos trabalhos pequenos",
+      "o espaço não preenchido nos programas, música imperfeita e provas corrigidas sem apagamento"
     ],
     "open_threads": [
       {
@@ -528,13 +545,21 @@
         ],
         "note": "Rui, 15 anos, mora em quarto alugado em Alcântara com dona Ercília, trabalha com Augusto Calado e pinta o letreiro de Palmira Sequeira, sapateira que substitui a tabuleta do pai Joaquim. A nova tabuleta fica na fachada, a antiga permanece guardada com Palmira. Rui deposita uma carta a Beatriz, com a morada completa.",
         "planned_use": "Palmira deve ter vida profissional própria; o ofício de Rui não deve virar instrumento mágico. A entrega da carta é aberta, assim como a relação com Adelaide."
+      },
+      {
+        "id": "helena-inacio",
+        "seeded_in": [
+          "2026-11-02-as-notas-que-ficaram-de-fora"
+        ],
+        "note": "Helena Sampaio organiza um recital privado do filho Inácio, ferido na mão direita; ele toca três peças em vez de oito. Relação mãe-filho melhora sem cura milagrosa; Inácio conserva a prova original corrigida.",
+        "planned_use": "Conto autônomo; eventual reaparição apenas se houver motivo narrativo, sem fazer do recital pista sobrenatural."
       }
     ]
   },
   "site_integration": {
     "data_file": "entries.json",
     "visual_page": "index.html#diarios",
-    "archive_copy": "arquivo/ciclo-das-inacabadas/o-couro-do-avental-v1.md",
-    "note": "Capítulo XIII inserido no catálogo dos Diários e no índice editorial; conferir a implantação pública separadamente."
+    "archive_copy": "arquivo/ciclo-das-inacabadas/as-notas-que-ficaram-de-fora-v1.md",
+    "note": "Capítulo XIV inserido no catálogo visual e índice editorial; confirmar GitHub Pages independentemente."
   }
 }
