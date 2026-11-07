@@ -8,7 +8,7 @@
 
 ✦　☽　✦
 
-**[Abrir os Arquivos do Crepúsculo](https://vranuska.github.io/vespera-aeternum/)** · **[Ler o diário](https://vranuska.github.io/vespera-aeternum/#diario)**
+**[Entrar na constelação de memórias](https://vranuska.github.io/vespera-aeternum/#constelacao)** · **[Ler todos os diários](https://vranuska.github.io/vespera-aeternum/#diarios)**
 
 *Non omnis moriar.*
 
@@ -34,7 +34,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 
 | Portal | O que encontrará |
 | :--- | :--- |
-| **[O diário de Vespera](https://vranuska.github.io/vespera-aeternum/#diario)** | Fragmentos publicados, memórias e contos, reunidos na página principal. |
+| **[O diário de Vespera](https://vranuska.github.io/vespera-aeternum/#diarios)** | Fragmentos publicados, memórias e contos, reunidos na página principal. |
 | **[Quem é Vespera?](https://vranuska.github.io/vespera-aeternum/#biografia)** | A apresentação da narradora, ou aquilo que ela aceita revelar. |
 | **[Arquivo de versões de *O demônio errado*](arquivo/o-demonio-errado/README.md)** | Edições preservadas individualmente, sem apagar a história de cada texto. |
 | **[A santa paciência do padre Tomás](arquivo/padre-tomas/a-santa-paciencia-do-padre-tomas-v1.md)** | Uma cerca caída, três galinhas desaparecidas e a virtude pouco praticada de reconhecer um erro. |
