@@ -583,9 +583,9 @@
   },
   "site_integration": {
     "data_file": "entries.json",
-    "visual_page": "index.html#diario",
+    "visual_page": "index.html#diarios",
     "archive_copy": "arquivo/ciclo-das-inacabadas/a-balanca-de-dois-pratos-v1.md",
-    "note": "O capítulo XV integra o leitor visual por meio de entries.json e a ordem editorial/cronologia do Volume I. A página principal carrega entries.json dinamicamente.",
+    "note": "O capítulo XV integra o leitor visual por meio de entries.json e a ordem editorial/cronologia do Volume I. A página principal carrega entries.json dinamicamente; a constelação usa universe_chronology como mapa independente e preserva a leitura convencional.",
     "portal": {
       "route": "index.html#constelacao",
       "source": "editorial/indice-romance-mosaico.json → universe_chronology",
