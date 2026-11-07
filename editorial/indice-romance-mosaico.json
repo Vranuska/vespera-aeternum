@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03",
+  "updated_at": "2026-11-07",
   "project": "Vespera Aeternum",
   "purpose": "Índice editorial não destrutivo: a ordem do romance-mosaico não coincide necessariamente com a cronologia do universo.",
   "editorial_reading_order": {
@@ -585,6 +585,33 @@
     "data_file": "entries.json",
     "visual_page": "index.html#diario",
     "archive_copy": "arquivo/ciclo-das-inacabadas/a-balanca-de-dois-pratos-v1.md",
-    "note": "O capítulo XV integra o leitor visual por meio de entries.json e a ordem editorial/cronologia do Volume I. A página principal carrega entries.json dinamicamente."
+    "note": "O capítulo XV integra o leitor visual por meio de entries.json e a ordem editorial/cronologia do Volume I. A página principal carrega entries.json dinamicamente.",
+    "portal": {
+      "route": "index.html#constelacao",
+      "source": "editorial/indice-romance-mosaico.json → universe_chronology",
+      "eras": [
+        "1886",
+        "1891",
+        "1898",
+        "1926",
+        "1943",
+        "1944",
+        "fora"
+      ],
+      "behavior": "Pontos interativos por era; inscrições reveladas por cursor ou foco; páginas de cada ano agrupadas por mês; acesso alternativo por botões para toque e teclado. O índice tradicional de todos os diários permanece disponível.",
+      "status": "integrado no leitor estático sem alterar entries.json nem a ordem editorial."
+    },
+    "pending_sections": [
+      {
+        "name": "Bestiário",
+        "status": "ainda não implementado como seção navegável",
+        "reason": "O manuscrito de Eithne existe, mas ainda faltam cadastro visual próprio, imagem principal, galeria de aparições e ficha estruturada de habilidades, história e citações."
+      },
+      {
+        "name": "Atlas",
+        "status": "ainda não implementado como seção navegável",
+        "reason": "Ainda falta um catálogo estruturado de mundos e lugares com imagens, história, leis, habitantes e conexões."
+      }
+    ]
   }
 }
