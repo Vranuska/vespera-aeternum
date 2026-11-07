@@ -152,7 +152,7 @@ function chronologyGroups(){
  const groups=new Map(),placed=new Set();
  for(const item of chronology){
   const year=String(item.time||'').slice(0,4),entry=library.find(e=>e.id===item.entry_id);
-  if(!/^\\d{4}$/.test(year)||!entry)continue;
+  if(!/^\d{4}$/.test(year)||!entry)continue;
   if(!groups.has(year))groups.set(year,[]);
   groups.get(year).push({entry,item});placed.add(entry.id);
  }
