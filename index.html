@@ -77,8 +77,49 @@ body:before{background:radial-gradient(ellipse at 95% 0%,#4b142344,transparent 4
 .index-list button small{display:block;font:11px Georgia,serif;letter-spacing:.13em;color:#78583d;margin-bottom:6px}
 .index-list button:hover{text-decoration:underline}
 @media(max-width:900px){.archive-menu{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.archive-menu .menu-label{grid-column:1/-1}}
+
+/* Portal de eras — acréscimo não destrutivo à identidade de manuscrito */
+.constellation-block{max-width:900px;margin:54px auto 10px;padding:35px 15px 18px;border-top:1px solid #b18d69;text-align:center}
+.constellation-kicker{font:11px Georgia,serif;letter-spacing:.22em;color:#805b3c;text-transform:uppercase}
+.constellation-block h2{font:400 clamp(34px,5vw,52px)/1.1 'Cormorant Garamond',Georgia,serif;color:#3d231a;margin:13px 0}
+.constellation-intro{font:italic 19px/1.5 'Cormorant Garamond',Georgia,serif;color:#684a32;max-width:620px;margin:0 auto}
+.constellation-wheel{position:relative;width:min(78vw,540px);aspect-ratio:1;margin:30px auto 22px;border-radius:50%;isolation:isolate}
+.constellation-wheel:before,.constellation-wheel:after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.constellation-wheel:before{inset:7%;border:1px solid #97734f99;box-shadow:0 0 0 1px #fff4d833,inset 0 0 28px #6a362022;animation:va-orbit 110s linear infinite}
+.constellation-wheel:after{inset:19%;border:1px dashed #97734f88;animation:va-orbit 86s linear infinite reverse}
+.orbit-lettering{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;animation:va-orbit 125s linear infinite}
+.orbit-lettering.inner{inset:12%;width:76%;height:76%;animation-direction:reverse;animation-duration:105s;opacity:.76}
+.orbit-lettering text{font:10px Georgia,serif;letter-spacing:3px;fill:#866341}
+.orbit-lettering.inner text{font-size:8px;letter-spacing:2px;fill:#9a7652}
+.constellation-center{position:absolute;inset:29%;z-index:2;border:1px solid #9b7959;border-radius:50%;background:radial-gradient(circle at 50% 35%,#f5dfbd,#e3c397 72%,#c79b6c);box-shadow:inset 0 0 0 6px #f0d7b455,inset 0 0 32px #87552c44,0 0 35px #5c382433;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:15px}
+.constellation-center .portal-monogram{font:clamp(32px,5vw,48px)/1 Georgia,serif;color:#793c30;text-shadow:1px 2px 0 #b68e65}
+.constellation-center p{font:italic clamp(13px,1.8vw,18px)/1.28 'Cormorant Garamond',Georgia,serif;color:#4e3023;margin:10px 0 0;max-width:220px}
+.constellation-center small{font:9px Georgia,serif;letter-spacing:.18em;color:#805b3c;margin-top:10px}
+.constellation-star{position:absolute;z-index:3;width:28px;height:28px;padding:0;border:0;border-radius:50%;background:transparent;color:#7b392e;cursor:pointer;transform:translate(-50%,-50%)}
+.constellation-star .star-light{position:absolute;inset:7px;border-radius:50%;background:#8a4837;box-shadow:0 0 0 3px #a77a4a22,0 0 14px 4px #a46a4a77;transition:transform .25s,box-shadow .25s}
+.constellation-star:hover .star-light,.constellation-star:focus-visible .star-light{transform:scale(1.55);box-shadow:0 0 0 5px #a77a4a33,0 0 22px 8px #a46a4aaa}
+.constellation-star .star-inscription{position:absolute;left:50%;top:26px;min-width:max-content;max-width:220px;padding:7px 10px;border:1px solid #9b7959;background:#f2dab5;color:#513321;font:12px/1.35 Georgia,serif;box-shadow:0 5px 16px #44281833;opacity:0;pointer-events:none;transform:translate(-50%,-4px);transition:opacity .2s,transform .2s}
+.constellation-star:hover .star-inscription,.constellation-star:focus-visible .star-inscription{opacity:1;transform:translate(-50%,0)}
+.constellation-star:focus-visible{outline:2px solid #6f3029;outline-offset:5px}
+.era-shortcuts{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin:18px auto 0;max-width:760px}
+.era-shortcuts button{border:1px solid #a9845d;background:#f1d9b5;color:#593a27;padding:9px 13px;cursor:pointer;font:13px Georgia,serif;transition:background .2s,transform .2s}
+.era-shortcuts button:hover{background:#e4bd8a;transform:translateY(-2px)}
+.era-shortcuts button small{display:block;font:10px Georgia,serif;color:#896847;margin-top:4px}
+.constellation-note{font:italic 16px 'Cormorant Garamond',Georgia,serif;color:#79573b;margin:20px auto 0}
+.era-page .era-lead{font:italic 20px/1.5 'Cormorant Garamond',Georgia,serif;color:#684a32;margin:12px 0 28px}
+.era-page .era-month{font:12px Georgia,serif;letter-spacing:.18em;text-transform:uppercase;color:#805b3c;border-bottom:1px solid #b18d69;padding:18px 0 9px;margin:14px 0 5px}
+.era-entry-list{display:grid;gap:0}
+.era-entry-list button{display:block;width:100%;border:0;border-bottom:1px solid #c4a27c;background:transparent;text-align:left;padding:15px 5px;color:#40271d;cursor:pointer;font:24px/1.15 'Cormorant Garamond',Georgia,serif}
+.era-entry-list button:hover{text-decoration:underline;background:#d7b88e22}
+.era-entry-list button small{display:block;font:11px Georgia,serif;letter-spacing:.08em;color:#78583d;margin-bottom:6px}
+.era-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.era-actions button{border:1px solid #8a6745;background:#f2dab5;color:#513321;padding:11px 16px;cursor:pointer;font:15px Georgia,serif}
+@keyframes va-orbit{to{transform:rotate(360deg)}}
+@media(max-width:550px){.constellation-block{margin-top:36px;padding:27px 4px 10px}.constellation-wheel{width:min(88vw,440px);margin:22px auto 14px}.constellation-center{inset:31%;padding:8px}.constellation-center p{font-size:12px}.constellation-center small{font-size:7px}.constellation-star .star-inscription{max-width:150px;white-space:normal;min-width:110px}}
+@media(prefers-reduced-motion:reduce){.constellation-wheel:before,.constellation-wheel:after,.orbit-lettering{animation:none}.constellation-star .star-light,.era-shortcuts button{transition:none}}
+
 </style></head><body>
-<header class="mast"><a class="mark" href="#diario">VESPERA AETERNUM</a><nav><a href="#diario">INÍCIO</a><a href="#diario">DIÁRIOS</a><a href="#arquivo">ARQUIVO</a><a href="#sobre">SOBRE</a></nav></header>
+<header class="mast"><a class="mark" href="#inicio">VESPERA AETERNUM</a><nav><a href="#inicio">INÍCIO</a><a href="#diarios">DIÁRIOS</a><a href="#constelacao">CONSTELAÇÃO</a><a href="#sobre">SOBRE</a></nav></header>
 <section class="hero" id="inicio"><div class="hero-inner"><div class="eyebrow">Os arquivos do crepúsculo</div><h1>Vespera<br><em>Aeternum</em></h1><p>Fragmentos de uma Eternidade Inconveniente</p><div class="seal">☽ ✧ ☾</div></div></section>
 <main class="shell"><section class="intro"><div class="eyebrow">Non omnis moriar</div><div class="rule"></div><p>“Não sou a Morte. Sou aquilo que permanece entre o desejo de existir e a obrigação de terminar.”</p></section>
 <section class="biography" id="biografia"><div class="eyebrow">II — A natureza do indizível</div><div class="rule"></div><h2>Quem é Vespera?</h2><div class="bio-prose"><p>Não me darei o nome de um deus que já existiu. Os deuses são criaturas curiosas: nascem da necessidade humana de explicar aquilo que não conseguem suportar. Eu sou mais antiga que suas explicações. Mais antiga, talvez, que a própria necessidade.</p><p>Chamarei a mim mesma de <em>Vespera</em>.</p><p>Não sou a Morte. Somos antigas conhecidas, embora chamá-la de minha irmã seja tão verdadeiro quanto chamá-la de meu irmão, meu pai ou da criança que certa vez adormeceu em meus braços. Nenhuma dessas relações depende da forma que assumimos. Somente os mortais insistem que uma coisa deva ser apenas uma coisa.</p><p>Sou aquilo que permanece entre o desejo de existir e a obrigação de terminar.</p></div><div class="bio-sign">— Vespera</div></section>
@@ -92,25 +133,110 @@ const menu=document.createElement('nav');
 menu.className='archive-menu';
 menu.setAttribute('aria-label','Navegação dos arquivos');
 sidebar.insertBefore(menu,sidebar.querySelector('.ornament'));
-let library=[],ordered=[];
+let library=[],ordered=[],editorialIndex=null;
 const make=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
 const roman=n=>{const a=['','I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV','XVI','XVII','XVIII','XIX','XX'];return a[n]||String(n)};
 function go(route){location.hash=route;render()}
 function button(label,fn){const b=make('button','',label);b.type='button';b.addEventListener('click',fn);return b}
 function buildMenu(){
  menu.replaceChildren();
- const home=button('⌂   PÁGINA INICIAL',()=>go('inicio'));menu.append(home);
+ const home=button('✧   CONSTELAÇÃO DE MEMÓRIAS',()=>go('constelacao'));menu.append(home);
  const index=button('☷   TODOS OS DIÁRIOS',()=>go('diarios'));menu.append(index);
  menu.append(make('div','menu-label','ORDEM DE LEITURA'));
  for(const e of ordered){const label=e.series?.position?'CAP. '+roman(e.series.position)+' · '+e.title:e.title;const b=button('❧   '+label,()=>go('conto/'+encodeURIComponent(e.id)));b.dataset.entry=e.id;menu.append(b)}
 }
 function updateMenu(route){for(const b of menu.querySelectorAll('button')){const active=(route==='inicio'&&b.textContent.includes('PÁGINA INICIAL'))||(route==='diarios'&&b.textContent.includes('TODOS OS DIÁRIOS'))||(route.startsWith('conto/')&&b.dataset.entry===decodeURIComponent(route.slice(6)));if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')}}
 function page(){const a=make('article','entry');entriesHost.replaceChildren(a);return a}
+function chronologyGroups(){
+ const chronology=editorialIndex?.universe_chronology||[];
+ const groups=new Map(),placed=new Set();
+ for(const item of chronology){
+  const year=String(item.time||'').slice(0,4),entry=library.find(e=>e.id===item.entry_id);
+  if(!/^\\d{4}$/.test(year)||!entry)continue;
+  if(!groups.has(year))groups.set(year,[]);
+  groups.get(year).push({entry,item});placed.add(entry.id);
+ }
+ for(const list of groups.values())list.sort((a,b)=>String(a.item.time).localeCompare(String(b.item.time)));
+ const outside=ordered.filter(e=>!placed.has(e.id));
+ return {groups,placed,outside};
+}
+function orbitSvg(label,pathId,radius,inner=false){
+ const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');
+ svg.setAttribute('viewBox','0 0 500 500');svg.setAttribute('aria-hidden','true');
+ svg.classList.add('orbit-lettering');if(inner)svg.classList.add('inner');
+ const defs=document.createElementNS(ns,'defs'),path=document.createElementNS(ns,'path');
+ path.setAttribute('id',pathId);
+ path.setAttribute('d',`M250 250 m-${radius} 0 a${radius} ${radius} 0 1 1 ${radius*2} 0 a${radius} ${radius} 0 1 1 -${radius*2} 0`);
+ defs.append(path);svg.append(defs);
+ const textNode=document.createElementNS(ns,'text'),textPath=document.createElementNS(ns,'textPath');
+ textPath.setAttribute('href','#'+pathId);textPath.setAttribute('startOffset','0%');textPath.textContent=label;
+ textNode.append(textPath);svg.append(textNode);return svg;
+}
+function constellationPortal(){
+ const data=chronologyGroups(),years=[...data.groups.keys()].sort();
+ const block=make('section','constellation-block');block.id='portal-constelacao';
+ block.append(make('div','constellation-kicker','Cartografia das lembranças · Arquivo de eras'));
+ block.append(make('h2','','Constelação de memórias'));
+ block.append(make('p','constellation-intro','O tempo não se organiza em linha reta neste arquivo. Escolha uma era; os pontos luminosos guardam páginas que podem ser lidas em outra ordem.'));
+ const wheel=make('div','constellation-wheel');wheel.setAttribute('role','group');wheel.setAttribute('aria-label','Mapa interativo das eras do arquivo');
+ wheel.append(orbitSvg('MEMÓRIA · AUSÊNCIA · TESTEMUNHO · RETORNO · NOME · ESQUECIMENTO · ','va-outer-orbit',220,false));
+ wheel.append(orbitSvg('CARTAS · OBJETOS · VOZES · VESTÍGIOS · ','va-inner-orbit',168,true));
+ const center=make('div','constellation-center');
+ center.append(make('span','portal-monogram','𝒱'));
+ center.append(make('p','','“Tudo aquilo que foi esquecido ainda existe em algum lugar de mim”'));
+ center.append(make('small','','ARQUIVO DE ERAS'));wheel.append(center);
+ const targets=[...years.map(year=>({id:year,label:year,count:data.groups.get(year).length})),{id:'fora',label:'Fora da cronologia',count:data.outside.length}];
+ targets.forEach((target,i)=>{
+  const angle=(-90+(360*i/targets.length))*Math.PI/180,rad=39;
+  const b=button('',()=>go('era/'+target.id));b.className='constellation-star';
+  b.style.left=(50+Math.cos(angle)*rad)+'%';b.style.top=(50+Math.sin(angle)*rad)+'%';
+  b.setAttribute('aria-label',target.label+': '+target.count+' páginas. Abrir esta parte do arquivo.');
+  b.title=target.label+' · '+target.count+' páginas';
+  b.append(make('span','star-light'),make('span','star-inscription',target.label+' · '+target.count+' páginas'));wheel.append(b);
+ });
+ block.append(wheel);
+ block.append(make('p','constellation-note','Aproxime o cursor de um ponto para revelar sua inscrição. No toque, escolha uma era abaixo.'));
+ const shortcuts=make('div','era-shortcuts');
+ targets.forEach(target=>{
+  const b=button('',()=>go('era/'+target.id));
+  b.append(document.createTextNode(target.label),make('small','',target.count+' páginas'));shortcuts.append(b);
+ });
+ block.append(shortcuts);return block;
+}
 function home(){
  const a=page(),wrap=make('div','home-cover');
  wrap.append(make('div','home-emblem','𝒱'),make('div','home-rule','❧ ✦ ❧'),make('h1','', 'Vespera Aeternum'),make('p','home-subtitle','Diários · Cartas · Mapas · Bestiário · Arquivo'),make('p','home-quote','“Não sou a Morte. Sou aquilo que permanece entre o desejo de existir e a obrigação de terminar.”'));
- wrap.append(button('Abrir os diários  ❯',()=>go('diarios')));
- a.append(wrap)
+ wrap.append(constellationPortal());
+ wrap.append(button('Abrir todos os diários  ❯',()=>go('diarios')));a.append(wrap)
+}
+function eraPage(key){
+ const a=page(),wrap=make('section','era-page'),data=chronologyGroups();
+ const title=key==='fora'?'Fora da cronologia':'Ano '+key;
+ wrap.append(make('time','','MAPA DAS ERAS'),make('h2','',title));
+ if(key==='fora'){
+  wrap.append(make('p','era-lead','Páginas preservadas fora da cronologia principal do Ciclo das Inacabadas: memórias, fragmentos e outras vozes do arquivo.'));
+  const list=make('div','era-entry-list');
+  for(const entry of data.outside){
+   const b=button('',()=>go('conto/'+encodeURIComponent(entry.id)));
+   b.append(make('small','',entry.date||'Sem data'),document.createTextNode(entry.title));list.append(b);
+  }wrap.append(list);
+ }else{
+  const items=data.groups.get(key)||[];
+  if(!items.length)wrap.append(make('p','era-lead','Esta era ainda não possui páginas catalogadas.'));
+  else{
+   wrap.append(make('p','era-lead',(items[0].item.label||'')+' · '+items.length+' páginas preservadas nesta era.'));
+   let month='',list=null;const months=['','janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+   for(const record of items){
+    const stamp=String(record.item.time||''),monthKey=stamp.length>=7?stamp.slice(5,7):'00';
+    if(monthKey!==month){month=monthKey;wrap.append(make('h3','era-month',months[Number(month)]||'Data imprecisa'));list=make('div','era-entry-list');wrap.append(list);}
+    const b=button('',()=>go('conto/'+encodeURIComponent(record.entry.id)));
+    b.append(make('small','',record.item.label||stamp),document.createTextNode(record.entry.title));list.append(b);
+   }
+  }
+ }
+ const actions=make('div','era-actions');
+ actions.append(button('← Voltar à constelação',()=>go('constelacao')),button('☷ Todos os diários',()=>go('diarios')));
+ wrap.append(actions);a.append(wrap);
 }
 function index(){
  const a=page();a.append(make('time','','ARQUIVO DE VESPERA'),make('h2','','Todos os diários'),make('p','place','Escolha um manuscrito para começar a leitura.'));
@@ -135,15 +261,20 @@ function render(){
  if(!library.length)return;
  const route=decodeURIComponent(location.hash.replace(/^#/,'')||'inicio');
  updateMenu(route);
- if(route==='inicio')home();
+ if(route==='inicio'||route==='constelacao')home();
  else if(route==='diarios')index();
+ else if(route.startsWith('era/'))eraPage(route.slice(4));
  else if(route.startsWith('conto/')){const id=route.slice(6);const e=library.find(x=>x.id===id);if(e)reading(e);else index()}
+ else if(route==='sobre'){home();sidebar.scrollIntoView({behavior:'smooth',block:'start'});return}
  else if(library.some(x=>x.id===route)){go('conto/'+encodeURIComponent(route));return}
  else home();
  window.scrollTo({top:0,behavior:'instant'});
 }
-fetch('./entries.json').then(r=>{if(!r.ok)throw Error('arquivo');return r.json()}).then(items=>{
- library=items;
+Promise.all([
+ fetch('./entries.json').then(r=>{if(!r.ok)throw Error('arquivo');return r.json()}),
+ fetch('./editorial/indice-romance-mosaico.json').then(r=>r.ok?r.json():null).catch(()=>null)
+]).then(([items,editorial])=>{
+ library=items;editorialIndex=editorial;
  const inSeries=items.filter(e=>e.series?.id==='ciclo-das-inacabadas').sort((a,b)=>(a.series.position||0)-(b.series.position||0));
  const other=items.filter(e=>e.series?.id!=='ciclo-das-inacabadas').sort((a,b)=>a.id.localeCompare(b.id));
  ordered=[...inSeries,...other];buildMenu();render();
