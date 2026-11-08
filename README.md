@@ -57,6 +57,12 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 - **[A costura invisível](arquivo/ciclo-das-inacabadas/a-costura-invisivel-v1.md)** — Artur Vale, uma folha de oito linhas e a assinatura que Eulália aprenderia a reconhecer.
 - **[Índice editorial do romance-mosaico](editorial/indice-romance-mosaico.json)** — Ordem de leitura, cronologia do universo e continuidade dos arcos.
 
+## Catálogos do universo
+
+- **[Bestiário](https://vranuska.github.io/vespera-aeternum/#bestiario)** — a primeira ficha completa é Eithne, com imagem principal, galeria, cronologia, aptidões e limites.
+- **[Atlas dos Domínios](https://vranuska.github.io/vespera-aeternum/#atlas)** — mapa navegável da Terra, dos Firmamentos, dos Domínios Infernais e do Entre. Sonhar e Umbra aparecem como territórios reservados, sem geografia inventada.
+- **[Caderno editorial do Atlas](arquivo/atlas/README.md)** — critérios de cartografia e estado dos registros.
+
 ## Algumas presenças recorrentes
 
 **Vespera** — Narradora, testemunha e, em ocasiões especialmente inconvenientes, participante dos acontecimentos. Pode atravessar eras, mas ainda não aprendeu a vencer todas as discussões.
@@ -99,7 +105,10 @@ As versões de uma mesma obra são mantidas separadas no arquivo. O diário apre
 
 - `index.html` — a página dos Arquivos do Crepúsculo.
 - `entries.json` — as entradas exibidas no diário.
-- `arquivo/` — contos, fragmentos e edições preservadas.
+- `bestiario.json` — fichas estruturadas do Bestiário.
+- `atlas.json` — domínios, lugares e conexões do Atlas.
+- `assets/` — pranchas vetoriais e imagens dos catálogos.
+- `arquivo/` — contos, fragmentos, manuscritos e edições preservadas.
 
 O site é uma publicação literária estática, acessível diretamente pelo navegador.
 

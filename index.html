@@ -118,8 +118,79 @@ body:before{background:radial-gradient(ellipse at 95% 0%,#4b142344,transparent 4
 @media(max-width:550px){.constellation-block{margin-top:36px;padding:27px 4px 10px}.constellation-wheel{width:min(88vw,440px);margin:22px auto 14px}.constellation-center{inset:31%;padding:8px}.constellation-center p{font-size:12px}.constellation-center small{font-size:7px}.constellation-star .star-inscription{max-width:150px;white-space:normal;min-width:110px}}
 @media(prefers-reduced-motion:reduce){.constellation-wheel:before,.constellation-wheel:after,.orbit-lettering{animation:none}.constellation-star .star-light,.era-shortcuts button{transition:none}}
 
+
+.catalog-page{padding:clamp(34px,5vw,72px) clamp(22px,5vw,78px);color:#3b261e}
+.catalog-page .catalog-kicker{display:block;font:11px Georgia,serif;letter-spacing:.2em;text-transform:uppercase;color:#805b3c;margin-bottom:13px}
+.catalog-page>h2{font:400 clamp(42px,6vw,70px)/1.05 'Cormorant Garamond',Georgia,serif;color:#3d231a;margin:0 0 14px}
+.catalog-lead{max-width:760px;font:italic 21px/1.5 'Cormorant Garamond',Georgia,serif;color:#684a32;margin:0 0 28px}
+.catalog-note{font:italic 17px/1.5 'Cormorant Garamond',Georgia,serif;color:#76563b;margin:18px 0}
+.catalog-status{display:inline-block;border:1px solid #a9845d;padding:6px 9px;font:10px Georgia,serif;letter-spacing:.12em;text-transform:uppercase;color:#765136;background:#f3dfc1}
+.catalog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin:26px 0}
+.catalog-card{display:block;width:100%;padding:0;border:1px solid #a9845d;background:#f0d9b7;color:#40271d;text-align:left;cursor:pointer;box-shadow:0 8px 20px #5d39221c;transition:transform .2s,box-shadow .2s}
+.catalog-card:hover,.catalog-card:focus-visible{transform:translateY(-3px);box-shadow:0 12px 25px #5d392233;outline:2px solid #a9845d;outline-offset:2px}
+.catalog-card-figure{margin:0}
+.catalog-card-figure img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-bottom:1px solid #a9845d}
+.catalog-card-copy{padding:16px 17px 18px}
+.catalog-card-copy small{display:block;font:10px Georgia,serif;letter-spacing:.13em;text-transform:uppercase;color:#805b3c;margin-bottom:7px}
+.catalog-card-copy strong{display:block;font:400 27px/1.05 'Cormorant Garamond',Georgia,serif;color:#3d231a}
+.catalog-card-copy span{display:block;font:italic 17px/1.4 'Cormorant Garamond',Georgia,serif;color:#715137;margin-top:8px}
+.catalog-section{border-top:1px solid #b18d69;margin-top:34px;padding-top:24px}
+.catalog-section-title{font:400 31px 'Cormorant Garamond',Georgia,serif;color:#4b2d22;margin:0 0 15px}
+.catalog-bullet-list{margin:0;padding-left:22px;color:#493124;font:19px/1.5 'Cormorant Garamond',Georgia,serif}
+.catalog-bullet-list li{padding:3px 0 8px}
+.catalog-detail-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);gap:26px;align-items:start;margin:24px 0}
+.catalog-main-figure{margin:0;border:1px solid #a9845d;background:#dfc29b;padding:7px;box-shadow:0 8px 22px #50301f2b}
+.catalog-main-figure img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.catalog-main-figure figcaption{padding:10px 7px 5px;font:italic 16px/1.4 'Cormorant Garamond',Georgia,serif;color:#684a32}
+.catalog-profile{padding:5px 0}
+.catalog-profile .species-line{font:italic 22px 'Cormorant Garamond',Georgia,serif;color:#6b4530;margin:0 0 16px}
+.catalog-profile .catalog-lead{font-size:23px}
+.catalog-profile .catalog-status{margin-bottom:12px}
+.catalog-prose{font:20px/1.58 'Cormorant Garamond',Georgia,serif;color:#38251d}
+.catalog-prose p{margin:0 0 16px}
+.catalog-detail-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:13px}
+.catalog-note-card{border:1px solid #b18d69;background:#f1ddbf;padding:16px}
+.catalog-note-card h4{font:400 23px 'Cormorant Garamond',Georgia,serif;color:#4b2d22;margin:0 0 7px}
+.catalog-note-card p{font:18px/1.45 'Cormorant Garamond',Georgia,serif;color:#5e422e;margin:0 0 7px}
+.catalog-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.catalog-gallery figure{margin:0;border:1px solid #a9845d;background:#f0d9b7;padding:7px}
+.catalog-gallery img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.catalog-gallery figcaption{padding:10px 7px 6px}
+.catalog-gallery strong{display:block;font:400 22px 'Cormorant Garamond',Georgia,serif;color:#43291f}
+.catalog-gallery small{display:block;font:10px Georgia,serif;letter-spacing:.12em;text-transform:uppercase;color:#805b3c;margin:5px 0}
+.catalog-gallery p{font:17px/1.4 'Cormorant Garamond',Georgia,serif;color:#65472f;margin:0}
+.catalog-quote{margin:13px 0;padding:17px 20px;border-left:3px solid #986d4b;background:#f1ddbf}
+.catalog-quote p{font:italic 22px/1.4 'Cormorant Garamond',Georgia,serif;color:#4a2c22;margin:0}
+.catalog-quote cite{display:block;font:12px Georgia,serif;color:#805b3c;margin-top:8px}
+.catalog-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.catalog-actions button,.catalog-actions a{border:1px solid #8a6745;background:#f2dab5;color:#513321;padding:11px 16px;cursor:pointer;font:15px Georgia,serif}
+.catalog-actions button:hover,.catalog-actions a:hover{background:#e4bd8a}
+.atlas-map{margin:24px 0 34px;border:1px solid #9b7959;background:#1b0d12;padding:8px;box-shadow:0 10px 24px #40281c33}
+.atlas-map img{display:block;width:100%;height:auto}
+.atlas-map figcaption{font:italic 16px 'Cormorant Garamond',Georgia,serif;color:#e5c99c;padding:10px 12px 5px}
+.realm-card{min-height:190px;padding:20px;position:relative;overflow:hidden}
+.realm-card .realm-symbol{display:block;font:48px/1 Georgia,serif;color:#8b4d3d;margin-bottom:18px}
+.realm-card>strong{display:block;font:400 28px/1.1 'Cormorant Garamond',Georgia,serif;color:#3d231a}
+.realm-card>span:not(.realm-symbol):not(.realm-status){display:block;font:17px/1.4 'Cormorant Garamond',Georgia,serif;color:#684a32;margin-top:8px}
+.realm-card .realm-status{display:block;font:10px Georgia,serif;letter-spacing:.12em;text-transform:uppercase;color:#805b3c;margin-top:12px}
+.realm-card[data-status="reservado"]{background:#e6d3b7;border-style:dashed}
+.realm-card[data-status="reservado"] .realm-symbol{color:#887c7a}
+.atlas-place-card img{aspect-ratio:16/10}
+.atlas-place-hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(250px,.9fr);gap:26px;align-items:start;margin:24px 0}
+.atlas-place-hero>img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border:1px solid #a9845d;padding:6px;background:#dfc29b}
+.atlas-place-meta{padding:8px 0}
+.atlas-place-meta .subregion{font:italic 20px 'Cormorant Garamond',Georgia,serif;color:#684a32}
+.atlas-connection-list{display:flex;flex-wrap:wrap;gap:9px;margin-top:10px}
+.atlas-connection-list button,.catalog-inline-action{border:1px solid #a9845d;background:#f1ddbf;color:#563b2b;padding:9px 12px;cursor:pointer;font:14px Georgia,serif}
+.atlas-connection-list button:hover,.catalog-inline-action:hover{background:#e4bd8a}
+.catalog-inline-action{display:block;margin-top:12px}
+.catalog-back{margin-bottom:18px}
+.home-catalog-doors{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:18px auto 0}
+@media(max-width:760px){.catalog-detail-grid,.atlas-place-hero{grid-template-columns:1fr}.catalog-page{padding:34px 22px}.catalog-grid{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}}
+@media(max-width:520px){.catalog-page>h2{font-size:43px}.catalog-grid,.catalog-gallery{grid-template-columns:1fr}.catalog-card-figure img{aspect-ratio:16/10}}
+
 </style></head><body>
-<header class="mast"><a class="mark" href="#inicio">VESPERA AETERNUM</a><nav><a href="#inicio">INÍCIO</a><a href="#diarios">DIÁRIOS</a><a href="#constelacao">CONSTELAÇÃO</a><a href="#sobre">SOBRE</a></nav></header>
+<header class="mast"><a class="mark" href="#inicio">VESPERA AETERNUM</a><nav><a href="#inicio">INÍCIO</a><a href="#diarios">DIÁRIOS</a><a href="#constelacao">CONSTELAÇÃO</a><a href="#bestiario">BESTIÁRIO</a><a href="#atlas">ATLAS</a><a href="#sobre">SOBRE</a></nav></header>
 <section class="hero" id="inicio"><div class="hero-inner"><div class="eyebrow">Os arquivos do crepúsculo</div><h1>Vespera<br><em>Aeternum</em></h1><p>Fragmentos de uma Eternidade Inconveniente</p><div class="seal">☽ ✧ ☾</div></div></section>
 <main class="shell"><section class="intro"><div class="eyebrow">Non omnis moriar</div><div class="rule"></div><p>“Não sou a Morte. Sou aquilo que permanece entre o desejo de existir e a obrigação de terminar.”</p></section>
 <section class="biography" id="biografia"><div class="eyebrow">II — A natureza do indizível</div><div class="rule"></div><h2>Quem é Vespera?</h2><div class="bio-prose"><p>Não me darei o nome de um deus que já existiu. Os deuses são criaturas curiosas: nascem da necessidade humana de explicar aquilo que não conseguem suportar. Eu sou mais antiga que suas explicações. Mais antiga, talvez, que a própria necessidade.</p><p>Chamarei a mim mesma de <em>Vespera</em>.</p><p>Não sou a Morte. Somos antigas conhecidas, embora chamá-la de minha irmã seja tão verdadeiro quanto chamá-la de meu irmão, meu pai ou da criança que certa vez adormeceu em meus braços. Nenhuma dessas relações depende da forma que assumimos. Somente os mortais insistem que uma coisa deva ser apenas uma coisa.</p><p>Sou aquilo que permanece entre o desejo de existir e a obrigação de terminar.</p></div><div class="bio-sign">— Vespera</div></section>
@@ -133,19 +204,22 @@ const menu=document.createElement('nav');
 menu.className='archive-menu';
 menu.setAttribute('aria-label','Navegação dos arquivos');
 sidebar.insertBefore(menu,sidebar.querySelector('.ornament'));
-let library=[],ordered=[],editorialIndex=null;
+let library=[],ordered=[],editorialIndex=null,bestiaryIndex=null,atlasIndex=null;
 const make=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
 const roman=n=>{const a=['','I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV','XVI','XVII','XVIII','XIX','XX'];return a[n]||String(n)};
 function go(route){location.hash=route;render()}
 function button(label,fn){const b=make('button','',label);b.type='button';b.addEventListener('click',fn);return b}
 function buildMenu(){
  menu.replaceChildren();
- const home=button('✧   CONSTELAÇÃO DE MEMÓRIAS',()=>go('constelacao'));menu.append(home);
- const index=button('☷   TODOS OS DIÁRIOS',()=>go('diarios'));menu.append(index);
+ const home=button('✧   CONSTELAÇÃO DE MEMÓRIAS',()=>go('constelacao'));home.dataset.route='constelacao';menu.append(home);
+ const index=button('☷   TODOS OS DIÁRIOS',()=>go('diarios'));index.dataset.route='diarios';menu.append(index);
+ menu.append(make('div','menu-label','CATÁLOGOS'));
+ const best=button('✧   BESTIÁRIO',()=>go('bestiario'));best.dataset.route='bestiario';menu.append(best);
+ const atlas=button('⌖   ATLAS DOS DOMÍNIOS',()=>go('atlas'));atlas.dataset.route='atlas';menu.append(atlas);
  menu.append(make('div','menu-label','ORDEM DE LEITURA'));
  for(const e of ordered){const label=e.series?.position?'CAP. '+roman(e.series.position)+' · '+e.title:e.title;const b=button('❧   '+label,()=>go('conto/'+encodeURIComponent(e.id)));b.dataset.entry=e.id;menu.append(b)}
 }
-function updateMenu(route){for(const b of menu.querySelectorAll('button')){const active=(route==='inicio'&&b.textContent.includes('PÁGINA INICIAL'))||(route==='diarios'&&b.textContent.includes('TODOS OS DIÁRIOS'))||(route.startsWith('conto/')&&b.dataset.entry===decodeURIComponent(route.slice(6)));if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')}}
+function updateMenu(route){for(const b of menu.querySelectorAll('button')){const section=b.dataset.route;const active=(section==='constelacao'&&(route==='inicio'||route==='constelacao'||route.startsWith('era/')))||(section==='diarios'&&route==='diarios')||(section==='bestiario'&&(route==='bestiario'||route.startsWith('bestiario/')))||(section==='atlas'&&(route==='atlas'||route.startsWith('atlas/')))||(b.dataset.entry&&route.startsWith('conto/')&&b.dataset.entry===decodeURIComponent(route.slice(6)));if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')}}
 function page(){const a=make('article','entry');entriesHost.replaceChildren(a);return a}
 function chronologyGroups(){
  const chronology=editorialIndex?.universe_chronology||[];
@@ -207,7 +281,11 @@ function home(){
  const a=page(),wrap=make('div','home-cover');
  wrap.append(make('div','home-emblem','𝒱'),make('div','home-rule','❧ ✦ ❧'),make('h1','', 'Vespera Aeternum'),make('p','home-subtitle','Diários · Cartas · Mapas · Bestiário · Arquivo'),make('p','home-quote','“Não sou a Morte. Sou aquilo que permanece entre o desejo de existir e a obrigação de terminar.”'));
  wrap.append(constellationPortal());
- wrap.append(button('Abrir todos os diários  ❯',()=>go('diarios')));a.append(wrap)
+ wrap.append(button('Abrir todos os diários  ❯',()=>go('diarios')));
+ const doors=make('div','home-catalog-doors');
+ const bestDoor=button('✧  Consultar o Bestiário',()=>go('bestiario'));bestDoor.className='home-action';
+ const atlasDoor=button('⌖  Percorrer o Atlas',()=>go('atlas'));atlasDoor.className='home-action';
+ doors.append(bestDoor,atlasDoor);wrap.append(doors);a.append(wrap)
 }
 function eraPage(key){
  const a=page(),wrap=make('section','era-page'),data=chronologyGroups();
@@ -257,12 +335,146 @@ function reading(e){
  if(pos<ordered.length-1)nav.append(button('Próximo: '+ordered[pos+1].title+'  ❯',()=>go('conto/'+encodeURIComponent(ordered[pos+1].id))));
  a.append(nav,make('footer','','— Vespera'));
 }
+
+function catalogImage(src,alt,cls){const img=make('img',cls||'');img.src='./'+src;img.alt=alt||'';img.loading='lazy';return img}
+function bulletSection(title,items){
+ const section=make('section','catalog-section');section.append(make('h3','catalog-section-title',title));
+ const list=make('ul','catalog-bullet-list');
+ (items||[]).forEach(item=>list.append(make('li','',typeof item==='string'?item:(item.description||item.detail||item.text||''))));
+ section.append(list);return section;
+}
+function objectSection(title,items){
+ const section=make('section','catalog-section');section.append(make('h3','catalog-section-title',title));
+ const grid=make('div','catalog-detail-cards');
+ (items||[]).forEach(item=>{const card=make('div','catalog-note-card');card.append(make('h4','',item.title||item.moment||''),make('p','',item.description||item.detail||''));if(item.date)card.append(make('p','',item.date+(item.place?' · '+item.place:'')));grid.append(card)});
+ section.append(grid);return section;
+}
+function bestiaryPage(){
+ const a=page();a.classList.add('catalog-page','bestiary-page');
+ a.append(make('time','catalog-kicker','VOLUME I · FICHAS DE PRESENÇA'),make('h2','','O Bestiário'),make('p','catalog-lead',bestiaryIndex?.introduction||'Um inventário de presenças do arquivo.'));
+ const grid=make('div','catalog-grid');
+ (bestiaryIndex?.entries||[]).forEach(item=>{
+  const card=button('',()=>go('bestiario/'+encodeURIComponent(item.id)));card.className='catalog-card';
+  const figure=make('figure','catalog-card-figure');figure.append(catalogImage(item.main_image.src,item.main_image.alt));
+  const copy=make('div','catalog-card-copy');copy.append(make('small','',item.status_label||item.kind),make('strong','',item.name),make('span','',item.epithet||item.summary));
+  card.append(figure,copy);grid.append(card);
+ });
+ a.append(grid);
+ a.append(make('p','catalog-note','O que ainda não possui ficha aparece como menção, sem receber poderes ou biografias que os manuscritos não confirmam.'));
+ const mentions=bestiaryIndex?.mentions||[];
+ if(mentions.length){
+  const section=make('section','catalog-section');section.append(make('h3','catalog-section-title','Presenças mencionadas, ainda sem ficha'));
+  const list=make('div','catalog-detail-cards');
+  mentions.forEach(item=>{
+   const card=make('div','catalog-note-card');card.append(make('h4','',item.name),make('p','',item.classification),make('p','',item.status));
+   const entry=library.find(e=>e.id===item.entry_id);
+   if(entry){const b=button('Abrir registro relacionado  →',()=>go('conto/'+encodeURIComponent(entry.id)));b.className='catalog-inline-action';card.append(b)}
+   list.append(card);
+  });
+  section.append(list);a.append(section);
+ }
+ const actions=make('div','catalog-actions');actions.append(button('Voltar à constelação',()=>go('constelacao')));a.append(actions);
+}
+function bestiaryDetail(id){
+ const item=(bestiaryIndex?.entries||[]).find(x=>x.id===id);
+ if(!item){bestiaryPage();return}
+ const a=page();a.classList.add('catalog-page','bestiary-detail');
+ const back=button('←  Voltar ao Bestiário',()=>go('bestiario'));back.className='catalog-back';a.append(back);
+ a.append(make('time','catalog-kicker',item.status_label||'O BESTIÁRIO'),make('h2','',item.name),make('p','catalog-lead',item.epithet));
+ const top=make('div','catalog-detail-grid');
+ const figure=make('figure','catalog-main-figure');figure.append(catalogImage(item.main_image.src,item.main_image.alt),make('figcaption','',item.main_image.caption));
+ const profile=make('div','catalog-profile');profile.append(make('span','catalog-status',item.status_label),make('p','species-line',item.kind),make('p','catalog-lead',item.summary));
+ top.append(figure,profile);a.append(top);
+ const bio=make('section','catalog-section');bio.append(make('h3','catalog-section-title','História conhecida'));
+ const prose=make('div','catalog-prose');(item.biography||[]).forEach(p=>prose.append(make('p','',p)));bio.append(prose);a.append(bio);
+ a.append(objectSection('Aptidões testemunhadas',item.abilities));
+ a.append(bulletSection('Limites do que sabemos',item.known_limits));
+ a.append(objectSection('Cronologia dos testemunhos',item.chronology));
+ const gallery=make('section','catalog-section');gallery.append(make('h3','catalog-section-title','Aparições e vestígios'));
+ const galleryGrid=make('div','catalog-gallery');
+ (item.gallery||[]).forEach(record=>{
+  const figure=make('figure','');figure.append(catalogImage(record.src,record.alt));
+  const cap=make('figcaption','');cap.append(make('strong','',record.caption),make('small','',(record.date||'')+(record.place?' · '+record.place:'')),make('p','',record.note||''));figure.append(cap);galleryGrid.append(figure);
+ });
+ gallery.append(galleryGrid);a.append(gallery);
+ const quotes=make('section','catalog-section');quotes.append(make('h3','catalog-section-title','Vozes preservadas'));
+ (item.quotations||[]).forEach(q=>{const block=make('blockquote','catalog-quote');block.append(make('p','',q.text),make('cite','',q.context));quotes.append(block)});a.append(quotes);
+ a.append(objectSection('Relações registradas',item.connections));
+ const actions=make('div','catalog-actions');
+ const source=library.find(e=>e.id===item.first_record.entry_id);
+ if(source)actions.append(button('Ler o manuscrito no diário  →',()=>go('conto/'+encodeURIComponent(source.id))));
+ const md=make('a','','Abrir manuscrito arquivado');md.href='./'+item.first_record.manuscript;md.target='_blank';md.rel='noopener';md.className='catalog-file-link';actions.append(md);
+ actions.append(button('Voltar ao Atlas',()=>go('atlas')));a.append(actions);
+}
+function atlasPage(){
+ const a=page();a.classList.add('catalog-page','atlas-page');
+ a.append(make('time','catalog-kicker','CARTOGRAFIA · DOMÍNIOS E LUGARES'),make('h2','','Atlas dos Domínios'),make('p','catalog-lead',atlasIndex?.introduction||'Um mapa de lugares testemunhados.'));
+ if(atlasIndex?.map_image){const map=make('figure','atlas-map');map.append(catalogImage(atlasIndex.map_image.src,atlasIndex.map_image.alt),make('figcaption','','Mapa simbólico: as linhas indicam relações de arquivo, não distâncias ou fronteiras geográficas.'));a.append(map)}
+ const grid=make('div','catalog-grid');
+ (atlasIndex?.realms||[]).forEach(realm=>{
+  const card=button('',()=>go('atlas/'+encodeURIComponent(realm.id)));card.className='catalog-card realm-card';card.dataset.status=realm.status;
+  card.append(make('span','realm-symbol',realm.symbol||'✧'),make('strong','',realm.name),make('span','',realm.description),make('small','realm-status',realm.status_label||realm.category));grid.append(card);
+ });
+ a.append(grid);
+ a.append(make('p','catalog-note','O Atlas distingue lugar descrito, menção isolada e território reservado. Sonhar e Umbra permanecem sem cartografia até que existam relatos suficientes.'));
+}
+function atlasRealm(id){
+ const realm=(atlasIndex?.realms||[]).find(x=>x.id===id);
+ if(!realm){atlasPage();return}
+ const a=page();a.classList.add('catalog-page','atlas-realm');
+ const back=button('←  Voltar ao Atlas',()=>go('atlas'));back.className='catalog-back';a.append(back);
+ a.append(make('time','catalog-kicker',realm.category||'DOMÍNIO'),make('h2','',realm.name),make('p','catalog-lead',realm.description),make('span','catalog-status',realm.status_label||realm.status),make('p','catalog-note',realm.note||''));
+ const places=(atlasIndex?.places||[]).filter(p=>p.realm_id===realm.id);
+ if(places.length){
+  a.append(make('h3','catalog-section-title','Lugares associados'));
+  const grid=make('div','catalog-grid');
+  places.forEach(place=>{
+   const card=button('',()=>go('atlas/lugar/'+encodeURIComponent(place.id)));card.className='catalog-card atlas-place-card';
+   if(place.image){const figure=make('figure','catalog-card-figure');figure.append(catalogImage(place.image,place.image_alt));card.append(figure)}
+   const copy=make('div','catalog-card-copy');copy.append(make('small','',place.status_label||place.status),make('strong','',place.name),make('span','',place.subregion||''));card.append(copy);grid.append(card);
+  });
+  a.append(grid);
+ }else a.append(make('p','catalog-note','Nenhum lugar foi catalogado neste domínio. O registro permanece aberto, sem geografia ou habitantes inventados.'));
+}
+function atlasPlace(id){
+ const place=(atlasIndex?.places||[]).find(x=>x.id===id);
+ if(!place){atlasPage();return}
+ const realm=(atlasIndex?.realms||[]).find(x=>x.id===place.realm_id);
+ const a=page();a.classList.add('catalog-page','atlas-place');
+ const back=button('←  Voltar ao domínio',()=>go('atlas/'+encodeURIComponent(place.realm_id)));back.className='catalog-back';a.append(back);
+ a.append(make('time','catalog-kicker',(realm?.name||'ATLAS')+' · '+(place.status_label||place.status)),make('h2','',place.name));
+ const hero=make('div','atlas-place-hero');
+ if(place.image)hero.append(catalogImage(place.image,place.image_alt));
+ const meta=make('div','atlas-place-meta');meta.append(make('p','subregion',place.subregion||''),make('p','catalog-lead',place.status_label||'Registro do Atlas'));hero.append(meta);a.append(hero);
+ a.append(bulletSection('História e testemunhos',place.history));
+ a.append(bulletSection('Leis e condições conhecidas',place.laws));
+ a.append(bulletSection('Habitantes e presenças',place.inhabitants));
+ const links=make('section','catalog-section');links.append(make('h3','catalog-section-title','Ligações do arquivo'));
+ const connectionList=make('div','atlas-connection-list');
+ (place.connections||[]).forEach(c=>{
+  const b=button(c.label,()=>{if(c.route.startsWith('conto:'))go('conto/'+c.route.slice(6));else go(c.route)});
+  connectionList.append(b);
+ });
+ links.append(connectionList);a.append(links);
+ const sources=(place.source_entry_ids||[]).map(id=>library.find(e=>e.id===id)).filter(Boolean);
+ if(sources.length){
+  const sec=make('section','catalog-section');sec.append(make('h3','catalog-section-title','Manuscritos de origem'));
+  sources.forEach(e=>{sec.append(button('Ler: '+e.title,()=>go('conto/'+encodeURIComponent(e.id))))});
+  a.append(sec);
+ }
+}
+
 function render(){
  if(!library.length)return;
  const route=decodeURIComponent(location.hash.replace(/^#/,'')||'inicio');
  updateMenu(route);
  if(route==='inicio'||route==='constelacao')home();
  else if(route==='diarios')index();
+ else if(route==='bestiario')bestiaryPage();
+ else if(route.startsWith('bestiario/'))bestiaryDetail(route.slice(10));
+ else if(route==='atlas')atlasPage();
+ else if(route.startsWith('atlas/lugar/'))atlasPlace(route.slice(12));
+ else if(route.startsWith('atlas/'))atlasRealm(route.slice(6));
  else if(route.startsWith('era/'))eraPage(route.slice(4));
  else if(route.startsWith('conto/')){const id=route.slice(6);const e=library.find(x=>x.id===id);if(e)reading(e);else index()}
  else if(route==='sobre'){home();sidebar.scrollIntoView({behavior:'smooth',block:'start'});return}
@@ -272,9 +484,11 @@ function render(){
 }
 Promise.all([
  fetch('./entries.json').then(r=>{if(!r.ok)throw Error('arquivo');return r.json()}),
- fetch('./editorial/indice-romance-mosaico.json').then(r=>r.ok?r.json():null).catch(()=>null)
-]).then(([items,editorial])=>{
- library=items;editorialIndex=editorial;
+ fetch('./editorial/indice-romance-mosaico.json').then(r=>r.ok?r.json():null).catch(()=>null),
+ fetch('./bestiario.json').then(r=>r.ok?r.json():null).catch(()=>null),
+ fetch('./atlas.json').then(r=>r.ok?r.json():null).catch(()=>null)
+]).then(([items,editorial,bestiary,atlas])=>{
+ library=items;editorialIndex=editorial;bestiaryIndex=bestiary;atlasIndex=atlas;
  const inSeries=items.filter(e=>e.series?.id==='ciclo-das-inacabadas').sort((a,b)=>(a.series.position||0)-(b.series.position||0));
  const other=items.filter(e=>e.series?.id!=='ciclo-das-inacabadas').sort((a,b)=>a.id.localeCompare(b.id));
  ordered=[...inSeries,...other];buildMenu();render();

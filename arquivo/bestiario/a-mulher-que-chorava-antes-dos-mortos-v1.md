@@ -323,3 +323,16 @@ Eithne teria achado minha técnica deplorável.
 Isso me fez sorrir.
 
 — Vespera
+
+
+---
+
+## Registro no catálogo
+
+Esta narrativa é a fonte primária da primeira ficha canônica do Bestiário.
+
+- [Abrir a ficha de Eithne no site](https://vranuska.github.io/vespera-aeternum/#bestiario/eithne)
+- [Consultar o catálogo estruturado](../../bestiario.json)
+- [Ver a prancha principal](../../assets/bestiario/eithne-retrato.svg)
+
+A ficha distingue as aptidões testemunhadas das limitações conhecidas. Não transforma o lamento em causa da morte nem atribui a Eithne poderes que o manuscrito não registra.

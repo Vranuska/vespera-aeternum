@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07",
+  "updated_at": "2026-11-08",
   "project": "Vespera Aeternum",
   "purpose": "Índice editorial não destrutivo: a ordem do romance-mosaico não coincide necessariamente com a cronologia do universo.",
   "editorial_reading_order": {
@@ -601,17 +601,37 @@
       "behavior": "Pontos interativos por era; inscrições reveladas por cursor ou foco; páginas de cada ano agrupadas por mês; acesso alternativo por botões para toque e teclado. O índice tradicional de todos os diários permanece disponível.",
       "status": "integrado no leitor estático sem alterar entries.json nem a ordem editorial."
     },
-    "pending_sections": [
+    "pending_sections": [],
+    "implemented_sections": [
       {
         "name": "Bestiário",
-        "status": "ainda não implementado como seção navegável",
-        "reason": "O manuscrito de Eithne existe, mas ainda faltam cadastro visual próprio, imagem principal, galeria de aparições e ficha estruturada de habilidades, história e citações."
+        "status": "integrado no leitor estático em 2026-11-08",
+        "reason": "Ficha canônica de Eithne, galeria vetorial, cronologia, aptidões, limites e ligações com o manuscrito.",
+        "completed_at": "2026-11-08"
       },
       {
         "name": "Atlas",
-        "status": "ainda não implementado como seção navegável",
-        "reason": "Ainda falta um catálogo estruturado de mundos e lugares com imagens, história, leis, habitantes e conexões."
+        "status": "integrado no leitor estático em 2026-11-08",
+        "reason": "Atlas navegável com domínios, lugares, imagens, história, leis, habitantes e conexões; Sonhar e Umbra permanecem deliberadamente sem cartografia.",
+        "completed_at": "2026-11-08"
       }
+    ],
+    "routes": {
+      "bestiary": "index.html#bestiario",
+      "eithne": "index.html#bestiario/eithne",
+      "atlas": "index.html#atlas",
+      "atlas_place": "index.html#atlas/lugar/{place_id}"
+    },
+    "data_files": [
+      "entries.json",
+      "editorial/indice-romance-mosaico.json",
+      "bestiario.json",
+      "atlas.json"
+    ],
+    "remaining_catalog_work": [
+      "Abrir fichas completas para Ithariel, Aurelian, Azrakhel e Malpherion quando houver desenvolvimento biográfico suficiente.",
+      "Expandir a cartografia do Entre, do Sonhar e de Umbra somente a partir de manuscritos que estabeleçam suas características.",
+      "Acrescentar imagens e conexões para novos lugares sem converter menções isoladas em geografia definitiva."
     ]
   }
 }
