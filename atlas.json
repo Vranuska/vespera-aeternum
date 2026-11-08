@@ -44,29 +44,29 @@
       "category": "Domínio de passagem",
       "symbol": "⋈",
       "status": "parcial",
-      "status_label": "Natureza mencionada",
-      "description": "Vespera declara que o Entre não pertence à jurisdição celestial. Sua posição permite testemunhar certos pactos sem se submeter a eles.",
-      "note": "A geografia, as portas e as leis próprias do Entre ainda não foram descritas em detalhe."
+      "status_label": "Princípio estabelecido · geografia em aberto",
+      "description": "O Entre não é apenas um domínio de passagem: é o princípio que permite que realidades opostas permaneçam distintas e coexistam. Vespera, presente desde a Criação, é a sua presença consciente e a Dama do Entre. O tempo se curva diante dela; ela regula sua continuidade e seus intervalos.",
+      "note": "Vespera sustenta a distinção e a relação entre vida e morte, Sonhar e mundo desperto, Céu e Inferno, Umbra e realidade física. A geografia interna, as portas e as leis próprias do Entre ainda não estão completamente descritas."
     },
     {
       "id": "sonhar",
       "name": "O Sonhar",
       "category": "Domínio a cartografar",
       "symbol": "☾",
-      "status": "reservado",
-      "status_label": "Cartografia em aberto",
-      "description": "Nome reservado no projeto do Atlas. Ainda não há, no repositório atual, manuscrito canônico suficiente para descrever suas regiões, leis, habitantes ou fronteiras.",
-      "note": "Esta porta permanecerá aberta sem receber geografia inventada."
+      "status": "parcial",
+      "status_label": "Domínio reconhecido · cartografia em aberto",
+      "description": "O Sonhar é um domínio distinto do mundo desperto, associado à referência Changeling: The Dreaming. Sua existência integra a cosmologia; suas regiões, leis, habitantes e caminhos ainda não foram cartografados.",
+      "note": "A natureza de Vespera abrange a distinção entre Sonhar e mundo desperto. Isso não estabelece, por si só, que ela governe cada corte ou criatura feérica."
     },
     {
       "id": "umbra",
       "name": "Umbra",
       "category": "Domínio a cartografar",
       "symbol": "◐",
-      "status": "reservado",
-      "status_label": "Cartografia em aberto",
-      "description": "Nome reservado no projeto do Atlas. Ainda não há, no repositório atual, manuscrito canônico suficiente para descrever suas regiões, leis, habitantes ou fronteiras.",
-      "note": "A ficha será ampliada quando houver relatos que estabeleçam sua natureza."
+      "status": "parcial",
+      "status_label": "Responsabilidade de Vespera · cartografia em aberto",
+      "description": "Vespera é responsável pela Umbra, especialmente pela distinção e pela relação entre esse domínio espiritual e a realidade física. A existência da fronteira está estabelecida; a geografia interna da Umbra ainda não.",
+      "note": "Werewolf: The Apocalypse é a referência de construção indicada pela autora. Não importar automaticamente todas as regiões, hierarquias ou regras do jogo; registrar apenas o que o cânone de Vespera Aeternum estabelecer."
     }
   ],
   "places": [
