@@ -48,6 +48,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 - **[O vestido vermelho e as penas do bispo](arquivo/padre-tomas/o-vestido-vermelho-e-as-penas-do-bispo-v1.md)** — Um domingo de escândalo, preconceito e humanidade na paróquia.
 - **[O demônio que veio me matar e ficou para o jantar](arquivo/azrakhel/o-demonio-que-veio-me-matar-e-ficou-para-o-jantar-v1.md)** — Azrakhel, Eva e o Esquecimento.
 - **[A mulher que chorava antes dos mortos](arquivo/bestiario/a-mulher-que-chorava-antes-dos-mortos-v1.md)** — Eithne e a injustiça feita às banshees.
+- **[A Lei do Entre](arquivo/cronicas-do-entre/a-lei-do-entre.md)** — Registro dos princípios primordiais que permitem a coexistência dos opostos, da autoridade temporal de Vespera e de sua responsabilidade pela Umbra.
 - **[Sobre a primeira vez que fui expulsa do Céu — versões 1.0 e 2.0](arquivo/cronicas-do-entre/primeira-expulsao-do-ceu/README.md)** — O manuscrito original, a edição expandida e o histórico de suas mudanças.
 - **[A segunda vida do sapato vermelho](arquivo/fragmentos/a-segunda-vida-do-sapato-vermelho.md)** — O reencontro com a menina que aprendeu a voar.
 - **[O espelho pediu desculpas](arquivo/fragmentos/o-espelho-pediu-desculpas.md)** — Uma promessa esquecida e um reflexo impossível.
@@ -60,7 +61,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 ## Catálogos do universo
 
 - **[Bestiário](https://vranuska.github.io/vespera-aeternum/#bestiario)** — a primeira ficha completa é Eithne, com imagem principal, galeria, cronologia, aptidões e limites.
-- **[Atlas dos Domínios](https://vranuska.github.io/vespera-aeternum/#atlas)** — mapa navegável da Terra, dos Firmamentos, dos Domínios Infernais e do Entre. Sonhar e Umbra aparecem como territórios reservados, sem geografia inventada.
+- **[Atlas dos Domínios](https://vranuska.github.io/vespera-aeternum/#atlas)** — mapa navegável da Terra, dos Firmamentos, dos Domínios Infernais e do Entre. A natureza da Umbra e do Sonhar já está registrada; sua geografia interna permanece em aberto, sem preenchimento por suposição.
 - **[Caderno editorial do Atlas](arquivo/atlas/README.md)** — critérios de cartografia e estado dos registros.
 
 ## Algumas presenças recorrentes
