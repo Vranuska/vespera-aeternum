@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08",
+  "updated_at": "2026-11-09",
   "project": "Vespera Aeternum",
   "purpose": "Índice editorial não destrutivo: a ordem do romance-mosaico não coincide necessariamente com a cronologia do universo.",
   "editorial_reading_order": {
@@ -127,6 +127,14 @@
         "universe_time": "22 de dezembro de 1898 · Eulália compra um exemplar anotado de Só; a escolha ecoa sua livraria em 1926",
         "pov": "terceira pessoa limitada — Eulália Vale",
         "place": "Porto · oficina de encadernação de Artur Vale"
+      },
+      {
+        "number": 16,
+        "entry_id": "2026-11-09-a-rua-que-cabia-na-margem",
+        "title": "A rua que cabia na margem",
+        "universe_time": "16 de setembro de 1997 · Micaela Funes registra o Pasaje de la Calandria, em Barracas; a saída permanece sem confirmação",
+        "pov": "terceira pessoa limitada — Micaela Funes",
+        "place": "Buenos Aires, Argentina · Barracas"
       }
     ]
   },
@@ -245,6 +253,13 @@
       "label": "29 de janeiro de 1944 · após a colocação da tabuleta de Palmira e o envio da carta de Rui",
       "precision": "day",
       "after": "2026-10-31-a-carta-que-chegou-sem-pedir-licenca"
+    },
+    {
+      "entry_id": "2026-11-09-a-rua-que-cabia-na-margem",
+      "title": "A rua que cabia na margem",
+      "time": "1997-09-16",
+      "label": "16 de setembro de 1997 · Micaela registra a existência parcial do Pasaje de la Calandria, em Buenos Aires",
+      "precision": "day"
     }
   ],
   "unplaced_archive": [
@@ -450,7 +465,8 @@
       "cartas enviadas sem endereço revelado, fotografias devolvidas e a diferença entre notícia e reconciliação",
       "material reutilizado sem apagar a origem; o nome próprio à porta e a contabilidade dos trabalhos pequenos",
       "o espaço não preenchido nos programas, música imperfeita e provas corrigidas sem apagamento",
-      "livros avaliados pelo peso, margens manuscritas e exemplares que acompanham um leitor entre oficinas e livrarias"
+      "livros avaliados pelo peso, margens manuscritas e exemplares que acompanham um leitor entre oficinas e livrarias",
+      "mapas incompletos, passagens sem saída confirmada e a diferença entre limite e ausência"
     ],
     "open_threads": [
       {
@@ -533,6 +549,14 @@
         ],
         "note": "Eulália conserva o exemplar anotado da edição revista de Só (1898), comprado a Cecília Lobo. Sua presença no percurso até 1926 é uma continuidade material e de carácter, sem ligação causal com o sino.",
         "reveal_plan": "A referência já ecoa no capítulo V: a recusa de Eulália em pesar poesia ganha uma origem íntima, mas não deve ser convertida em pista do mistério principal."
+      },
+      {
+        "key": "calandria-passage",
+        "seeded_in": [
+          "2026-11-09-a-rua-que-cabia-na-margem"
+        ],
+        "note": "O Pasaje de la Calandria, em Barracas, Buenos Aires, aparece em plantas de 1934, 1948 e 1956. Micaela Funes confirma parte do corredor com Elena Roldán; a porta do fundo permanece fechada e o prolongamento não foi verificado. Vespera aparece junto à porta. Não classificar o espaço como Umbra ou Sonhar sem novo manuscrito que estabeleça essa relação.",
+        "reveal_plan": "Retomar Micaela, Elena ou outro visitante em perspectiva própria; desenvolver a fronteira lentamente, sem transformar a porta num atalho explicativo nem cartografar o outro lado antes de haver evidência."
       }
     ],
     "secondary_arcs": [
@@ -578,6 +602,14 @@
         ],
         "note": "Helena Sampaio organiza um recital privado do filho Inácio, ferido na mão direita; ele toca três peças em vez de oito. Relação mãe-filho melhora sem cura milagrosa; Inácio conserva a prova original corrigida.",
         "planned_use": "Conto autônomo; eventual reaparição apenas se houver motivo narrativo, sem fazer do recital pista sobrenatural."
+      },
+      {
+        "id": "micaela-elena",
+        "seeded_in": [
+          "2026-11-09-a-rua-que-cabia-na-margem"
+        ],
+        "note": "Micaela Funes trabalha no arquivo cartográfico de Barracas. Elena Roldán, antiga telefonista, vive junto ao Pasaje de la Calandria e conserva a memória do uso da passagem. A relação entre ambas começa com a verificação de um traçado antigo; a confiança ainda é recente.",
+        "planned_use": "Uma futura aparição deve partir de uma necessidade própria de Micaela ou Elena, não apenas da vontade de reabrir a porta."
       }
     ]
   },
@@ -596,6 +628,7 @@
         "1926",
         "1943",
         "1944",
+        "1997",
         "fora"
       ],
       "behavior": "Pontos interativos por era; inscrições reveladas por cursor ou foco; páginas de cada ano agrupadas por mês; acesso alternativo por botões para toque e teclado. O índice tradicional de todos os diários permanece disponível.",
