@@ -55,6 +55,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 - **[Outros fragmentos](arquivo/fragmentos/)** — Cartas, memórias e pequenas inconveniências de uma vida sem fim.
 
 - **[O lugar onde a água ferve](arquivo/ciclo-das-inacabadas/o-lugar-onde-a-agua-ferve-v1.md)** — Leonor Ferreira, um fogão sem porta e uma carta que convida o irmão a regressar.
+- **[A rua que cabia na margem](arquivo/ciclo-das-inacabadas/a-rua-que-cabia-na-margem-v1.md)** — Micaela Funes, o Pasaje de la Calandria e uma passagem que o mapa não sabe terminar.
 - **[A costura invisível](arquivo/ciclo-das-inacabadas/a-costura-invisivel-v1.md)** — Artur Vale, uma folha de oito linhas e a assinatura que Eulália aprenderia a reconhecer.
 - **[Índice editorial do romance-mosaico](editorial/indice-romance-mosaico.json)** — Ordem de leitura, cronologia do universo e continuidade dos arcos.
 
