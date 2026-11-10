@@ -188,7 +188,32 @@
       "Como uma pergunta que, pela primeira vez, fora registrada com honestidade.",
       "Glossário",
       "* Planta cadastral — representação técnica dos lotes, construções, limites e vias de uma área, utilizada para registro e planejamento territorial."
-    ]
+    ],
+    "genres": [
+      "conto",
+      "romance-mosaico"
+    ],
+    "collection": "Ciclo das Inacabadas",
+    "themes": [
+      "cartografia",
+      "testemunho",
+      "memória",
+      "ausência",
+      "justiça"
+    ],
+    "characters": [
+      "micaela-funes",
+      "elena-roldan",
+      "bertola",
+      "vespera"
+    ],
+    "series": {
+      "id": "ciclo-das-inacabadas",
+      "title": "Ciclo das Inacabadas",
+      "position": 16
+    },
+    "author": "Vespera Aeternum",
+    "related_entries": []
   },
   {
     "id": "2026-11-03-a-balanca-de-dois-pratos",
