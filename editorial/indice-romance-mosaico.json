@@ -665,6 +665,28 @@
       "Abrir fichas completas para Ithariel, Aurelian, Azrakhel e Malpherion quando houver desenvolvimento biográfico suficiente.",
       "Expandir a cartografia do Entre, do Sonhar e de Umbra somente a partir de manuscritos que estabeleçam suas características.",
       "Acrescentar imagens e conexões para novos lugares sem converter menções isoladas em geografia definitiva."
-    ]
+    ],
+    "react_portal": {
+      "route": "src/routes/index.tsx",
+      "source": "editorial/indice-romance-mosaico.json → src/lib/editorial.ts → src/components/vespera/Constellation.tsx",
+      "status": "integrado no repositório em 10/11/2026; publicação GitHub Pages pendente",
+      "features": [
+        "hero Reforged preservado",
+        "anéis lentos e frase central",
+        "eras e agrupamento por mês",
+        "ordem editorial do Volume I em lista expansível, separada da cronologia"
+      ],
+      "reading_order_chapters": 16,
+      "chronology_items": 16,
+      "unplaced_items": 31
+    },
+    "react_atlas": {
+      "route": "src/routes/atlas.tsx",
+      "source": "src/data/atlas.ts",
+      "status": "estrutura de imagem, história, leis/limites e habitantes integrada; imagem própria do Pasaje pendente",
+      "place_id": "pasaje-calandria",
+      "linked_entry": "2026-11-09-a-rua-que-cabia-na-margem",
+      "cartographic_status": "provisório; a porta do fundo e qualquer ligação com Umbra ou Sonhar permanecem sem confirmação"
+    }
   }
 }
