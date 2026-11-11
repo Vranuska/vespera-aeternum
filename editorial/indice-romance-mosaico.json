@@ -714,10 +714,13 @@
     "react_atlas": {
       "route": "src/routes/atlas.tsx",
       "source": "atlas.json → src/data/atlas-fallback.json → src/lib/atlas-canon.ts + src/data/atlas.ts → src/routes/atlas.tsx",
-      "status": "Imagens canônicas, história, leis, habitantes e referências cruzadas de atlas.json integradas ao painel React; a geometria permanece ilustrativa e a imagem própria do Pasaje segue pendente.",
+      "status": "Imagens canônicas, história, leis, habitantes e referências cruzadas de atlas.json integradas ao painel React; as referências atlas/lugar/* são resolvidas para marcadores pelo mapeamento canônico. A geometria permanece ilustrativa e a imagem própria do Pasaje segue pendente.",
       "place_id": "pasaje-calandria",
       "linked_entry": "2026-11-09-a-rua-que-cabia-na-margem",
-      "cartographic_status": "provisório; a porta do fundo e qualquer ligação com Umbra ou Sonhar permanecem sem confirmação"
+      "cartographic_status": "provisório; a porta do fundo e qualquer ligação com Umbra ou Sonhar permanecem sem confirmação",
+      "features": [
+        "Referências atlas/lugar/* resolvidas pelo mapeamento canônico para marcadores navegáveis, incluindo a ligação recíproca entre a Biblioteca dos Registros Velados e os Jardins da Primeira Manhã."
+      ]
     }
   }
 }
