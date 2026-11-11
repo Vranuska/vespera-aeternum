@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "project": "Vespera Aeternum",
   "purpose": "Índice editorial não destrutivo: a ordem do romance-mosaico não coincide necessariamente com a cronologia do universo.",
   "editorial_reading_order": {
@@ -675,7 +675,7 @@
     "react_portal": {
       "route": "src/routes/index.tsx",
       "source": "editorial/indice-romance-mosaico.json → src/lib/editorial.ts → src/components/vespera/Constellation.tsx",
-      "status": "integrado no repositório em 10/11/2026; publicação GitHub Pages pendente",
+      "status": "Deploy do GitHub Pages concluído pelo pipeline em 11/11/2026 (deploy #153, commit fe6d435); verificação HTTP/visual direta do endereço público ainda pendente.",
       "features": [
         "hero Reforged preservado",
         "anéis lentos e frase central",
@@ -684,7 +684,7 @@
       ],
       "reading_order_chapters": 16,
       "chronology_items": 16,
-      "unplaced_items": 31
+      "unplaced_items": 32
     },
     "react_atlas": {
       "route": "src/routes/atlas.tsx",
