@@ -669,6 +669,12 @@
         "status": "integrado no código em 11/11/2026; publicação pública ainda sujeita à verificação do deploy",
         "reason": "O portal React passou a ler um snapshot do bestiario.json canônico. Eithne apresenta imagem principal, galeria de aparições, história, aptidões testemunhadas, limites, cronologia, citações, relações e ligação ao manuscrito. Ithariel, Aurelian, Azrakhel e Malpherion continuam como menções até que haja material suficiente para fichas próprias.",
         "completed_at": "2026-11-11"
+      },
+      {
+        "name": "Atlas React · pranchas e referências cruzadas",
+        "status": "integrado no código em 11/11/2026; imagem própria do Pasaje pendente",
+        "reason": "O painel React passou a usar as imagens e os registros canônicos dos oito lugares de atlas.json, incluindo história, leis, habitantes, obras-fonte e referências navegáveis. Sete lugares possuem imagem canônica; o Pasaje de la Calandria permanece sem imagem e com traçado provisório. Sonhar e Umbra continuam sem mapas internos.",
+        "completed_at": "2026-11-11"
       }
     ],
     "routes": {
@@ -708,7 +714,7 @@
     "react_atlas": {
       "route": "src/routes/atlas.tsx",
       "source": "src/data/atlas.ts",
-      "status": "estrutura de imagem, história, leis/limites e habitantes integrada; imagem própria do Pasaje pendente",
+      "status": "Imagens canônicas, história, leis, habitantes e referências cruzadas de atlas.json integradas ao painel React; a geometria permanece ilustrativa e a imagem própria do Pasaje segue pendente.",
       "place_id": "pasaje-calandria",
       "linked_entry": "2026-11-09-a-rua-que-cabia-na-margem",
       "cartographic_status": "provisório; a porta do fundo e qualquer ligação com Umbra ou Sonhar permanecem sem confirmação"
