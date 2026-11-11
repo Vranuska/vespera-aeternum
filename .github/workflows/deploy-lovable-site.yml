@@ -1,0 +1,66 @@
+name: Deploy Lovable archive to GitHub Pages
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/deploy-lovable-site.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: vespera-pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Lovable application
+        uses: actions/checkout@v4
+        with:
+          repository: Vranuska/vespera-aeternum-blog
+          ref: main
+          path: app
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        working-directory: app
+        run: bun install --frozen-lockfile
+
+      - name: Build static archive for GitHub Pages
+        working-directory: app
+        env:
+          NITRO_PRESET: github_pages
+        run: bun run build
+
+      - name: Verify generated home page
+        run: |
+          test -s app/.output/public/index.html
+          grep -q "Vespera" app/.output/public/index.html
+          cp app/.output/public/index.html app/.output/public/404.html
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: app/.output/public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
