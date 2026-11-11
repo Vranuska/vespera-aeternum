@@ -47,6 +47,15 @@ jobs:
         run: |
           bun -e 'const entries = await Bun.file("src/data/entries-fallback.json").json(); const editorial = await Bun.file("src/data/editorial-fallback.json").json(); const ids = new Set(entries.map((entry) => entry.id)); const indexed = [...editorial.universe_chronology, ...editorial.unplaced_archive].map((item) => item.entry_id); const chapters = editorial.editorial_reading_order.chapters.map((item) => item.entry_id); if (indexed.length !== ids.size || new Set(indexed).size !== ids.size || indexed.some((id) => !ids.has(id))) throw new Error("O índice editorial não cobre exatamente o arquivo offline."); if (chapters.some((id) => !ids.has(id)) || new Set(chapters).size !== chapters.length) throw new Error("A ordem de leitura contém IDs ausentes ou duplicados."); for (const entry of entries) for (const id of entry.related_entries ?? []) if (!ids.has(id)) throw new Error("Referência relacionada ausente: " + id); console.log(entries.length + " obras; " + chapters.length + " capítulos; " + editorial.universe_chronology.length + " itens cronológicos; " + editorial.unplaced_archive.length + " fora da cronologia; vínculos válidos.");'
 
+      - name: Validate canonical Bestiary and Atlas snapshots
+        working-directory: app
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/Vranuska/vespera-aeternum/main/bestiario.json -o /tmp/bestiario.json
+          curl -fsSL https://raw.githubusercontent.com/Vranuska/vespera-aeternum/main/atlas.json -o /tmp/atlas.json
+          cmp -s /tmp/bestiario.json src/data/bestiary-fallback.json
+          cmp -s /tmp/atlas.json src/data/atlas-fallback.json
+          bun -e 'const bestiary = await Bun.file("src/data/bestiary-fallback.json").json(); const atlas = await Bun.file("src/data/atlas-fallback.json").json(); if (!bestiary.entries?.length || !Array.isArray(bestiary.mentions)) throw new Error("Snapshot do Bestiário inválido."); if (!atlas.places?.length || !atlas.realms?.length) throw new Error("Snapshot do Atlas inválido."); for (const place of atlas.places) for (const id of place.source_entry_ids ?? []) if (typeof id !== "string" || !id) throw new Error("Fonte inválida no Atlas: " + place.id); console.log(bestiary.entries.length + " dossiê(s) canônico(s); " + bestiary.mentions.length + " menções; " + atlas.places.length + " lugares; snapshots sincronizados.");'
+
       - name: Run archive, continuity and attribution regression tests
         working-directory: app
         run: bun run test
