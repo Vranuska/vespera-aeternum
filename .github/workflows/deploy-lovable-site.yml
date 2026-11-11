@@ -41,14 +41,18 @@ jobs:
         working-directory: app
         run: bun install --frozen-lockfile
 
-      - name: Build static archive for GitHub Pages
+      - name: Build prerendered archive
         working-directory: app
         env:
-          NITRO_PRESET: github_pages
+          # Keep Nitro's SSR build enabled; GitHub Pages receives the prerendered public files only.
+          NITRO_PRESET: cloudflare_pages
         run: bun run build
 
-      - name: Verify generated home page
+      - name: Prepare project-site root and verify output
         run: |
+          test -d app/.output/public/vespera-aeternum
+          cp -a app/.output/public/vespera-aeternum/. app/.output/public/
+          rm -rf app/.output/public/vespera-aeternum
           test -s app/.output/public/index.html
           grep -q "Vespera" app/.output/public/index.html
           cp app/.output/public/index.html app/.output/public/404.html
