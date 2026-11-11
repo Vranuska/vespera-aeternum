@@ -697,7 +697,7 @@
     "react_portal": {
       "route": "src/routes/index.tsx",
       "source": "editorial/indice-romance-mosaico.json → src/lib/editorial.ts → src/components/vespera/Constellation.tsx",
-      "status": "Código integrado no repositório da aplicação. Em 11/11/2026, a validação dos snapshots de Bestiário e Atlas e a suíte de regressão passaram no workflow 43015116029; o build prerenderizado e o deploy ainda estão em andamento. A URL pública precisa ser verificada após a publicação.",
+      "status": "Código integrado no repositório da aplicação. Em 11/11/2026, os snapshots canônicos e a suíte de regressão passaram. A primeira tentativa de prerender revelou incompatibilidade na entrada SSR (`server.fetch is not a function`); `src/server.ts` foi corrigido para `createServerEntry` e `handler.fetch(request, opts)`. O novo build está em execução; a URL pública ainda não foi verificada.",
       "features": [
         "hero Reforged preservado",
         "anéis lentos e frase central",
