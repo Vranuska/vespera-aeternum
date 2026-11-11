@@ -55,6 +55,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 - **[A maré não assina recibos](arquivo/fragmentos/a-mare-nao-assina-recibos.md)** — Nao Sakamoto, uma amarração defeituosa e a partida de um irmão no porto de Otaru, em 1921.
 - **[A maré não assina recibos — versão v1 preservada](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v1.md)** — cópia de referência imutável para comparação com futuras revisões.
 - **[A maré não assina recibos — versão v2](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v2.md)** — segunda versão integral, reescrita a partir das três críticas; a v1 permanece preservada.
+- **[A maré não assina recibos — versão v3](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v3.md)** — revisão de acabamento: escolha entre papel e corda, economia de Nao, consequência documental da porcelana e encerramento na mãe e na bota; v1 e v2 preservadas.
 - **[Outros fragmentos](arquivo/fragmentos/)** — Cartas, memórias e pequenas inconveniências de uma vida sem fim.
 
 - **[O lugar onde a água ferve](arquivo/ciclo-das-inacabadas/o-lugar-onde-a-agua-ferve-v1.md)** — Leonor Ferreira, um fogão sem porta e uma carta que convida o irmão a regressar.
