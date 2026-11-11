@@ -47,7 +47,7 @@ jobs:
         run: |
           bun -e 'const entries = await Bun.file("src/data/entries-fallback.json").json(); const editorial = await Bun.file("src/data/editorial-fallback.json").json(); const ids = new Set(entries.map((entry) => entry.id)); const indexed = [...editorial.universe_chronology, ...editorial.unplaced_archive].map((item) => item.entry_id); const chapters = editorial.editorial_reading_order.chapters.map((item) => item.entry_id); if (indexed.length !== ids.size || new Set(indexed).size !== ids.size || indexed.some((id) => !ids.has(id))) throw new Error("O índice editorial não cobre exatamente o arquivo offline."); if (chapters.some((id) => !ids.has(id)) || new Set(chapters).size !== chapters.length) throw new Error("A ordem de leitura contém IDs ausentes ou duplicados."); for (const entry of entries) for (const id of entry.related_entries ?? []) if (!ids.has(id)) throw new Error("Referência relacionada ausente: " + id); console.log(entries.length + " obras; " + chapters.length + " capítulos; " + editorial.universe_chronology.length + " itens cronológicos; " + editorial.unplaced_archive.length + " fora da cronologia; vínculos válidos.");'
 
-      - name: Run regression tests
+      - name: Run archive and continuity regression tests
         working-directory: app
         run: bun run test
 
