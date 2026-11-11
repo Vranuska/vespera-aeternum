@@ -109,6 +109,13 @@ As versões de uma mesma obra são mantidas separadas no arquivo. O diário apre
 
 ## Fonte canônica e publicação
 
+### Estado da publicação
+
+O repositório ainda registra builds automáticos Jekyll a partir da branch `main`. Isso é diferente do workflow `Deploy Lovable archive to GitHub Pages`, que compila o projeto Lovable. Enquanto a origem de publicação do GitHub Pages não estiver definida como **GitHub Actions** e esse workflow não concluir a etapa de deploy, não se deve presumir que o domínio público esteja exibindo a aplicação Lovable; ele pode continuar servindo o leitor estático preservado em `index.html`.
+
+Configuração do repositório: [Settings → Pages](https://github.com/Vranuska/vespera-aeternum/settings/pages). A origem pretendida é **GitHub Actions**.
+
+
 Este repositório é a fonte canônica dos manuscritos e dos índices literários. A aplicação Lovable publicada é mantida em [Vranuska/vespera-aeternum-blog](https://github.com/Vranuska/vespera-aeternum-blog); ela lê `entries.json` e `editorial/indice-romance-mosaico.json` deste repositório, mantendo cópias locais apenas como fallback offline.
 
 O workflow `.github/workflows/deploy-lovable-site.yml` compila essa aplicação e publica o artefato no endereço GitHub Pages indicado no início deste README. Assim, alterações literárias entram primeiro aqui; mudanças de interface e navegação pertencem ao repositório Lovable. O `index.html` deste repositório permanece preservado, mas não deve ser confundido com o build atual do portal.
