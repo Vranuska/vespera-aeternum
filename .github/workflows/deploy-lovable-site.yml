@@ -8,6 +8,11 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/deploy-lovable-site.yml"
+      - "entries.json"
+      - "editorial/**"
+      - "bestiario.json"
+      - "atlas.json"
+      - "assets/**"
 
 permissions:
   contents: read
