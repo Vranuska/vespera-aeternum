@@ -54,6 +54,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 - **[O espelho pediu desculpas](arquivo/fragmentos/o-espelho-pediu-desculpas.md)** — Uma promessa esquecida e um reflexo impossível.
 - **[A maré não assina recibos](arquivo/fragmentos/a-mare-nao-assina-recibos.md)** — Nao Sakamoto, uma amarração defeituosa e a partida de um irmão no porto de Otaru, em 1921.
 - **[A maré não assina recibos — versão v1 preservada](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v1.md)** — cópia de referência imutável para comparação com futuras revisões.
+- **[A maré não assina recibos — versão v2](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v2.md)** — segunda versão integral, reescrita a partir das três críticas; a v1 permanece preservada.
 - **[Outros fragmentos](arquivo/fragmentos/)** — Cartas, memórias e pequenas inconveniências de uma vida sem fim.
 
 - **[O lugar onde a água ferve](arquivo/ciclo-das-inacabadas/o-lugar-onde-a-agua-ferve-v1.md)** — Leonor Ferreira, um fogão sem porta e uma carta que convida o irmão a regressar.
