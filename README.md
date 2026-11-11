@@ -52,6 +52,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 - **[Sobre a primeira vez que fui expulsa do Céu — versões 1.0 e 2.0](arquivo/cronicas-do-entre/primeira-expulsao-do-ceu/README.md)** — O manuscrito original, a edição expandida e o histórico de suas mudanças.
 - **[A segunda vida do sapato vermelho](arquivo/fragmentos/a-segunda-vida-do-sapato-vermelho.md)** — O reencontro com a menina que aprendeu a voar.
 - **[O espelho pediu desculpas](arquivo/fragmentos/o-espelho-pediu-desculpas.md)** — Uma promessa esquecida e um reflexo impossível.
+- **[A maré não assina recibos](arquivo/fragmentos/a-mare-nao-assina-recibos.md)** — Nao Sakamoto, uma amarração defeituosa e a partida de um irmão no porto de Otaru, em 1921.
 - **[Outros fragmentos](arquivo/fragmentos/)** — Cartas, memórias e pequenas inconveniências de uma vida sem fim.
 
 - **[O lugar onde a água ferve](arquivo/ciclo-das-inacabadas/o-lugar-onde-a-agua-ferve-v1.md)** — Leonor Ferreira, um fogão sem porta e uma carta que convida o irmão a regressar.
