@@ -697,7 +697,7 @@
     "react_portal": {
       "route": "src/routes/index.tsx",
       "source": "editorial/indice-romance-mosaico.json → src/lib/editorial.ts → src/components/vespera/Constellation.tsx",
-      "status": "Código integrado no repositório Lovable; deploy público da aplicação ainda não confirmado. Em 11/11/2026, o workflow de build do app permaneceu preso na etapa de prerender, enquanto o Pages executou builds Jekyll da branch. A URL pública ainda precisa ser verificada após a publicação correta.",
+      "status": "Código integrado no repositório da aplicação. Em 11/11/2026, a validação dos snapshots de Bestiário e Atlas e a suíte de regressão passaram no workflow 43015116029; o build prerenderizado e o deploy ainda estão em andamento. A URL pública precisa ser verificada após a publicação.",
       "features": [
         "hero Reforged preservado",
         "anéis lentos e frase central",
@@ -713,7 +713,7 @@
     },
     "react_atlas": {
       "route": "src/routes/atlas.tsx",
-      "source": "src/data/atlas.ts",
+      "source": "atlas.json → src/data/atlas-fallback.json → src/lib/atlas-canon.ts + src/data/atlas.ts → src/routes/atlas.tsx",
       "status": "Imagens canônicas, história, leis, habitantes e referências cruzadas de atlas.json integradas ao painel React; a geometria permanece ilustrativa e a imagem própria do Pasaje segue pendente.",
       "place_id": "pasaje-calandria",
       "linked_entry": "2026-11-09-a-rua-que-cabia-na-margem",
