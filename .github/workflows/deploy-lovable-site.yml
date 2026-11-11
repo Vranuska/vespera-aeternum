@@ -44,8 +44,8 @@ jobs:
       - name: Build prerendered archive
         working-directory: app
         env:
-          # Keep Nitro's SSR build enabled; GitHub Pages receives the prerendered public files only.
-          NITRO_PRESET: cloudflare_pages
+          # Keep the Node SSR bundle available to TanStack's prerender preview shim.
+          NITRO_PRESET: node-server
         run: bun run build
 
       - name: Prepare project-site root and verify output
