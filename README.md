@@ -107,9 +107,15 @@ Os textos podem assumir formas diferentes — conto, memória, carta, poema, con
 
 As versões de uma mesma obra são mantidas separadas no arquivo. O diário apresenta os textos para leitura; as pastas preservam suas edições.
 
+## Fonte canônica e publicação
+
+Este repositório é a fonte canônica dos manuscritos e dos índices literários. A aplicação Lovable publicada é mantida em [Vranuska/vespera-aeternum-blog](https://github.com/Vranuska/vespera-aeternum-blog); ela lê `entries.json` e `editorial/indice-romance-mosaico.json` deste repositório, mantendo cópias locais apenas como fallback offline.
+
+O workflow `.github/workflows/deploy-lovable-site.yml` compila essa aplicação e publica o artefato no endereço GitHub Pages indicado no início deste README. Assim, alterações literárias entram primeiro aqui; mudanças de interface e navegação pertencem ao repositório Lovable. O `index.html` deste repositório permanece preservado, mas não deve ser confundido com o build atual do portal.
+
 ## O que existe neste repositório
 
-- `index.html` — a página dos Arquivos do Crepúsculo.
+- `index.html` — leitor estático anterior, preservado como referência; não é o artefato publicado pelo pipeline atual.
 - `entries.json` — as entradas exibidas no diário.
 - `bestiario.json` — fichas estruturadas do Bestiário.
 - `atlas.json` — domínios, lugares e conexões do Atlas.
