@@ -37,6 +37,36 @@ A correção foi lida de volta no GitHub; o blob verificado de `src/routes/index
 
 Próxima verificação: confirmar que o Lovable reconhece `9809a09`, executar novamente o build e confirmar separadamente a resposta e a aparência de `https://vranuska.github.io/vespera-aeternum/`.
 
+## Registro complementar — 13 de novembro de 2026, 18h32 (Brasília)
+
+### Publicação React
+
+A execução `43510748557` do workflow **Deploy Lovable archive to GitHub Pages** terminou com conclusão `success`. O job executou com sucesso as doze etapas, incluindo:
+
+- checkout do frontend na branch `main`, confirmando o SHA `9809a09b2371931552c6388deb7fddd48bb53093`;
+- instalação congelada das dependências;
+- validação dos snapshots canônicos de obras, índice editorial, Bestiário e Atlas;
+- testes de regressão de arquivo, continuidade e atribuição;
+- build com prerender;
+- preparação e validação da raiz do artefato;
+- configuração, upload e deploy no GitHub Pages.
+
+A execução seguinte de Pages, `43510756840`, também terminou com sucesso. Isso confirma que o workflow de publicação e o processamento do Pages foram concluídos, mas não substitui a verificação independente por HTTP nem a inspeção visual da página pública.
+
+### Estado do preview
+
+A API do Lovable ainda informa o preview como `ready`, no SHA interno `627a3f1025536e9d3816eb1b58f2cf6111c898e9`. O GitHub `main` está em `9809a09b2371931552c6388deb7fddd48bb53093`. A leitura dos arquivos confirma que a hierarquia da página inicial permanece compatível com a composição aprovada; ainda assim, os SHAs distintos impedem declarar sincronização integral do preview.
+
+### Estado de verificação
+
+- **GitHub frontend:** correção `9809a09` confirmada.
+- **Build e testes:** concluídos com sucesso no workflow `43510748557`.
+- **Deploy GitHub Pages:** etapa `Deploy to GitHub Pages` concluída com sucesso.
+- **HTTP/visual em produção:** ainda não verificado diretamente neste ambiente; a tentativa de acesso externo não retornou uma página legível.
+- **Preview Lovable:** estado `ready`; inspeção visual independente pendente.
+
+Não registrar a produção como visualmente aprovada até confirmar a resposta HTTP e conferir a composição no endereço público.
+
 ## Regra de manutenção
 
 Antes de qualquer mudança visual, comparar o arquivo afetado com a composição aprovada e com o preview atual. Mudanças na hierarquia da página inicial exigem justificativa explícita; mudanças de conteúdo pertencem ao repositório literário e não devem ser misturadas com correções do frontend.
