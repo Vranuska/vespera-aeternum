@@ -71,9 +71,6 @@ jobs:
 
       - name: Build prerendered archive from synchronized snapshots
         working-directory: app
-        env:
-          # Keep the Node SSR bundle available to TanStack's prerender preview shim.
-          NITRO_PRESET: node-server
         run: bun run build
 
       - name: Prepare project-site root and verify output
