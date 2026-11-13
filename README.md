@@ -65,6 +65,9 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 
 ## Catálogos do universo
 
+- **[Diário visual e de publicação](editorial/diario-visual.md)** — composição aprovada, hierarquia de leitura, regressões e estados verificáveis de preview, GitHub e produção.
+
+
 - **[Bestiário](https://vranuska.github.io/vespera-aeternum/#bestiario)** — a primeira ficha completa é Eithne, com imagem principal, galeria, cronologia, aptidões e limites.
 - **[Atlas dos Domínios](https://vranuska.github.io/vespera-aeternum/#atlas)** — mapa navegável da Terra, dos Firmamentos, dos Domínios Infernais e do Entre. A natureza da Umbra e do Sonhar já está registrada; sua geografia interna permanece em aberto, sem preenchimento por suposição.
 - **[Caderno editorial do Atlas](arquivo/atlas/README.md)** — critérios de cartografia e estado dos registros.
