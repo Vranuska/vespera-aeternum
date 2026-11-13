@@ -75,10 +75,17 @@ jobs:
 
       - name: Prepare project-site root and verify output
         run: |
-          test -d app/.output/public/vespera-aeternum
-          cp -a app/.output/public/vespera-aeternum/. app/.output/public/
-          rm -rf app/.output/public/vespera-aeternum
-          test -s app/.output/public/index.html
+          # TanStack/Nitro may emit the project base at the public root or in a
+          # base-path subdirectory. Normalize either shape for the Pages artifact.
+          if [ -d app/.output/public/vespera-aeternum ]; then
+            cp -a app/.output/public/vespera-aeternum/. app/.output/public/
+            rm -rf app/.output/public/vespera-aeternum
+          fi
+          if [ ! -s app/.output/public/index.html ]; then
+            echo "Prerender did not produce a root index.html; discovered HTML files:"
+            find app/.output/public -maxdepth 4 -type f -name '*.html' -print
+            exit 1
+          fi
           grep -q "Vespera" app/.output/public/index.html
           cp app/.output/public/index.html app/.output/public/404.html
 
