@@ -9,7 +9,7 @@ on:
     paths:
       - ".github/workflows/deploy-lovable-site.yml"
       - "entries.json"
-      - "editorial/**"
+      - "editorial/indice-romance-mosaico.json"
       - "bestiario.json"
       - "atlas.json"
       - "assets/**"
