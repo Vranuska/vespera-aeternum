@@ -84,3 +84,13 @@ Foi criada `assets/atlas/pasaje-calandria.svg`, uma reconstituição ilustrativa
 ### Build e publicação
 
 A execução `43512103928` (workflow **Deploy Lovable archive to GitHub Pages**, commit `a887f5c`) terminou com conclusão `success` em 13 de novembro de 2026. O job confirmou snapshots, testes, prerender, preparação do artefato e deploy. A resposta HTTP e a inspeção visual independente do domínio público continuam pendentes; sucesso do workflow não será tratado como aprovação visual.
+
+## Complemento — 14 de novembro de 2026, 08h50 (Brasília)
+
+### Resultado dos workflows após a integração do Pasaje
+
+- A execução React `43591771980`, no commit `aa0f5f9`, terminou com `success`. As etapas de sincronização dos snapshots, validação do Bestiário e Atlas, testes de regressão, prerender, preparação do artefato e `Deploy to GitHub Pages` passaram.
+- A execução dinâmica de Pages `43591771875` também terminou com `success`, mas o job executou **Build with Jekyll** a partir da branch `main`. Isso impede tratar o sucesso do deploy React como prova de que o domínio público está servindo o artefato React; a fonte efetiva de Pages precisa ser confirmada.
+- A URL pública não pôde ser inspecionada por HTTP nesta execução. A pendência operacional é verificar em **Settings → Pages → Build and deployment → Source** se a fonte continua em `Deploy from a branch`; se estiver, alterá-la para `GitHub Actions`, e então conferir a página servida e sua aparência.
+
+A partir deste registro, commits e sucesso de workflow permanecem estados separados de publicação pública verificada.
