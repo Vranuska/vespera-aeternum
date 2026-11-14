@@ -70,3 +70,17 @@ Não registrar a produção como visualmente aprovada até confirmar a resposta 
 ## Regra de manutenção
 
 Antes de qualquer mudança visual, comparar o arquivo afetado com a composição aprovada e com o preview atual. Mudanças na hierarquia da página inicial exigem justificativa explícita; mudanças de conteúdo pertencem ao repositório literário e não devem ser misturadas com correções do frontend.
+
+## Registro de 14 de novembro de 2026
+
+### Hierarquia do portal — conferência da fonte
+
+A leitura de `src/routes/index.tsx` na branch `main` confirma a composição aprovada: manuscrito em destaque, lista de outros manuscritos e, depois, a Constelação. A Constelação continua sendo a navegação temporal do arquivo, não substitui a leitura convencional. A afirmação antiga no índice editorial de que ela havia sido promovida para antes do manuscrito estava desatualizada e foi corrigida; a hierarquia visual não foi reconstruída nem alterada nesta etapa.
+
+### Atlas — prancha do Pasaje de la Calandria
+
+Foi criada `assets/atlas/pasaje-calandria.svg`, uma reconstituição ilustrativa baseada no corredor, no portão verde do nº 48, no pátio, na árvore e na porta baixa descritos em *A rua que cabia na margem*. A imagem é identificada como reconstituição, não como fotografia ou levantamento. A porta permanece fechada; a prancha não revela o outro lado nem estabelece ligação com Umbra, Sonhar ou Entre. O snapshot React do Atlas e o teste de regressão foram preparados para oito lugares com imagem.
+
+### Build e publicação
+
+A execução `43512103928` (workflow **Deploy Lovable archive to GitHub Pages**, commit `a887f5c`) terminou com conclusão `success` em 13 de novembro de 2026. O job confirmou snapshots, testes, prerender, preparação do artefato e deploy. A resposta HTTP e a inspeção visual independente do domínio público continuam pendentes; sucesso do workflow não será tratado como aprovação visual.

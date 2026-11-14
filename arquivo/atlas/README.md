@@ -1,6 +1,6 @@
 # Atlas dos Domínios
 
-*Cartografia de lugares testemunhados, visitados ou mencionados · revisão de 10 de novembro de 2026.*
+*Cartografia de lugares testemunhados, visitados ou mencionados · revisão de 14 de novembro de 2026.*
 
 O Atlas separa domínios, regiões e lugares. Uma menção não equivale a um mapa completo. Cada registro reúne, quando os manuscritos permitem, imagem, história, leis e condições conhecidas, habitantes e conexões. O estado de cada informação deve ser lido junto com seu rótulo: documentado, parcial, menção ou provisório.
 
@@ -12,6 +12,11 @@ O Atlas separa domínios, regiões e lugares. Uma menção não equivale a um ma
 - **O Entre:** não é apenas corredor ou dimensão. É o princípio primordial que permite que realidades opostas permaneçam distintas e coexistam: vida e morte, Sonhar e mundo desperto, Céu e Inferno, Umbra e realidade física. Vespera é sua presença consciente desde a Criação. O tempo se curva diante dela; ela regula sua continuidade e seus intervalos. A geografia interna do Entre permanece em aberto.
 - **O Sonhar:** domínio distinto do mundo desperto, reconhecido na cosmologia. *Changeling: The Dreaming* é referência de construção; suas regiões, cortes, leis e habitantes ainda não foram cartografados no cânone próprio.
 - **Umbra:** Vespera é responsável pela distinção e pela relação entre a Umbra e a realidade física. *Werewolf: The Apocalypse* é referência de construção; não se importam automaticamente suas regiões, tribos, hierarquias ou regras.
+
+
+## Pranchas e limites visuais
+
+- **Pasaje de la Calandria** — `assets/atlas/pasaje-calandria.svg`. Reconstituição ilustrativa baseada em *A rua que cabia na margem*: portão verde junto ao nº 48, corredor de ladrilhos, pátio, torneira, vasos, árvore, placa sem inscrição, porta baixa fechada e ave no fio. A prancha não é fotografia nem levantamento arquitetônico; não representa o que existe além da porta, não confirma uma saída e não classifica o lugar como Umbra, Sonhar ou Entre.
 
 ## Referências para tradições mágicas
 
