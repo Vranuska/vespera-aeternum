@@ -124,3 +124,18 @@ Foi acrescentado *A visita que coube no pátio*, situado em 3 de dezembro de 189
 O capítulo foi integrado como item 18 do Volume I e posicionado na cronologia depois de *O lugar onde a água ferve*, em dezembro de 1891. O arco registra que a carta foi recebida e a visita aconteceu; continuam em aberto a natureza completa da viagem de Estevão, o alcance das declarações que assinou e a possibilidade de um regresso mais duradouro. A porta do fogão permanece um objeto doméstico, sem função sobrenatural.
 
 A integração editorial preserva a ordem de leitura independente e a cronologia do universo como estruturas distintas. A publicação pública não é presumida: snapshots, testes, build, deploy e resposta HTTP devem ser verificados separadamente.
+
+
+## Registro de 15 de novembro de 2026 — Otaru no Atlas e publicação React
+
+A zona portuária de Otaru foi acrescentada ao Atlas como lugar testemunhado em *A maré não assina recibos*. O registro identifica Otaru, Hokkaido, e a atividade entre armazéns, cais e barcaças em novembro de 1921, mas não inventa o cais, o armazém ou a posição exata do acidente. O marcador no mapa mortal é simbólico.
+
+Foi criada a prancha vetorial original `assets/atlas/otaru-porto-1921.svg`, com descrição alternativa e legenda que a identificam como reconstituição esquemática, não como levantamento de um cais específico. O contexto histórico foi conferido em fontes institucionais: o canal de Otaru foi iniciado em 1914 e concluído em 1923; em 1921, as obras ainda estavam em andamento. O projeto criou espaço de atracação para barcaças que transferiam mercadorias entre navios e armazéns. Fontes: [Otaru City](https://www.city.otaru.lg.jp/docs/2023062000045/) e [Japan Tourism Agency](https://www.mlit.go.jp/tagengo-db/en/R5-00045.html).
+
+O Atlas passou a conter nove lugares. Os nove caminhos de imagem foram verificados no repositório, e `src/data/atlas-fallback.json` está idêntico a `atlas.json`. O aplicativo recebeu o marcador `mortais:otaru`, a ligação canônica e testes de localização e imagem. A suíte de regressão inicialmente encontrou uma expectativa antiga de oito pranchas; o teste foi atualizado para nove e passou a verificar explicitamente a prancha de Otaru.
+
+A execução [43765619973, tentativa 2](https://github.com/Vranuska/vespera-aeternum/actions/runs/43765619973) concluiu com sucesso no commit `e4e01074ba23536fac460b912cc7668a42cdea83`: **48 testes em oito arquivos**, snapshots validados, prerender concluído, artefato enviado e deploy-pages reportado como bem-sucedido. A execução automática `pages build and deployment` [43765620208](https://github.com/Vranuska/vespera-aeternum/actions/runs/43765620208) também concluiu com Jekyll. Como ela continua sendo disparada, a origem de Pages ainda aparenta estar configurada para publicação por branch; a troca para **GitHub Actions** permanece pendente para evitar que uma publicação Jekyll futura substitua o artefato React.
+
+O endereço público não pôde ser inspecionado por HTTP nesta execução. Portanto, o deploy React foi confirmado pelo GitHub Actions, mas a resposta servida e a aparência pública não foram aprovadas visualmente.
+
+O repositório do aplicativo está no commit `09b8ed566d78d3bcebb0eda88fc369b663734830`. O preview Lovable ainda informa `a4075564387553c8cca6cd1adeae3891e7dadbed`, anterior a essas alterações. A tentativa de sincronização pelo agente Lovable foi bloqueada por falta de créditos no workspace; nenhuma alteração visual foi feita. A composição aprovada de `5a038b8` permanece sem redesenho.
