@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Otaru, zona portuária, novembro de 1921</title>
+  <desc id="desc">Ilustração esquemática de um porto japonês com armazéns junto à margem, navio ancorado e barcaça de carga. Não representa um cais específico.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#30232d"/>
+      <stop offset="1" stop-color="#171217"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d3540"/>
+      <stop offset="1" stop-color="#171b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="#171217"/>
+  <rect x="28" y="28" width="1144" height="664" fill="url(#sky)" stroke="#a88451" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M48 440 H1152 V664 H48 Z" fill="url(#water)"/>
+  <path d="M48 440 H1152" stroke="#c5a66d" stroke-width="2" stroke-opacity=".8"/>
+  <g fill="#241d24" stroke="#b18a58" stroke-width="2">
+    <path d="M70 270 L185 210 L300 270 V438 H70 Z"/>
+    <path d="M300 290 L400 232 L505 290 V438 H300 Z"/>
+    <path d="M505 305 L605 250 L710 305 V438 H505 Z"/>
+  </g>
+  <g fill="none" stroke="#c7ae82" stroke-opacity=".75" stroke-width="2">
+    <path d="M90 295 H280 M320 315 H485 M525 328 H690"/>
+    <path d="M110 330 V405 M150 330 V405 M210 330 V405 M250 330 V405"/>
+    <path d="M340 345 V410 M380 345 V410 M440 345 V410 M470 345 V410"/>
+    <path d="M545 356 V412 M585 356 V412 M645 356 V412 M680 356 V412"/>
+    <path d="M175 210 V170 H235 V236 M400 232 V190 H455 V262 M605 250 V207 H665 V276"/>
+  </g>
+  <g fill="#171217" stroke="#c6a56b" stroke-width="2">
+    <path d="M760 370 L1005 370 L1080 420 L1045 448 H790 L735 420 Z"/>
+    <path d="M845 368 V260 H900 V368 M870 260 V205"/>
+    <path d="M900 275 L980 345"/>
+    <path d="M760 392 L720 350 L690 350"/>
+  </g>
+  <g fill="none" stroke="#d4bc8b" stroke-width="2" stroke-opacity=".75">
+    <path d="M870 205 L870 360 M900 275 L900 360"/>
+    <path d="M780 400 H1030 M800 414 H1048"/>
+    <path d="M760 390 Q730 360 705 372"/>
+  </g>
+  <g fill="#30242b" stroke="#c6a56b" stroke-width="2">
+    <path d="M310 490 L585 490 L630 535 L585 565 H350 L285 535 Z"/>
+    <path d="M390 488 V440 H510 V488"/>
+    <path d="M410 440 L450 410 L490 440"/>
+  </g>
+  <g fill="none" stroke="#d6bc88" stroke-width="2">
+    <path d="M350 500 L350 545 M420 500 L420 545 M490 500 L490 545 M560 500 L560 545"/>
+    <path d="M585 515 Q665 485 705 430"/>
+    <path d="M285 535 Q230 525 205 470"/>
+    <path d="M205 470 L205 430 M185 430 H225"/>
+  </g>
+  <g fill="none" stroke="#b7a17b" stroke-opacity=".7" stroke-width="2">
+    <path d="M95 490 Q160 480 220 490 T345 490"/>
+    <path d="M650 585 Q710 570 770 585 T890 585 T1080 585"/>
+    <path d="M730 625 Q790 610 850 625 T970 625"/>
+    <path d="M120 610 Q180 595 240 610 T360 610"/>
+  </g>
+  <g fill="#b38c58" opacity=".9">
+    <rect x="420" y="455" width="28" height="30"/>
+    <rect x="452" y="455" width="28" height="30"/>
+    <rect x="484" y="455" width="28" height="30"/>
+    <circle cx="111" cy="105" r="2"/>
+    <circle cx="1050" cy="120" r="2"/>
+    <circle cx="970" cy="82" r="1.5"/>
+  </g>
+  <g fill="none" stroke="#b38c58" stroke-width="1.5" opacity=".8">
+    <path d="M55 640 H1145"/>
+    <path d="M55 655 H1145"/>
+    <path d="M60 58 H260 M940 58 H1140"/>
+  </g>
+  <text x="70" y="95" fill="#e5d9c6" font-family="Georgia,serif" font-size="27" letter-spacing="5">OTARU</text>
+  <text x="70" y="128" fill="#b7a17b" font-family="monospace" font-size="13" letter-spacing="3">ZONA PORTUÁRIA · NOVEMBRO DE 1921</text>
+  <text x="1135" y="675" text-anchor="end" fill="#b7a17b" font-family="monospace" font-size="11" letter-spacing="2">PRANCHA ESQUEMÁTICA · CAIS NÃO IDENTIFICADO</text>
+</svg>
