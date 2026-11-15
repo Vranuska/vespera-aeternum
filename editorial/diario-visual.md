@@ -94,3 +94,8 @@ A execução `43512103928` (workflow **Deploy Lovable archive to GitHub Pages**,
 - A URL pública não pôde ser inspecionada por HTTP nesta execução. A pendência operacional é verificar em **Settings → Pages → Build and deployment → Source** se a fonte continua em `Deploy from a branch`; se estiver, alterá-la para `GitHub Actions`, e então conferir a página servida e sua aparência.
 
 A partir deste registro, commits e sucesso de workflow permanecem estados separados de publicação pública verificada.
+
+
+## Registro de 15 de novembro de 2026 — continuidade de Rui, Adelaide e Beatriz
+
+Foi acrescentado *O endereço no verso*, situado entre 2 e 4 de fevereiro de 1944. O texto retoma diretamente a carta de Adelaide encaminhada por Beatriz em *A carta que chegou sem pedir licença*. Rui recebe a resposta em Alcântara, responde à tia e mantém o limite de não regressar ainda. Não há reconciliação, encontro fortuito nem resolução da doença de Adelaide. A obra foi integrada como item 17 do Volume I e como fevereiro de 1944 na cronologia, preservando a ordem de leitura independente. A publicação pública não é presumida: build e resposta HTTP devem ser verificados separadamente.
