@@ -27,3 +27,10 @@ O Atlas separa domínios, regiões e lugares. Uma menção não equivale a um ma
 Não transformar uma lacuna em fato. Não estabelecer fronteiras, hierarquias, leis, habitantes, habilidades ou portais por conveniência visual. Uma conexão só será desenhada como confirmada quando um manuscrito a sustentar; inferências devem ser identificadas como tais. A geografia incompleta permanece incompleta até que a narrativa a descubra.
 
 [Percorrer o Atlas no site](https://vranuska.github.io/vespera-aeternum/#atlas)
+
+
+## Zona portuária de Otaru
+
+- **Zona portuária de Otaru** — `assets/atlas/otaru-porto-1921.svg`. Prancha esquemática para *A maré não assina recibos*: armazéns, navio ancorado e barcaça de carga. Não representa um cais ou armazém específico, pois o manuscrito não fornece essa localização.
+- **Contexto histórico verificado:** o canal de Otaru nasceu de um projeto de aterro iniciado em 1914 e concluído em 1923. Em 1921, portanto, a obra ainda estava em andamento. O canal foi concebido para ampliar o espaço de atracação das barcaças que transferiam mercadorias entre navios e armazéns. O Atlas registra esse contexto sem situar o acidente da narrativa num trecho exato do canal.
+- **Fontes históricas:** [Otaru City — centenário da conclusão do canal](https://www.city.otaru.lg.jp/docs/2023062000045/); [Japan Tourism Agency — Otaru Canal](https://www.mlit.go.jp/tagengo-db/en/R5-00045.html); [Otaru Cultural Heritage Portal — Otaru Canal](https://otarubunkaisan.jp/storyotaru/otaru-canal/).
