@@ -116,3 +116,11 @@ A repetição do workflow havia criado mais de um artefato com o nome fixo `gith
 A execução dinâmica de Pages `43709184621` também terminou com sucesso, mas seu job executou **Build with Jekyll** a partir da branch `main`. Portanto, a origem de Pages ainda aparenta estar em **Deploy from a branch**. O deploy React do workflow foi aceito, mas o build Jekyll concorrente pode publicar o leitor estático antigo por cima dele. É necessário alterar manualmente **Settings → Pages → Build and deployment → Source** para **GitHub Actions**.
 
 A tentativa de abrir o endereço público neste ambiente continuou sem retornar uma página legível. Assim, ficam separados os estados: código e snapshots integrados; testes e prerender aprovados; ação de deploy React concluída; origem efetiva do Pages e inspeção HTTP/visual ainda pendentes. Nenhuma aprovação visual foi presumida.
+
+## Registro de 15 de novembro de 2026 — a visita de Estevão a Leonor
+
+Foi acrescentado *A visita que coube no pátio*, situado em 3 de dezembro de 1891. O texto mostra Estevão recebendo a carta enviada por Leonor no fim de novembro e levando Bento até Arroios. A visita produz uma consequência concreta para o convite, mas não resolve a discussão antiga: Estevão admite apenas parte do que fez, Leonor não exige uma confissão completa e nenhum dos dois declara a reconciliação concluída.
+
+O capítulo foi integrado como item 18 do Volume I e posicionado na cronologia depois de *O lugar onde a água ferve*, em dezembro de 1891. O arco registra que a carta foi recebida e a visita aconteceu; continuam em aberto a natureza completa da viagem de Estevão, o alcance das declarações que assinou e a possibilidade de um regresso mais duradouro. A porta do fogão permanece um objeto doméstico, sem função sobrenatural.
+
+A integração editorial preserva a ordem de leitura independente e a cronologia do universo como estruturas distintas. A publicação pública não é presumida: snapshots, testes, build, deploy e resposta HTTP devem ser verificados separadamente.
