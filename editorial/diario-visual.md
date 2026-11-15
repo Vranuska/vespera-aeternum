@@ -99,3 +99,20 @@ A partir deste registro, commits e sucesso de workflow permanecem estados separa
 ## Registro de 15 de novembro de 2026 — continuidade de Rui, Adelaide e Beatriz
 
 Foi acrescentado *O endereço no verso*, situado entre 2 e 4 de fevereiro de 1944. O texto retoma diretamente a carta de Adelaide encaminhada por Beatriz em *A carta que chegou sem pedir licença*. Rui recebe a resposta em Alcântara, responde à tia e mantém o limite de não regressar ainda. Não há reconciliação, encontro fortuito nem resolução da doença de Adelaide. A obra foi integrada como item 17 do Volume I e como fevereiro de 1944 na cronologia, preservando a ordem de leitura independente. A publicação pública não é presumida: build e resposta HTTP devem ser verificados separadamente.
+
+
+## Complemento — 15 de novembro de 2026
+
+### Correção da integração e do pipeline
+
+A conferência dos snapshots encontrou uma divergência real: `src/data/editorial-fallback.json` não continha o último motivo recorrente nem a revisão da nota do arco Beatriz–Adelaide–Rui presentes no índice canônico. A validação de igualdade exata interrompia o deploy antes dos testes. O fallback foi substituído pelo conteúdo canônico, byte a byte.
+
+A suíte também guardava expectativas antigas: 16 capítulos, 48 obras e uma ordem de publicação anterior ao manuscrito de 15 de novembro. As expectativas passaram a acompanhar o índice e o arquivo atuais, preservando a ordem cronológica explícita. Resultado verificado no workflow `43709184834`: **47 testes aprovados em 8 arquivos**, snapshots de entradas e índice editorial idênticos aos canônicos, Bestiário e Atlas válidos, prerender concluído e artefato React enviado.
+
+A repetição do workflow havia criado mais de um artefato com o nome fixo `github-pages`, impedindo `deploy-pages` de escolher um único pacote. O workflow agora nomeia o artefato com `${{ github.run_id }}-${{ github.run_attempt }}` e aguarda oito segundos antes do deploy. A execução `43709184834`, no commit `cadb0fca472e1b697078c95a3a538c27ed21a880`, terminou com sucesso; o próprio job reportou sucesso para `https://vranuska.github.io/vespera-aeternum/`.
+
+### O que ainda impede a confirmação pública
+
+A execução dinâmica de Pages `43709184621` também terminou com sucesso, mas seu job executou **Build with Jekyll** a partir da branch `main`. Portanto, a origem de Pages ainda aparenta estar em **Deploy from a branch**. O deploy React do workflow foi aceito, mas o build Jekyll concorrente pode publicar o leitor estático antigo por cima dele. É necessário alterar manualmente **Settings → Pages → Build and deployment → Source** para **GitHub Actions**.
+
+A tentativa de abrir o endereço público neste ambiente continuou sem retornar uma página legível. Assim, ficam separados os estados: código e snapshots integrados; testes e prerender aprovados; ação de deploy React concluída; origem efetiva do Pages e inspeção HTTP/visual ainda pendentes. Nenhuma aprovação visual foi presumida.
