@@ -370,6 +370,6 @@ A memória, ultimamente, não lhe parecia um documento seguro.
 
 ---
 
-**No mesmo ciclo:** [O lugar onde a água ferve](o-lugar-onde-a-agua-ferve-v1.md) · [O recibo que não tinha data](#2026-10-22-o-recibo-que-nao-tinha-data) · [O inventário das coisas que ainda funcionam](#2026-10-21-o-inventario-das-coisas-que-ainda-funcionam)
+**No mesmo ciclo:** [O lugar onde a água ferve](o-lugar-onde-a-agua-ferve-v1.md) · [O recibo que não tinha data](../../index.html#2026-10-22-o-recibo-que-nao-tinha-data) · [O inventário das coisas que ainda funcionam](../../index.html#2026-10-21-o-inventario-das-coisas-que-ainda-funcionam)
 
 *Vespera Aeternum · Texto original preservado em edição 1.0.*
