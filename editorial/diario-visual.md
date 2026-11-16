@@ -139,3 +139,23 @@ A execução [43765619973, tentativa 2](https://github.com/Vranuska/vespera-aete
 O endereço público não pôde ser inspecionado por HTTP nesta execução. Portanto, o deploy React foi confirmado pelo GitHub Actions, mas a resposta servida e a aparência pública não foram aprovadas visualmente.
 
 O repositório do aplicativo está no commit `09b8ed566d78d3bcebb0eda88fc369b663734830`. O preview Lovable ainda informa `a4075564387553c8cca6cd1adeae3891e7dadbed`, anterior a essas alterações. A tentativa de sincronização pelo agente Lovable foi bloqueada por falta de créditos no workspace; nenhuma alteração visual foi feita. A composição aprovada de `5a038b8` permanece sem redesenho.
+
+
+## Registro de 16 de novembro de 2026 — o Arquivo das Eras
+
+### Diagnóstico
+
+O portal inicial preservava a composição Reforged aprovada — manuscrito em destaque, outros manuscritos e, por fim, a Constelação. Os anéis, a frase central e a seleção de anos e meses já existiam. Porém, o atalho chamado **Arquivo das Eras** levava a um filtro de coleção da Bibliotheca, não a uma sala própria do arquivo. A Constelação também apresentava datas exatas e datas parciais na mesma lista mensal, sem permitir abrir um dia específico.
+
+### Mudança de arquitetura
+
+- Criada a rota dedicada `/arquivo-das-eras`, sem substituir a página inicial.
+- O novo portal reutiliza a Constelação existente, preservando anéis, monograma, frase central e distinção entre cronologia do universo e ordem editorial.
+- A navegação temporal agora desce de ano para mês e de mês para dia quando o índice fornece uma data completa. Registros conhecidos apenas por semana ou mês continuam visíveis numa seção separada; nenhuma data foi inventada.
+- O portal apresenta um índice por forma literária — diários, contos, crônicas, cartas, poemas, memórias, fragmentos, confissões, diálogos e romance-mosaico — com contagens derivadas do catálogo e prateleiras vazias identificadas honestamente.
+- O atalho lateral da página inicial e a navegação principal passam a abrir a nova rota. A Bibliotheca continua responsável por busca e filtros detalhados.
+- A hierarquia aprovada da página inicial não foi alterada. Nenhum manuscrito, entrada canônica, capítulo ou posição cronológica foi removido ou reordenado.
+
+### Estado técnico
+
+A função temporal separa dias completos de registros com precisão parcial, com teste de regressão para janeiro de 1944 e novembro de 1891. A rota também recebe teste de correspondência. Build, testes e deploy desta versão devem ser registrados após a conclusão do workflow; a resposta HTTP e a inspeção visual pública permanecem verificações independentes.
