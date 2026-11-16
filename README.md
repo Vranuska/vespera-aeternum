@@ -8,7 +8,7 @@
 
 ✦　☽　✦
 
-**[Entrar na constelação de memórias](https://vranuska.github.io/vespera-aeternum/#constelacao)** · **[Ler todos os diários](https://vranuska.github.io/vespera-aeternum/#diarios)**
+**[Abrir o Arquivo das Eras](https://vranuska.github.io/vespera-aeternum/arquivo-das-eras/)** · **[Entrar na constelação de memórias](https://vranuska.github.io/vespera-aeternum/#constelacao)** · **[Ler todos os diários](https://vranuska.github.io/vespera-aeternum/#diarios)**
 
 *Non omnis moriar.*
 
