@@ -88,6 +88,12 @@ jobs:
             exit 1
           fi
           grep -q "Vespera" app/.output/public/index.html
+          if [ ! -s app/.output/public/arquivo-das-eras/index.html ]; then
+            echo "O portal Arquivo das Eras não foi pré-renderizado."
+            find app/.output/public -maxdepth 4 -type f -name '*.html' -print
+            exit 1
+          fi
+          grep -q "Arquivo das" app/.output/public/arquivo-das-eras/index.html
           cp app/.output/public/index.html app/.output/public/404.html
 
       - name: Configure GitHub Pages
