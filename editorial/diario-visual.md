@@ -203,3 +203,8 @@ Foi criado [Dossiê de continuidade — Pasaje de la Calandria](dossie-pasaje-de
 - **Deploy Jekyll posterior:** confirmado; origem de Pages ainda precisa ser trocada.
 - **HTTP/inspeção visual pública:** não verificados.
 - **Composição aprovada:** nenhum redesenho ou alteração visual foi feito.
+
+
+### Revisão textual do portal — 16 de novembro de 2026
+
+No arquivo `src/routes/arquivo-das-eras.tsx`, a forma europeia «autónomas» foi corrigida para português brasileiro («autônomas»), no commit [79f513aa](https://github.com/Vranuska/vespera-aeternum-blog/commit/79f513aa421092dd7eec09171063181167bdf712). A alteração é exclusivamente textual: não muda layout, rotas, manuscritos ou dados canônicos. Ainda não aparece no preview Lovable, que permanece no SHA `a407556`; também não deve ser considerada publicada enquanto a origem de Pages e a sincronização não forem corrigidas.
