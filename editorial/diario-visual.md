@@ -170,3 +170,36 @@ A função temporal separa dias completos de registros com precisão parcial, co
 - A inspeção HTTP da página inicial e da nova rota não retornou conteúdo legível neste ambiente. Portanto, o artefato foi construído, pré-renderizado e enviado pelo workflow; a resposta pública e a aparência visual continuam sem verificação independente.
 
 A página inicial aprovada permanece intacta. O novo portal é uma sala adicional do arquivo, não uma substituição do manuscrito em destaque nem da Constelação que vem depois da leitura.
+
+
+## Registro complementar — 16 de novembro de 2026, 18h21 (Brasília)
+
+### Diferença entre GitHub e preview Lovable
+
+A branch `main` de `Vranuska/vespera-aeternum-blog` está no commit `5880629594da039a6d87f1dabd41f1ff42985389`. Ela contém a rota `src/routes/arquivo-das-eras.tsx`, o registro da rota em `src/routeTree.gen.ts`, a ligação no índice lateral e o atalho no cabeçalho.
+
+A API do projeto Lovable continua a informar o preview como `ready`, mas no SHA interno `a4075564387553c8cca6cd1adeae3891e7dadbed`. A leitura desse ref confirmou que a rota dedicada ainda não existe no workspace e que o cabeçalho não contém o atalho novo. A home do preview ainda aponta o item lateral “Arquivo das Eras” para um filtro da Bibliotheca, em vez de abrir a rota dedicada.
+
+Foi tentada uma sincronização direcionada pelo agente Lovable, com instrução explícita para preservar a composição aprovada e incorporar apenas as mudanças já existentes na `main`. A chamada foi recusada porque o workspace está sem créditos; nenhuma edição parcial foi aplicada. A sincronização do preview permanece pendente.
+
+### A publicação Jekyll ocorreu depois do deploy React
+
+A execução React [43866114622](https://github.com/Vranuska/vespera-aeternum/actions/runs/43866114622) terminou às 12:24:12 UTC com sucesso. As etapas de validação de snapshots, 50 testes em oito arquivos, build, pré-renderização da rota `/arquivo-das-eras`, upload do artefato e `Deploy to GitHub Pages` foram concluídas.
+
+Depois dela, a execução dinâmica de Pages [43866353482](https://github.com/Vranuska/vespera-aeternum/actions/runs/43866353482) começou às 12:24:55 UTC e terminou às 12:25:40 UTC. Seus jobs mostram explicitamente `Build with Jekyll` e `Deploy to GitHub Pages`, ambos com sucesso. Portanto, houve uma publicação Jekyll posterior à publicação React; é provável que o artefato React tenha sido substituído pelo site estático da branch. A resposta HTTP não pôde ser obtida neste ambiente, então o conteúdo efetivamente servido continua sem confirmação independente.
+
+A origem de publicação precisa ser alterada em **Settings → Pages → Build and deployment → Source → GitHub Actions**. As ferramentas conectadas disponíveis nesta execução não expõem a alteração dessa configuração do repositório. Não foi alterado o `index.html` antigo nem criada uma solução de redirecionamento que pudesse mascarar o problema.
+
+### Dossiê de continuidade
+
+Foi criado [Dossiê de continuidade — Pasaje de la Calandria](dossie-pasaje-de-la-calandria.md). Ele separa fatos do manuscrito, testemunhos, objetos, custódia conhecida e lacunas. Registra especialmente que a chave entrou na fechadura, mas não foi girada; que sua devolução não está narrada; e que a porta continua fechada. O documento é editorial, não é uma nova peça nem uma alteração de `entries.json`.
+
+### Estado ao encerrar
+
+- **Conteúdo canônico:** sem alterações; o portal e os snapshots permanecem preservados.
+- **Frontend GitHub:** contém a rota dedicada e os atalhos do Arquivo das Eras.
+- **Preview Lovable:** pronto, mas desatualizado; sincronização bloqueada por falta de créditos.
+- **Deploy React:** confirmado pelo workflow.
+- **Deploy Jekyll posterior:** confirmado; origem de Pages ainda precisa ser trocada.
+- **HTTP/inspeção visual pública:** não verificados.
+- **Composição aprovada:** nenhum redesenho ou alteração visual foi feito.
