@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/deploy-lovable-site.yml"
+      - "README.md"
       - "entries.json"
       - "editorial/indice-romance-mosaico.json"
       - "bestiario.json"
