@@ -226,3 +226,14 @@ A cartografia do Ciclo das Inacabadas ganha seu primeiro lugar documentado em Al
 A execução React [44013673146](https://github.com/Vranuska/vespera-aeternum/actions/runs/44013673146) concluiu validação dos snapshots, testes, build, pré-renderização e deploy em 17/11 às 03:57 UTC. Ela ocorreu depois da execução Pages/Jekyll [43960034105](https://github.com/Vranuska/vespera-aeternum/actions/runs/43960034105), de 16/11 às 21:26 UTC. O artefato React é o último deploy confirmado no histórico consultado; a resposta HTTP e a aparência pública continuam sem verificação independente.
 
 O preview Lovable permanece no commit interno `a4075564387553c8cca6cd1adeae3891e7dadbed`, anterior à rota dedicada do Arquivo das Eras. Nenhuma sincronização foi aplicada ao workspace nesta execução.
+
+## Registro de 17 de novembro de 2026 — o lugar de uma folha
+
+Foi acrescentado *O lugar de uma folha*, situado em 20 de dezembro de 1943 e narrado pela perspectiva limitada de Nuno. O capítulo retoma a segunda prova do sino, que permanecia com ele desde *O bolso de dentro*, e transforma a custódia numa decisão concreta: Nuno acondiciona a folha numa gaveta da tipografia de Lídia, sob uma chave que mantém consigo.
+
+A nota que acompanha a prova registra somente o que Nuno presenciou. Ele viu a carga chegar e o sino sair da oficina, mas não acompanhou o transporte e não sabe onde o bronze se encontra. Lídia recebe uma cópia da nota, não a prova. Celeste não guarda o documento nem é chamada a assinar por algo que não viu.
+
+O capítulo foi integrado como item 19 do Volume I e inserido na cronologia em 20/12/1943, depois de *As notas que ficaram de fora* e antes de *A mulher que guardou o negativo*. A ordem editorial permanece independente da cronologia. A origem e o trânsito do sino entre 1891 e 1943, a oitava linha e a estrela raspada continuam em aberto.
+
+Os snapshots do frontend foram preparados para espelhar o catálogo e o índice canônicos. A validação de JSON, cobertura cronológica, ordem editorial e referências relacionadas foi executada após a integração. O workflow de publicação é acionado pelas alterações canônicas; build, testes e conclusão do deploy ainda precisam ser confirmados separadamente. A inspeção HTTP/visual do endereço público continuou indisponível nesta execução.
+
