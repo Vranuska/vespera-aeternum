@@ -52,11 +52,12 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 - **[Sobre a primeira vez que fui expulsa do Céu — versões 1.0 e 2.0](arquivo/cronicas-do-entre/primeira-expulsao-do-ceu/README.md)** — O manuscrito original, a edição expandida e o histórico de suas mudanças.
 - **[A segunda vida do sapato vermelho](arquivo/fragmentos/a-segunda-vida-do-sapato-vermelho.md)** — O reencontro com a menina que aprendeu a voar.
 - **[O espelho pediu desculpas](arquivo/fragmentos/o-espelho-pediu-desculpas.md)** — Uma promessa esquecida e um reflexo impossível.
-- **[A maré não assina recibos — versão de leitura atual (v4)](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v4.md)** — Nao Sakamoto, uma amarração defeituosa e a partida de um irmão no porto de Otaru, em 1921.
+- **[A maré não assina recibos — versão de leitura atual (v5)](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v5.md)** — Nao Sakamoto, uma amarração defeituosa e a partida de um irmão no porto de Otaru, em 1921.
 - **[A maré não assina recibos — original preservado](arquivo/fragmentos/a-mare-nao-assina-recibos.md)** — primeira versão, mantida sem alterações.
 - **[A maré não assina recibos — versão v1 preservada](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v1.md)** — cópia de referência imutável para comparação com futuras revisões.
 - **[A maré não assina recibos — versão v2](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v2.md)** — segunda versão integral, reescrita a partir das três críticas; a v1 permanece preservada.
 - **[A maré não assina recibos — versão v3](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v3.md)** — revisão anterior, preservada para comparação.
+- **[A maré não assina recibos — versão v4](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v4.md)** — revisão de acabamento, preservada integralmente.
 - **[Outros fragmentos](arquivo/fragmentos/)** — Cartas, memórias e pequenas inconveniências de uma vida sem fim.
 
 - **[O lugar onde a água ferve](arquivo/ciclo-das-inacabadas/o-lugar-onde-a-agua-ferve-v1.md)** — Leonor Ferreira, um fogão sem porta e uma carta que convida o irmão a regressar.
@@ -125,7 +126,7 @@ Em 17/11/2026, a execução dinâmica Pages/Jekyll [44190123466](https://github.
 
 O build validou **51 obras, 19 capítulos, 19 itens cronológicos e 32 fora da cronologia**; **51 testes em oito arquivos passaram**. Foram pré-renderizadas 87 páginas, incluindo /arquivo-das-eras/ e /diarios/2026-11-10-a-mare-nao-assina-recibos/, agora com a versão 4 do conto.
 
-O Pages/Jekyll continua a ser acionado por pushes. A espera de 120 segundos é uma proteção provisória contra a concorrência observada entre os dois deploys. A configuração recomendada continua sendo **Settings → Pages → Source → GitHub Actions**; as ferramentas desta execução não permitem ler nem alterar diretamente essa opção.
+O Pages/Jekyll continua a ser acionado por pushes enquanto a origem do Pages for branch. A execução dinâmica `44191141812` terminou depois da execução React `44191143605`; portanto, o sucesso do React, isoladamente, não garante qual artefato permaneceu por último. Nesta revisão, o workflow deixa a espera fixa de 120 segundos e passa a localizar e aguardar a execução dinâmica correspondente ao mesmo SHA antes de publicar o artefato React. Isso é uma proteção operacional, não uma troca de origem. A configuração recomendada continua sendo **Settings → Pages → Source → GitHub Actions**; as ferramentas desta execução não permitem alterar diretamente essa opção.
 
 O job React reportou sucesso, mas a resposta HTTP e a aparência pública não puderam ser inspecionadas independentemente. Portanto, o deploy do artefato está confirmado, enquanto a validação visual do endereço público permanece pendente.
 
