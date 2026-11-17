@@ -121,17 +121,21 @@ As versões de uma mesma obra são mantidas separadas no arquivo. O diário apre
 
 ### Estado da publicação
 
-Em 17/11/2026, a execução React [44185269709](https://github.com/Vranuska/vespera-aeternum/actions/runs/44185269709) validou os snapshots, passou nos testes e concluiu o build e o upload do artefato, mas **falhou na etapa Deploy to GitHub Pages**: o serviço permaneceu em `purging_cdn` por dez minutos e a ação cancelou o deploy. A execução dinâmica Pages/Jekyll [44185298954](https://github.com/Vranuska/vespera-aeternum/actions/runs/44185298954), iniciada no mesmo push, concluiu com sucesso às 21:58:56 UTC. Assim, a última publicação bem-sucedida observada é a do Jekyll; não é seguro afirmar que o visitante esteja recebendo o artefato React.
+Em 17/11/2026, a execução dinâmica Pages/Jekyll [44190123466](https://github.com/Vranuska/vespera-aeternum/actions/runs/44190123466) concluiu às 22:27:23 UTC. Em seguida, a execução React [44190121858](https://github.com/Vranuska/vespera-aeternum/actions/runs/44190121858), no commit ba28d3f, aguardou 120 segundos e publicou o artefato às 22:29:17 UTC; o job terminou com sucesso às 22:29:20 UTC. Esta é a última publicação React confirmada nesta revisão.
 
-O log mostra que o React tentou publicar antes de o Jekyll terminar. Para reduzir essa colisão, o workflow agora espera 120 segundos depois de enviar o artefato e só então inicia o deploy React. É uma proteção provisória enquanto o Pages continuar acionando a publicação dinâmica Jekyll. A configuração recomendada continua sendo **Settings → Pages → Source → GitHub Actions**, mas as ferramentas desta execução não permitem alterar nem ler diretamente essa configuração.
+O build validou **51 obras, 19 capítulos, 19 itens cronológicos e 32 fora da cronologia**; **51 testes em oito arquivos passaram**. Foram pré-renderizadas 87 páginas, incluindo /arquivo-das-eras/ e /diarios/2026-11-10-a-mare-nao-assina-recibos/, agora com a versão 4 do conto.
 
-A resposta HTTP e a aparência pública não puderam ser inspecionadas independentemente. O próximo deploy React precisa concluir com sucesso depois do Jekyll para que o portal seja novamente considerado publicado; a confirmação visual permanece pendente.
+O Pages/Jekyll continua a ser acionado por pushes. A espera de 120 segundos é uma proteção provisória contra a concorrência observada entre os dois deploys. A configuração recomendada continua sendo **Settings → Pages → Source → GitHub Actions**; as ferramentas desta execução não permitem ler nem alterar diretamente essa opção.
+
+O job React reportou sucesso, mas a resposta HTTP e a aparência pública não puderam ser inspecionadas independentemente. Portanto, o deploy do artefato está confirmado, enquanto a validação visual do endereço público permanece pendente.
+
+A branch main do frontend chegou ao commit 2e266866; o preview Lovable continua no commit interno a4075564387553c8cca6cd1adeae3891e7dadbed. O workspace ainda não permite sincronização por falta de créditos. Nenhuma alteração de layout, CSS, tipografia, cores ou assets foi feita nesta revisão.
 
 Configuração do repositório: [Settings → Pages](https://github.com/Vranuska/vespera-aeternum/settings/pages).
 
-Este repositório é a fonte canônica dos manuscritos e dos índices literários. A aplicação Lovable publicada é mantida em [Vranuska/vespera-aeternum-blog](https://github.com/Vranuska/vespera-aeternum-blog); ela lê `entries.json` e `editorial/indice-romance-mosaico.json` deste repositório, mantendo cópias locais apenas como fallback offline.
+Este repositório é a fonte canônica dos manuscritos e dos índices literários. A aplicação Lovable publicada é mantida em [Vranuska/vespera-aeternum-blog](https://github.com/Vranuska/vespera-aeternum-blog); ela lê entries.json e editorial/indice-romance-mosaico.json deste repositório, mantendo cópias locais apenas como fallback offline.
 
-O workflow `.github/workflows/deploy-lovable-site.yml` compila essa aplicação e publica o artefato no endereço GitHub Pages indicado no início deste README. Assim, alterações literárias entram primeiro aqui; mudanças de interface e navegação pertencem ao repositório Lovable. O `index.html` deste repositório permanece preservado, mas não deve ser confundido com o build atual do portal.
+O workflow .github/workflows/deploy-lovable-site.yml compila essa aplicação e publica o artefato no endereço GitHub Pages indicado no início deste README. Assim, alterações literárias entram primeiro aqui; mudanças de interface e navegação pertencem ao repositório Lovable. O index.html deste repositório permanece preservado, mas não deve ser confundido com o build atual do portal.
 
 ## O que existe neste repositório
 
