@@ -283,3 +283,22 @@ A revisão também corrigiu uma falha de publicação: embora a versão 3 já ex
 A publicação React [44190121858](https://github.com/Vranuska/vespera-aeternum/actions/runs/44190121858) concluiu às 22:29:20 UTC, depois da publicação dinâmica Jekyll [44190123466](https://github.com/Vranuska/vespera-aeternum/actions/runs/44190123466), concluída às 22:27:23 UTC. A espera de 120 segundos entre o upload e o deploy React evitou a colisão anterior. O build validou 51 obras, 19 capítulos, 19 itens cronológicos, 32 fora da cronologia, **51 testes em oito arquivos** e 87 páginas pré-renderizadas, incluindo o Arquivo das Eras e o diário de Nao.
 
 Nenhuma alteração visual foi feita. A branch main do frontend chegou a 2e266866, mas o preview Lovable continua em a407556; a sincronização ainda está bloqueada pela falta de créditos do workspace. A composição aprovada em 5a038b8 não foi redesenhada. O job React reportou sucesso, mas a resposta HTTP e a aparência pública não foram verificadas de forma independente. O Pages/Jekyll continua ativo; a espera de 120 segundos é uma proteção provisória até que a origem seja alterada para GitHub Actions.
+
+
+## Revisão literária — 17 de novembro de 2026 · *A maré não assina recibos*, versão 5
+
+A versão 4 permanece preservada. A versão 5 é a nova versão de leitura e aplica uma revisão estritamente localizada, sem reabrir a estrutura do conto:
+
+- a contagem do acidente mantém os três tempos, mas o terceiro se liga ao resultado: «Três. A corda cedeu»;
+- duas quebras narrativas foram fundidas para reduzir o efeito de frase isolada sem apagar o ritmo defensivo de Nao;
+- a ponta solta da etiqueta passa a ser uma ação não realizada, sem explicar a culpa em voz alta;
+- no recibo, Nao coloca a cópia do manifesto ao lado da contestação e diz ao escriturário que ele não precisa concordar, apenas entregar os dois documentos. O peso institucional passa pela ação e pela custódia, não por uma máxima;
+- o último movimento elimina a repetição imediata da bota. A mãe serve duas tigelas, o terceiro prato fica no armário, a carta é colocada sob a tigela de Nao e a última imagem permanece sendo a bota limpa por dentro.
+
+O ID editorial e a posição fora da cronologia do Volume I não mudam. entries.json e o fallback do frontend são atualizados com os mesmos 202 parágrafos; as versões anteriores, o original e a v1 permanecem intactos.
+
+## Publicação — 17 de novembro de 2026 · correção da concorrência Pages
+
+A execução dinâmica Pages `44191141812` concluiu às 22:38:44 UTC, depois da execução React `44191143605`, concluída às 22:35:37 UTC. A espera fixa de 120 segundos não cobria essa duração e não assegurava a ordem final dos artefatos.
+
+O workflow passa a consultar a API de Actions com permissão somente de leitura, localizar a execução dinâmica do mesmo SHA e aguardar seu término antes de chamar `deploy-pages`. Se a origem do Pages for trocada para GitHub Actions, a execução dinâmica deixa de aparecer e a etapa prossegue após a janela de descoberta. A alteração não muda o conteúdo nem a composição visual. A troca da origem em Settings → Pages continua sendo a solução definitiva e requer acesso às configurações do repositório.
