@@ -120,12 +120,13 @@ As versões de uma mesma obra são mantidas separadas no arquivo. O diário apre
 
 ### Estado da publicação
 
-Em 17/11/2026, o workflow [Deploy Lovable archive to GitHub Pages, execução 44100364052](https://github.com/Vranuska/vespera-aeternum/actions/runs/44100364052) concluiu a publicação React na tentativa 2, às 21:43:45 UTC (18:43:45 em Brasília). A validação encontrou 51 obras, 19 capítulos, 19 itens cronológicos e 32 itens fora da cronologia; **50 testes em oito arquivos passaram**. Foram pré-renderizadas 87 páginas, incluindo `/arquivo-das-eras/` e `/diarios/2026-11-17-o-lugar-de-uma-folha/`. O deploy registrou sucesso no endereço https://vranuska.github.io/vespera-aeternum/.
+Em 17/11/2026, a execução React [44184359506](https://github.com/Vranuska/vespera-aeternum/actions/runs/44184359506), tentativa 2, concluiu o deploy às 21:55:33 UTC (18:55:33 em Brasília), depois da última execução dinâmica Pages/Jekyll [44184579975](https://github.com/Vranuska/vespera-aeternum/actions/runs/44184579975), concluída às 21:54:36 UTC. O build React validou 51 obras, 19 capítulos, 19 itens cronológicos e 32 itens fora da cronologia; **50 testes em oito arquivos passaram**. Foram pré-renderizadas 87 páginas, incluindo `/arquivo-das-eras/` e `/diarios/2026-11-17-o-lugar-de-uma-folha/`. O deploy registrou sucesso no endereço https://vranuska.github.io/vespera-aeternum/.
 
-A execução dinâmica Pages/Jekyll [44100372594](https://github.com/Vranuska/vespera-aeternum/actions/runs/44100372594) também terminou com sucesso às 14:12:02 UTC, antes da publicação React. Assim, a última publicação confirmada no histórico consultado é a React. A configuração exata de **Settings → Pages → Source** e a resposta HTTP/visual do domínio não puderam ser verificadas pelas ferramentas desta execução; não declarar a aparência pública validada nem presumir que futuras execuções Jekyll estejam desativadas.
+A sequência também mostrou que o Pages/Jekyll continua ativo em pushes: a execução dinâmica [44184359254](https://github.com/Vranuska/vespera-aeternum/actions/runs/44184359254) terminou às 21:53:27 UTC, depois da primeira tentativa React [44184359506](https://github.com/Vranuska/vespera-aeternum/actions/runs/44184359506). A tentativa 2 do React foi executada novamente após o Jekyll mais recente e é a última publicação confirmada no histórico consultado. Portanto, futuras alterações podem disparar outro Jekyll e substituir o artefato React se a origem de Pages não estiver configurada corretamente.
+
+A configuração exata de **Settings → Pages → Source** e a resposta HTTP/visual do domínio não puderam ser verificadas pelas ferramentas desta execução. O sucesso do deploy está confirmado; a aparência efetivamente servida ao visitante ainda não foi inspecionada de forma independente.
 
 Configuração do repositório: [Settings → Pages](https://github.com/Vranuska/vespera-aeternum/settings/pages). A origem pretendida permanece **GitHub Actions**.
-
 
 Este repositório é a fonte canônica dos manuscritos e dos índices literários. A aplicação Lovable publicada é mantida em [Vranuska/vespera-aeternum-blog](https://github.com/Vranuska/vespera-aeternum-blog); ela lê `entries.json` e `editorial/indice-romance-mosaico.json` deste repositório, mantendo cópias locais apenas como fallback offline.
 
