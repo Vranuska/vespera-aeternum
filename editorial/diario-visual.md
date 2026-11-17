@@ -237,3 +237,30 @@ O capítulo foi integrado como item 19 do Volume I e inserido na cronologia em 2
 
 Os snapshots do frontend foram preparados para espelhar o catálogo e o índice canônicos. A validação de JSON, cobertura cronológica, ordem editorial e referências relacionadas foi executada após a integração. O workflow de publicação é acionado pelas alterações canônicas; build, testes e conclusão do deploy ainda precisam ser confirmados separadamente. A inspeção HTTP/visual do endereço público continuou indisponível nesta execução.
 
+## Registro de 17 de novembro de 2026 — proveniência do sino e publicação
+
+### Caderno de continuidade
+
+Foi criado [Caderno de proveniência do sino de São Bartolomeu](dossie-sino-de-sao-bartolomeu.md), commit [1bcc9cd3](https://github.com/Vranuska/vespera-aeternum/commit/1bcc9cd3e9b9ad8409a768eebb3463ef867fd2e2). O documento examina sete capítulos do Ciclo das Inacabadas e separa fatos, recorrências e lacunas entre Porto/1886, Lisboa/1891 e Lisboa/1943.
+
+O caderno registra a custódia das três provas, distingue o formulário de oito espaços e a folha de Artur, e aponta uma diferença terminológica: em uma passagem de *O bolso de dentro* aparece «segundo certificado», enquanto os capítulos que descrevem a impressão e a custódia chamam o objeto de «segunda prova». A versão publicada foi preservada; a orientação para futuras referências é usar «segunda prova», sem criar um documento adicional.
+
+Nenhum fato novo foi acrescentado ao cânone. Não foram alterados entries.json, bestiario.json, atlas.json ou o índice do romance-mosaico. O novo caderno é editorial, não uma entrada literária.
+
+### Correção de teste e publicação React
+
+A inclusão do capítulo XIX tornou obsoleta uma expectativa em src/test/works.test.ts: o teste ainda esperava que *O endereço no verso* fosse a obra mais recente. Atualizei somente as expectativas da ordem por data, acrescentando *O lugar de uma folha* no primeiro lugar e deslocando as três entradas seguintes. Commit do frontend: [95303348](https://github.com/Vranuska/vespera-aeternum-blog/commit/95303348b70acd9d7699952fdcaf1e36d9914019).
+
+A tentativa 1 do workflow 44100364052 falhou apenas nesse teste de ordem. A tentativa 2 passou: **50 testes em oito arquivos**. A validação dos snapshots encontrou 51 obras, 19 capítulos, 19 itens cronológicos, 32 itens fora da cronologia, um dossiê do Bestiário, quatro menções e dez lugares no Atlas. O build pré-renderizou 87 páginas, incluindo /arquivo-das-eras/ e /diarios/2026-11-17-o-lugar-de-uma-folha/.
+
+A publicação React foi concluída com sucesso às 21:43:45 UTC, no [workflow 44100364052, tentativa 2](https://github.com/Vranuska/vespera-aeternum/actions/runs/44100364052). O endereço informado pelo próprio job foi https://vranuska.github.io/vespera-aeternum/.
+
+A execução dinâmica Pages/Jekyll [44100372594](https://github.com/Vranuska/vespera-aeternum/actions/runs/44100372594) terminou às 14:12:02 UTC, antes do deploy React. O estado de Source em Settings → Pages não pôde ser lido pelas ferramentas disponíveis, e a resposta HTTP/visual do domínio não foi obtida. Portanto, o sucesso do job React está confirmado; a aparência efetivamente servida ao visitante não foi verificada de forma independente.
+
+### Sincronização Lovable
+
+A branch main do frontend avançou apenas nos snapshots offline, na ordem editorial e no teste. Nenhum arquivo de layout, CSS, imagem ou componente visual foi alterado nesta execução.
+
+O preview continua no commit interno a4075564387553c8cca6cd1adeae3891e7dadbed, enquanto a branch main chegou a 95303348. A tentativa de sincronizar exclusivamente src/data/entries-fallback.json, src/data/editorial-fallback.json, src/data/reading-order.ts e src/test/works.test.ts foi recusada pelo Lovable porque o workspace gratuito está sem créditos. A recusa ocorreu antes de qualquer edição; o preview permanece sem sincronização.
+
+A composição aprovada em 5a038b8 foi preservada. Não houve redesenho, alteração de SiteChrome, CSS, tipografia, cores, assets ou hierarquia visual.
