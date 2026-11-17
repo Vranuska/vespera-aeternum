@@ -69,6 +69,8 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 ## Catálogos do universo
 
 - **[Diário visual e de publicação](editorial/diario-visual.md)** — composição aprovada, hierarquia de leitura, regressões e estados verificáveis de preview, GitHub e produção.
+- **[Caderno de proveniência do sino de São Bartolomeu](editorial/dossie-sino-de-sao-bartolomeu.md)** — cadeia documental entre Porto/1886 e Lisboa/1891–1943, custódia das três provas e lacunas preservadas.
+- **[Dossiê de continuidade — Pasaje de la Calandria](editorial/dossie-pasaje-de-la-calandria.md)** — fatos, testemunhos e lacunas sobre a chave, a porta e o mapa.
 
 
 - **[Bestiário](https://vranuska.github.io/vespera-aeternum/#bestiario)** — a primeira ficha completa é Eithne, com imagem principal, galeria, cronologia, aptidões e limites.
@@ -118,9 +120,11 @@ As versões de uma mesma obra são mantidas separadas no arquivo. O diário apre
 
 ### Estado da publicação
 
-O repositório ainda registra builds automáticos Jekyll a partir da branch `main`. Isso é diferente do workflow `Deploy Lovable archive to GitHub Pages`, que compila o projeto Lovable. Enquanto a origem de publicação do GitHub Pages não estiver definida como **GitHub Actions** e esse workflow não concluir a etapa de deploy, não se deve presumir que o domínio público esteja exibindo a aplicação Lovable; ele pode continuar servindo o leitor estático preservado em `index.html`.
+Em 17/11/2026, o workflow [Deploy Lovable archive to GitHub Pages, execução 44100364052](https://github.com/Vranuska/vespera-aeternum/actions/runs/44100364052) concluiu a publicação React na tentativa 2, às 21:43:45 UTC (18:43:45 em Brasília). A validação encontrou 51 obras, 19 capítulos, 19 itens cronológicos e 32 itens fora da cronologia; **50 testes em oito arquivos passaram**. Foram pré-renderizadas 87 páginas, incluindo `/arquivo-das-eras/` e `/diarios/2026-11-17-o-lugar-de-uma-folha/`. O deploy registrou sucesso no endereço https://vranuska.github.io/vespera-aeternum/.
 
-Configuração do repositório: [Settings → Pages](https://github.com/Vranuska/vespera-aeternum/settings/pages). A origem pretendida é **GitHub Actions**.
+A execução dinâmica Pages/Jekyll [44100372594](https://github.com/Vranuska/vespera-aeternum/actions/runs/44100372594) também terminou com sucesso às 14:12:02 UTC, antes da publicação React. Assim, a última publicação confirmada no histórico consultado é a React. A configuração exata de **Settings → Pages → Source** e a resposta HTTP/visual do domínio não puderam ser verificadas pelas ferramentas desta execução; não declarar a aparência pública validada nem presumir que futuras execuções Jekyll estejam desativadas.
+
+Configuração do repositório: [Settings → Pages](https://github.com/Vranuska/vespera-aeternum/settings/pages). A origem pretendida permanece **GitHub Actions**.
 
 
 Este repositório é a fonte canônica dos manuscritos e dos índices literários. A aplicação Lovable publicada é mantida em [Vranuska/vespera-aeternum-blog](https://github.com/Vranuska/vespera-aeternum-blog); ela lê `entries.json` e `editorial/indice-romance-mosaico.json` deste repositório, mantendo cópias locais apenas como fallback offline.
