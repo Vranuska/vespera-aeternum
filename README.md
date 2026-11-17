@@ -52,10 +52,11 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 - **[Sobre a primeira vez que fui expulsa do Céu — versões 1.0 e 2.0](arquivo/cronicas-do-entre/primeira-expulsao-do-ceu/README.md)** — O manuscrito original, a edição expandida e o histórico de suas mudanças.
 - **[A segunda vida do sapato vermelho](arquivo/fragmentos/a-segunda-vida-do-sapato-vermelho.md)** — O reencontro com a menina que aprendeu a voar.
 - **[O espelho pediu desculpas](arquivo/fragmentos/o-espelho-pediu-desculpas.md)** — Uma promessa esquecida e um reflexo impossível.
-- **[A maré não assina recibos](arquivo/fragmentos/a-mare-nao-assina-recibos.md)** — Nao Sakamoto, uma amarração defeituosa e a partida de um irmão no porto de Otaru, em 1921.
+- **[A maré não assina recibos — versão de leitura atual (v4)](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v4.md)** — Nao Sakamoto, uma amarração defeituosa e a partida de um irmão no porto de Otaru, em 1921.
+- **[A maré não assina recibos — original preservado](arquivo/fragmentos/a-mare-nao-assina-recibos.md)** — primeira versão, mantida sem alterações.
 - **[A maré não assina recibos — versão v1 preservada](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v1.md)** — cópia de referência imutável para comparação com futuras revisões.
 - **[A maré não assina recibos — versão v2](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v2.md)** — segunda versão integral, reescrita a partir das três críticas; a v1 permanece preservada.
-- **[A maré não assina recibos — versão v3](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v3.md)** — revisão de acabamento: escolha entre papel e corda, economia de Nao, consequência documental da porcelana e encerramento na mãe e na bota; v1 e v2 preservadas.
+- **[A maré não assina recibos — versão v3](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v3.md)** — revisão anterior, preservada para comparação.
 - **[Outros fragmentos](arquivo/fragmentos/)** — Cartas, memórias e pequenas inconveniências de uma vida sem fim.
 
 - **[O lugar onde a água ferve](arquivo/ciclo-das-inacabadas/o-lugar-onde-a-agua-ferve-v1.md)** — Leonor Ferreira, um fogão sem porta e uma carta que convida o irmão a regressar.
@@ -120,13 +121,13 @@ As versões de uma mesma obra são mantidas separadas no arquivo. O diário apre
 
 ### Estado da publicação
 
-Em 17/11/2026, a execução React [44184359506](https://github.com/Vranuska/vespera-aeternum/actions/runs/44184359506), tentativa 2, concluiu o deploy às 21:55:33 UTC (18:55:33 em Brasília), depois da última execução dinâmica Pages/Jekyll [44184579975](https://github.com/Vranuska/vespera-aeternum/actions/runs/44184579975), concluída às 21:54:36 UTC. O build React validou 51 obras, 19 capítulos, 19 itens cronológicos e 32 itens fora da cronologia; **50 testes em oito arquivos passaram**. Foram pré-renderizadas 87 páginas, incluindo `/arquivo-das-eras/` e `/diarios/2026-11-17-o-lugar-de-uma-folha/`. O deploy registrou sucesso no endereço https://vranuska.github.io/vespera-aeternum/.
+Em 17/11/2026, a execução React [44185269709](https://github.com/Vranuska/vespera-aeternum/actions/runs/44185269709) validou os snapshots, passou nos testes e concluiu o build e o upload do artefato, mas **falhou na etapa Deploy to GitHub Pages**: o serviço permaneceu em `purging_cdn` por dez minutos e a ação cancelou o deploy. A execução dinâmica Pages/Jekyll [44185298954](https://github.com/Vranuska/vespera-aeternum/actions/runs/44185298954), iniciada no mesmo push, concluiu com sucesso às 21:58:56 UTC. Assim, a última publicação bem-sucedida observada é a do Jekyll; não é seguro afirmar que o visitante esteja recebendo o artefato React.
 
-A sequência também mostrou que o Pages/Jekyll continua ativo em pushes: a execução dinâmica [44184359254](https://github.com/Vranuska/vespera-aeternum/actions/runs/44184359254) terminou às 21:53:27 UTC, depois da primeira tentativa React [44184359506](https://github.com/Vranuska/vespera-aeternum/actions/runs/44184359506). A tentativa 2 do React foi executada novamente após o Jekyll mais recente e é a última publicação confirmada no histórico consultado. Portanto, futuras alterações podem disparar outro Jekyll e substituir o artefato React se a origem de Pages não estiver configurada corretamente.
+O log mostra que o React tentou publicar antes de o Jekyll terminar. Para reduzir essa colisão, o workflow agora espera 120 segundos depois de enviar o artefato e só então inicia o deploy React. É uma proteção provisória enquanto o Pages continuar acionando a publicação dinâmica Jekyll. A configuração recomendada continua sendo **Settings → Pages → Source → GitHub Actions**, mas as ferramentas desta execução não permitem alterar nem ler diretamente essa configuração.
 
-A configuração exata de **Settings → Pages → Source** e a resposta HTTP/visual do domínio não puderam ser verificadas pelas ferramentas desta execução. O sucesso do deploy está confirmado; a aparência efetivamente servida ao visitante ainda não foi inspecionada de forma independente.
+A resposta HTTP e a aparência pública não puderam ser inspecionadas independentemente. O próximo deploy React precisa concluir com sucesso depois do Jekyll para que o portal seja novamente considerado publicado; a confirmação visual permanece pendente.
 
-Configuração do repositório: [Settings → Pages](https://github.com/Vranuska/vespera-aeternum/settings/pages). A origem pretendida permanece **GitHub Actions**.
+Configuração do repositório: [Settings → Pages](https://github.com/Vranuska/vespera-aeternum/settings/pages).
 
 Este repositório é a fonte canônica dos manuscritos e dos índices literários. A aplicação Lovable publicada é mantida em [Vranuska/vespera-aeternum-blog](https://github.com/Vranuska/vespera-aeternum-blog); ela lê `entries.json` e `editorial/indice-romance-mosaico.json` deste repositório, mantendo cópias locais apenas como fallback offline.
 
