@@ -272,3 +272,14 @@ A primeira tentativa do workflow React 44184359506 concluiu às 21:53:21 UTC. A 
 Para que o último deploy não ficasse no artefato Jekyll, a tarefa build-and-deploy da execução React 44184359506 foi repetida. A tentativa 2 concluiu às 21:55:33 UTC, depois do Jekyll mais recente. Os 50 testes voltaram a passar, as 87 páginas foram pré-renderizadas e o deploy React foi reportado como bem-sucedido. A última publicação confirmada no histórico consultado é, portanto, React.
 
 O Pages/Jekyll continua a ser acionado por pushes. A configuração Source não pôde ser lida pelas ferramentas disponíveis; futuras alterações podem voltar a criar uma publicação Jekyll posterior. A resposta HTTP e a aparência pública continuam sem verificação independente.
+
+
+### Revisão de acabamento e publicação da versão 4 — 17 de novembro de 2026
+
+A revisão das críticas de ritmo e continuidade produziu a quarta versão de *A maré não assina recibos*. Foram fundidos 31 intervalos de parágrafo que isolavam ações ou respostas sem acrescentar tensão; a contagem «Um. Dois. Três.» permanece separada porque organiza a percepção de Nao durante o acidente. A versão termina na bota, sem comentário posterior. O recibo conserva a divergência de destino e peso da porcelana; a resposta «Já me custou o salário» foi mantida por ser mais concreta e menos teatral do que a alternativa de confronto sugerida.
+
+A revisão também corrigiu uma falha de publicação: embora a versão 3 já existisse no arquivo de versões, o entries.json e o fallback do aplicativo ainda serviam a primeira versão. Agora a leitura corrente usa a v4. O arquivo original e as versões 1, 2 e 3 permanecem preservados. O entries.json canônico e src/data/entries-fallback.json têm o mesmo conteúdo e o mesmo blob SHA 036a3728b2f66004526a22ab7bf812b3d2a0d604. Foi acrescentado um teste que exige o recibo contestado e o encerramento na bota.
+
+A publicação React [44190121858](https://github.com/Vranuska/vespera-aeternum/actions/runs/44190121858) concluiu às 22:29:20 UTC, depois da publicação dinâmica Jekyll [44190123466](https://github.com/Vranuska/vespera-aeternum/actions/runs/44190123466), concluída às 22:27:23 UTC. A espera de 120 segundos entre o upload e o deploy React evitou a colisão anterior. O build validou 51 obras, 19 capítulos, 19 itens cronológicos, 32 fora da cronologia, **51 testes em oito arquivos** e 87 páginas pré-renderizadas, incluindo o Arquivo das Eras e o diário de Nao.
+
+Nenhuma alteração visual foi feita. A branch main do frontend chegou a 2e266866, mas o preview Lovable continua em a407556; a sincronização ainda está bloqueada pela falta de créditos do workspace. A composição aprovada em 5a038b8 não foi redesenhada. O job React reportou sucesso, mas a resposta HTTP e a aparência pública não foram verificadas de forma independente. O Pages/Jekyll continua ativo; a espera de 120 segundos é uma proteção provisória até que a origem seja alterada para GitHub Actions.
