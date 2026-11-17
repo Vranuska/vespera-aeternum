@@ -60,6 +60,7 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 
 - **[O lugar onde a água ferve](arquivo/ciclo-das-inacabadas/o-lugar-onde-a-agua-ferve-v1.md)** — Leonor Ferreira, um fogão sem porta e uma carta que convida o irmão a regressar.
 - **[A visita que coube no pátio](arquivo/ciclo-das-inacabadas/a-visita-que-coube-no-patio-v1.md)** — Estevão recebe a carta de Leonor e visita a irmã com Bento, sem transformar a sopa em reconciliação.
+- **[O lugar de uma folha](arquivo/ciclo-das-inacabadas/o-lugar-de-uma-folha-v1.md)** — Nuno escolhe a custódia da segunda prova sem transferir a responsabilidade à mãe.
 - **[O endereço no verso](arquivo/ciclo-das-inacabadas/o-endereco-no-verso-v1.md)** — Rui recebe a resposta de Adelaide e escolhe continuar a correspondência sem prometer o regresso.
 - **[A rua que cabia na margem](arquivo/ciclo-das-inacabadas/a-rua-que-cabia-na-margem-v1.md)** — Micaela Funes, o Pasaje de la Calandria e uma passagem que o mapa não sabe terminar.
 - **[A costura invisível](arquivo/ciclo-das-inacabadas/a-costura-invisivel-v1.md)** — Artur Vale, uma folha de oito linhas e a assinatura que Eulália aprenderia a reconhecer.
