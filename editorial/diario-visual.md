@@ -264,3 +264,11 @@ A branch main do frontend avançou apenas nos snapshots offline, na ordem editor
 O preview continua no commit interno a4075564387553c8cca6cd1adeae3891e7dadbed, enquanto a branch main chegou a 95303348. A tentativa de sincronizar exclusivamente src/data/entries-fallback.json, src/data/editorial-fallback.json, src/data/reading-order.ts e src/test/works.test.ts foi recusada pelo Lovable porque o workspace gratuito está sem créditos. A recusa ocorreu antes de qualquer edição; o preview permanece sem sincronização.
 
 A composição aprovada em 5a038b8 foi preservada. Não houve redesenho, alteração de SiteChrome, CSS, tipografia, cores, assets ou hierarquia visual.
+
+### Nota de publicação posterior — 17 de novembro de 2026
+
+A primeira tentativa do workflow React 44184359506 concluiu às 21:53:21 UTC. A execução dinâmica Pages/Jekyll 44184359254 terminou às 21:53:27 UTC, depois dela. O commit do próprio diário também disparou a execução Jekyll 44184579975, concluída às 21:54:36 UTC.
+
+Para que o último deploy não ficasse no artefato Jekyll, a tarefa build-and-deploy da execução React 44184359506 foi repetida. A tentativa 2 concluiu às 21:55:33 UTC, depois do Jekyll mais recente. Os 50 testes voltaram a passar, as 87 páginas foram pré-renderizadas e o deploy React foi reportado como bem-sucedido. A última publicação confirmada no histórico consultado é, portanto, React.
+
+O Pages/Jekyll continua a ser acionado por pushes. A configuração Source não pôde ser lida pelas ferramentas disponíveis; futuras alterações podem voltar a criar uma publicação Jekyll posterior. A resposta HTTP e a aparência pública continuam sem verificação independente.
