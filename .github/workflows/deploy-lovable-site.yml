@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
@@ -106,10 +107,36 @@ jobs:
           path: app/.output/public
 
       # Branch-based Pages starts an automatic Jekyll deployment on the same push.
-      # Let it finish before deploying the React artifact to avoid competing purges.
-      # Remove this wait after Settings → Pages → Source is switched to GitHub Actions.
+      # Wait for that exact run to finish before publishing the React artifact.
+      # Remove this step after Settings → Pages → Source is switched to GitHub Actions.
       - name: Wait for automatic Pages deployment to finish
-        run: sleep 120
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          PUSH_SHA: ${{ github.sha }}
+        run: |
+          run_id=""
+          for attempt in $(seq 1 24); do
+            run_id="$(gh api "repos/${REPOSITORY}/actions/runs?per_page=100" | jq -r --arg sha "$PUSH_SHA" '.workflow_runs[] | select(.event == "dynamic" and .head_sha == $sha) | .id' | head -n 1)"
+            if [ -n "$run_id" ]; then break; fi
+            sleep 5
+          done
+          if [ -z "$run_id" ]; then
+            echo "No branch-based Pages run appeared for ${PUSH_SHA}; continuing."
+            exit 0
+          fi
+          echo "Waiting for automatic Pages run $run_id to finish."
+          for attempt in $(seq 1 180); do
+            state="$(gh api "repos/${REPOSITORY}/actions/runs/${run_id}" --jq '.status + ":" + (.conclusion // "")')"
+            if [[ "$state" == completed:* ]]; then
+              echo "Automatic Pages run $run_id finished with ${state#completed:}."
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Timed out waiting for automatic Pages run $run_id."
+          exit 1
 
       - name: Deploy to GitHub Pages
         id: deployment
