@@ -105,8 +105,11 @@ jobs:
           name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
           path: app/.output/public
 
-      - name: Allow Pages artifact metadata to settle
-        run: sleep 8
+      # Branch-based Pages starts an automatic Jekyll deployment on the same push.
+      # Let it finish before deploying the React artifact to avoid competing purges.
+      # Remove this wait after Settings → Pages → Source is switched to GitHub Actions.
+      - name: Wait for automatic Pages deployment to finish
+        run: sleep 120
 
       - name: Deploy to GitHub Pages
         id: deployment
