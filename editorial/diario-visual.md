@@ -208,3 +208,21 @@ Foi criado [Dossiê de continuidade — Pasaje de la Calandria](dossie-pasaje-de
 ### Revisão textual do portal — 16 de novembro de 2026
 
 No arquivo `src/routes/arquivo-das-eras.tsx`, a forma europeia «autónomas» foi corrigida para português brasileiro («autônomas»), no commit [79f513aa](https://github.com/Vranuska/vespera-aeternum-blog/commit/79f513aa421092dd7eec09171063181167bdf712). A alteração é exclusivamente textual: não muda layout, rotas, manuscritos ou dados canônicos. Ainda não aparece no preview Lovable, que permanece no SHA `a407556`; também não deve ser considerada publicada enquanto a origem de Pages e a sincronização não forem corrigidas.
+
+
+### Atlas — Oficina de Augusto Calado · 17 de novembro de 2026
+
+A cartografia do Ciclo das Inacabadas ganha seu primeiro lugar documentado em Alcântara, Lisboa: a oficina de pintura de letreiros de Augusto Calado, no rés do chão de um prédio cuja rua e número não são conhecidos.
+
+- Nova prancha: `assets/atlas/oficina-augusto-calado.svg`. É uma reconstituição ilustrativa, não fotografia nem levantamento do imóvel.
+- O marcador entrou no mapa simbólico do Mundo dos Mortais. Sua posição não representa coordenadas nem distâncias.
+- A ficha canônica registra a oficina, o ofício de Calado, os objetos descritos no manuscrito, a aprendizagem de Rui e os limites de localização.
+- Referências cruzadas: `A tinta do lado de fora` e `O endereço no verso`.
+- A oficina e a sapataria de Palmira permanecem estabelecimentos distintos. A imagem representa a tabuleta sendo pintada, não instalada.
+- Nenhuma função sobrenatural foi atribuída ao lugar.
+
+### Verificação de publicação anterior · 17 de novembro de 2026
+
+A execução React [44013673146](https://github.com/Vranuska/vespera-aeternum/actions/runs/44013673146) concluiu validação dos snapshots, testes, build, pré-renderização e deploy em 17/11 às 03:57 UTC. Ela ocorreu depois da execução Pages/Jekyll [43960034105](https://github.com/Vranuska/vespera-aeternum/actions/runs/43960034105), de 16/11 às 21:26 UTC. O artefato React é o último deploy confirmado no histórico consultado; a resposta HTTP e a aparência pública continuam sem verificação independente.
+
+O preview Lovable permanece no commit interno `a4075564387553c8cca6cd1adeae3891e7dadbed`, anterior à rota dedicada do Arquivo das Eras. Nenhuma sincronização foi aplicada ao workspace nesta execução.

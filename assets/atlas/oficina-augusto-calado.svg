@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Oficina de Augusto Calado, Alcântara</title>
+  <desc id="desc">Reconstituição ilustrativa de uma oficina de pintura de letreiros em 1944, com tábuas, pincéis, frascos de tinta, moldes de letras, uma régua quebrada e a tabuleta de Palmira Sequeira sobre cavaletes.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8ddc8"/><stop offset=".55" stop-color="#d9c9ad"/><stop offset="1" stop-color="#c6b391"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#342832"/><stop offset="1" stop-color="#65504d"/></linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#7e8790"/><stop offset="1" stop-color="#c2b49c"/></linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a77d55"/><stop offset=".5" stop-color="#76513c"/><stop offset="1" stop-color="#4f392f"/></linearGradient>
+    <linearGradient id="sign" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5e4539"/><stop offset="1" stop-color="#392b2b"/></linearGradient>
+    <pattern id="grain" width="82" height="82" patternUnits="userSpaceOnUse"><circle cx="10" cy="17" r="1" fill="#57443b" opacity=".13"/><circle cx="55" cy="39" r=".8" fill="#fff4dc" opacity=".3"/><path d="M4 65l18-2M48 8l12 1M31 80l9-1" stroke="#57443b" stroke-width=".8" opacity=".12"/></pattern>
+    <pattern id="tiles" width="72" height="52" patternUnits="userSpaceOnUse"><rect width="72" height="52" fill="#76675d"/><path d="M0 0H72V52H0Z M36 0V52 M0 26H72" fill="none" stroke="#c7b697" stroke-width="1.3" opacity=".45"/></pattern>
+    <pattern id="hatch" width="8" height="8" patternTransform="rotate(35)" patternUnits="userSpaceOnUse"><path d="M0 0V8" stroke="#211a20" stroke-width="1" opacity=".2"/></pattern>
+    <clipPath id="scene"><rect x="54" y="132" width="1092" height="570"/></clipPath>
+  </defs>
+  <rect width="1200" height="800" fill="url(#paper)"/>
+  <rect width="1200" height="800" fill="url(#grain)" opacity=".7"/>
+  <rect x="24" y="24" width="1152" height="752" fill="none" stroke="#6b4a45" stroke-width="2"/>
+  <rect x="35" y="35" width="1130" height="730" fill="none" stroke="#947b5a" stroke-width="1"/>
+  <g fill="#4a3037" font-family="Georgia,serif">
+    <text x="64" y="76" font-size="17" letter-spacing="5">ARQUIVO DAS ERAS · PRANCHA DE LUGAR</text>
+    <text x="64" y="113" font-size="31" letter-spacing="2">OFICINA DE AUGUSTO CALADO</text>
+    <text x="1136" y="77" text-anchor="end" font-size="16" letter-spacing="3">ALCÂNTARA · LISBOA</text>
+    <text x="1136" y="106" text-anchor="end" font-size="12" letter-spacing="2" opacity=".75">JANEIRO–FEVEREIRO · 1944</text>
+  </g>
+  <path d="M54 122H1146" stroke="#8a6b52" stroke-width="1.2"/>
+  <g clip-path="url(#scene)">
+    <rect x="54" y="132" width="1092" height="570" fill="url(#wall)"/>
+    <path d="M54 530Q260 510 440 540T820 525T1146 535V702H54Z" fill="url(#tiles)"/>
+    <path d="M54 132H1146V702H54Z" fill="url(#hatch)" opacity=".2"/>
+    <rect x="92" y="168" width="260" height="190" fill="#29232a" stroke="#b99d77" stroke-width="7"/>
+    <rect x="106" y="182" width="232" height="162" fill="url(#window)"/>
+    <path d="M106 275Q175 235 235 266T338 252V344H106Z" fill="#776d70" opacity=".5"/>
+    <path d="M106 306L166 278L204 302L252 265L338 300" fill="none" stroke="#4e4449" stroke-width="5" opacity=".7"/>
+    <path d="M222 182V344M106 263H338" stroke="#4d3d3b" stroke-width="7"/>
+    <path d="M84 369H366" stroke="#b28b63" stroke-width="4" opacity=".55"/>
+    <g opacity=".95">
+      <path d="M390 176L476 160L498 575L411 590Z" fill="#7d5a42" stroke="#34282a" stroke-width="7"/>
+      <path d="M505 166L575 158L592 565L523 573Z" fill="#a17a54" stroke="#34282a" stroke-width="7"/>
+      <path d="M603 180L682 168L696 575L617 582Z" fill="#624638" stroke="#34282a" stroke-width="7"/>
+      <path d="M406 200L476 187M520 197L576 190M619 210L683 198" stroke="#d1b48a" stroke-width="3" opacity=".35"/>
+    </g>
+    <g transform="translate(790 180)">
+      <rect x="0" y="0" width="268" height="116" rx="3" fill="#c4ad87" stroke="#37292a" stroke-width="5"/>
+      <path d="M18 17H250V98H18Z" fill="#e2d2b5" stroke="#82644c" stroke-width="2"/>
+      <g fill="#6a4b3b" font-family="Georgia,serif" font-weight="bold" text-anchor="middle">
+        <text x="134" y="53" font-size="33">A</text><text x="200" y="53" font-size="33">R</text>
+      </g>
+      <path d="M32 76H236" stroke="#8e7257" stroke-width="2"/>
+      <text x="134" y="91" text-anchor="middle" fill="#705747" font-family="Georgia,serif" font-size="10" letter-spacing="2">MOLDES DE CARTÃO</text>
+    </g>
+    <g transform="translate(92 434)">
+      <rect x="0" y="48" width="260" height="25" fill="url(#wood)" stroke="#30252a" stroke-width="4"/>
+      <path d="M25 72L5 232M228 72L250 232" stroke="#604536" stroke-width="15"/>
+      <rect x="12" y="0" width="42" height="64" rx="5" fill="#a48a68" stroke="#33292a" stroke-width="4"/>
+      <rect x="75" y="-8" width="42" height="72" rx="5" fill="#6b4b42" stroke="#33292a" stroke-width="4"/>
+      <rect x="138" y="4" width="42" height="60" rx="5" fill="#b39b72" stroke="#33292a" stroke-width="4"/>
+      <rect x="201" y="-4" width="42" height="68" rx="5" fill="#4d5a4b" stroke="#33292a" stroke-width="4"/>
+      <g fill="#211a20" opacity=".65"><rect x="21" y="10" width="24" height="5"/><rect x="84" y="3" width="24" height="5"/><rect x="147" y="15" width="24" height="5"/><rect x="210" y="7" width="24" height="5"/></g>
+    </g>
+    <g transform="translate(384 400)">
+      <path d="M0 185L42 0L82 185M198 185L238 0L278 185" fill="none" stroke="#3b2a28" stroke-width="14"/>
+      <path d="M24 100H255" stroke="#a88660" stroke-width="5"/>
+      <rect x="22" y="48" width="242" height="122" fill="url(#sign)" stroke="#d1b58b" stroke-width="5"/>
+      <rect x="33" y="59" width="220" height="100" fill="none" stroke="#9f7c58" stroke-width="2"/>
+      <g fill="#ead8b8" font-family="Georgia,serif" text-anchor="middle">
+        <text x="143" y="104" font-size="27" letter-spacing="2">PALMIRA</text>
+        <text x="143" y="131" font-size="17" letter-spacing="1">SEQUEIRA</text>
+      </g>
+      <path d="M54 140H231" stroke="#c3a47a" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(735 420)">
+      <rect x="0" y="60" width="340" height="26" fill="url(#wood)" stroke="#30252a" stroke-width="4"/>
+      <path d="M30 86L10 224M310 86L330 224" stroke="#684a39" stroke-width="14"/>
+      <path d="M52 58L73 -18M88 58L111 -8M124 58L144 -28M160 58L178 -12" stroke="#c3a77d" stroke-width="8" stroke-linecap="round"/>
+      <path d="M73 -18L80 -42M111 -8L118 -34M144 -28L151 -53M178 -12L185 -38" stroke="#33252a" stroke-width="10" stroke-linecap="round"/>
+      <path d="M50 18L82 18M88 28L120 28M124 10L156 10M160 25L192 25" stroke="#8e6b50" stroke-width="2"/>
+    </g>
+    <g transform="translate(715 315)">
+      <path d="M0 60H62L56 155H8Z" fill="#4d5c52" stroke="#261e24" stroke-width="4"/>
+      <path d="M78 50H140L133 155H85Z" fill="#8c6550" stroke="#261e24" stroke-width="4"/>
+      <path d="M156 66H218L210 155H164Z" fill="#7c7a69" stroke="#261e24" stroke-width="4"/>
+      <path d="M22 62L28 -35M43 62L53 -48M99 55L108 -42M121 55L133 -26M178 68L190 -32M197 68L212 -17" stroke="#d6c39e" stroke-width="5" stroke-linecap="round"/>
+      <path d="M22 -35L20 -60M53 -48L59 -72M108 -42L111 -67M133 -26L141 -53M190 -32L196 -57M212 -17L221 -43" stroke="#6b4939" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(1020 490) rotate(-8)">
+      <path d="M0 0L-92 10" stroke="#d0b48a" stroke-width="8" stroke-linecap="round"/>
+      <path d="M0 0L20 -12L28 4L8 17Z" fill="#9a7756" stroke="#35272b" stroke-width="3"/>
+      <path d="M-92 10L-112 8" stroke="#34272a" stroke-width="3"/>
+    </g>
+    <path d="M54 685H1146" stroke="#d2bd9a" stroke-width="2" opacity=".45"/>
+  </g>
+  <g fill="#4a3037" font-family="Georgia,serif">
+    <text x="64" y="738" font-size="14" letter-spacing="2">RECONSTITUIÇÃO ILUSTRATIVA · A TINTA DO LADO DE FORA / O ENDEREÇO NO VERSO</text>
+    <text x="1136" y="738" text-anchor="end" font-size="12" letter-spacing="2">RUA NÃO IDENTIFICADA</text>
+  </g>
+</svg>
