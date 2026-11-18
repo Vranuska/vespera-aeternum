@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+  <title id="title">Porto de Hakodate, reconstituição ilustrativa de 1922</title>
+  <desc id="desc">Gravura vetorial em tons de sépia e vinho: baía abrigada, encosta da cidade, navios de carga, embarcação de pesca e ferry ferroviário. Não representa um cais específico nem um levantamento histórico.</desc>
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8b7356" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#4b2631" stop-opacity=".95"/>
+    </linearGradient>
+    <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(28)">
+      <path d="M0 0V12" stroke="#9c7a52" stroke-width="1" opacity=".34"/>
+    </pattern>
+    <pattern id="fine" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-32)">
+      <path d="M0 0V7" stroke="#6d4b3c" stroke-width=".8" opacity=".22"/>
+    </pattern>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 790H1530M90 814H1510" stroke="#a88a5d" stroke-width="2" opacity=".55"/>
+    <path d="M110 720C210 684 265 633 350 594C450 548 525 551 610 501C710 443 779 407 860 433C948 461 1005 405 1080 372C1178 329 1268 369 1360 405C1430 434 1485 449 1510 442" stroke="#70503d" stroke-width="4" opacity=".75"/>
+    <path d="M110 720C210 684 265 633 350 594C450 548 525 551 610 501C710 443 779 407 860 433C948 461 1005 405 1080 372C1178 329 1268 369 1360 405C1430 434 1485 449 1510 442" stroke="url(#hatch)" stroke-width="28" opacity=".8"/>
+    <path d="M110 742C250 704 323 661 405 624C505 578 581 579 654 536C730 491 817 458 890 478C987 505 1034 454 1110 425C1212 387 1300 419 1384 452" stroke="#a1845c" stroke-width="1.6" opacity=".65"/>
+    <path d="M110 748C320 730 455 721 610 733C780 747 925 735 1080 745C1230 755 1380 733 1510 748" stroke="#8d6c4b" stroke-width="2"/>
+    <path d="M120 774q55 -8 110 0t110 0t110 0t110 0t110 0t110 0t110 0t110 0t110 0t110 0t110 0t110 0t110 0" stroke="#9e8058" stroke-width="2" opacity=".6"/>
+    <path d="M135 785q44 -6 88 0t88 0t88 0t88 0t88 0t88 0t88 0t88 0t88 0t88 0t88 0t88 0t88 0" stroke="#9e8058" stroke-width="1.2" opacity=".4"/>
+    <path d="M250 655l30 -42 46 0 18 42M320 635l28 -56 48 0 22 56M420 585l24 -42 45 0 20 42M525 552l20 -38 43 0 22 38M635 510l28 -43 42 0 20 43" stroke="#4b2631" stroke-width="3"/>
+    <path d="M280 613v-25h28v25M347 579v-26h32v26M444 543v-25h31v25M546 514v-23h28v23M660 468v-25h31v25" stroke="#8d6c4b" stroke-width="2"/>
+    <path d="M225 680h58M314 651h75M410 604h88M516 566h88M626 525h92" stroke="#8d6c4b" stroke-width="2"/>
+    <path d="M730 686l70 -2 42 20 0 11H730Z" fill="#6b3c3e" fill-opacity=".25" stroke="#4b2631" stroke-width="3"/>
+    <path d="M770 684v-94h4v94M774 600l70 80M774 620l-46 61" stroke="#72513e" stroke-width="3"/>
+    <path d="M755 611q25 -20 49 0" stroke="#9b7b54" stroke-width="2"/>
+    <path d="M730 714q65 10 130 0" stroke="#4b2631" stroke-width="2"/>
+    <path d="M920 690h225l-25 34H948Z" fill="#6d3039" fill-opacity=".18" stroke="#4b2631" stroke-width="4"/>
+    <path d="M968 688v-55h112v55M990 633v-19h62v19M1000 614v-14h42v14" stroke="#4b2631" stroke-width="3"/>
+    <path d="M1018 599v-52h10v52M1023 547l22 -20" stroke="#4b2631" stroke-width="3"/>
+    <path d="M930 724q95 15 194 0" stroke="#8d6c4b" stroke-width="2"/>
+    <path d="M960 648h28m12 0h26m12 0h26" stroke="#a88a5d" stroke-width="2"/>
+    <path d="M1180 701l145 -1 34 27h-154Z" fill="#4b2631" fill-opacity=".13" stroke="#4b2631" stroke-width="3"/>
+    <path d="M1210 699v-40h74v40M1222 659v-32h51v32M1237 627v-14h20v14" stroke="#70503d" stroke-width="2.5"/>
+    <path d="M1247 613v-38" stroke="#70503d" stroke-width="2"/>
+    <path d="M1270 630l35 35" stroke="#70503d" stroke-width="2"/>
+    <path d="M1184 729q90 12 177 0" stroke="#8d6c4b" stroke-width="2"/>
+    <path d="M1360 715l64 -1 23 16h-72Z" stroke="#4b2631" stroke-width="2.5"/>
+    <path d="M1380 712v-23m0 0l30 23" stroke="#4b2631" stroke-width="2"/>
+    <path d="M1450 739q20 4 42 0t38 0" stroke="#8d6c4b" stroke-width="1.5" opacity=".65"/>
+    <path d="M115 855q60 -12 120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0" stroke="#9c7a52" stroke-width="1.5" opacity=".5"/>
+    <path d="M115 874q60 -8 120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0t120 0" stroke="#9c7a52" stroke-width="1" opacity=".32"/>
+    <path d="M125 118H1475V880H125Z" stroke="#9b7b54" stroke-width="2" opacity=".65"/>
+    <path d="M144 136H1456V862H144Z" stroke="#9b7b54" stroke-width="1" opacity=".35"/>
+    <path d="M125 166l40 -40m-40 0l40 40M1475 166l-40 -40m40 0l-40 40M125 832l40 40m-40 0l40 -40M1475 832l-40 40m40 0l-40 -40" stroke="#9b7b54" stroke-width="2" opacity=".65"/>
+    <circle cx="800" cy="210" r="42" stroke="#9b7b54" stroke-width="1.6" opacity=".55"/>
+    <circle cx="800" cy="210" r="31" stroke="#9b7b54" stroke-width="1" stroke-dasharray="2 6" opacity=".55"/>
+    <path d="M800 155v110m-55 -55h110M800 170l9 40 -9 40 -9 -40Z" stroke="#9b7b54" stroke-width="1.3" opacity=".65"/>
+    <path d="M785 290h30M800 275v30" stroke="#9b7b54" stroke-width="1.4" opacity=".55"/>
+    <path d="M220 270q80 -20 160 0t160 0t160 0t160 0t160 0t160 0t160 0" stroke="#9c7a52" stroke-width="1" stroke-dasharray="3 10" opacity=".25"/>
+    <path d="M220 300q80 -20 160 0t160 0t160 0t160 0t160 0t160 0t160 0" stroke="#9c7a52" stroke-width="1" stroke-dasharray="3 10" opacity=".2"/>
+  </g>
+  <g fill="url(#ink)" opacity=".88">
+    <path d="M280 680l35 -51 35 51Z"/>
+    <path d="M390 625l28 -49 34 49Z"/>
+    <path d="M510 572l30 -48 36 48Z"/>
+    <path d="M630 530l34 -55 38 55Z"/>
+  </g>
+  <g fill="url(#fine)" opacity=".55">
+    <path d="M225 683l90 -80 80 32 65 -58 100 13 85 -65 95 26 80 -48 75 15 95 -58 95 25 95 -7 80 38v100H225Z"/>
+  </g>
+  <g fill="#4b2631" opacity=".88">
+    <circle cx="275" cy="592" r="3"/><circle cx="347" cy="551" r="3"/><circle cx="446" cy="518" r="3"/><circle cx="548" cy="487" r="3"/><circle cx="660" cy="441" r="3"/>
+  </g>
+</svg>
