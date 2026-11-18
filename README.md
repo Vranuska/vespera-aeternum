@@ -53,6 +53,8 @@ Este é um lugar para as histórias que sobrevivem — sobretudo aquelas que, à
 - **[A segunda vida do sapato vermelho](arquivo/fragmentos/a-segunda-vida-do-sapato-vermelho.md)** — O reencontro com a menina que aprendeu a voar.
 - **[O espelho pediu desculpas](arquivo/fragmentos/o-espelho-pediu-desculpas.md)** — Uma promessa esquecida e um reflexo impossível.
 - **[A maré não assina recibos — versão de leitura atual (v5)](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v5.md)** — Nao Sakamoto, uma amarração defeituosa e a partida de um irmão no porto de Otaru, em 1921.
+- **[O primeiro quarto em terra](arquivo/fragmentos/versoes/o-primeiro-quarto-em-terra-v1.md)** — Sōta recebe a carta de Nao em Hakodate e aluga um quarto temporário, sem prometer o regresso.
+- **[Carta de Nao a Sōta](arquivo/fragmentos/carta-de-nao-a-sota-1922-01-05.md)** — documento de Otaru, posterior ao exame de escrituração e anterior à resposta de Sōta.
 - **[A maré não assina recibos — original preservado](arquivo/fragmentos/a-mare-nao-assina-recibos.md)** — primeira versão, mantida sem alterações.
 - **[A maré não assina recibos — versão v1 preservada](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v1.md)** — cópia de referência imutável para comparação com futuras revisões.
 - **[A maré não assina recibos — versão v2](arquivo/fragmentos/versoes/a-mare-nao-assina-recibos-v2.md)** — segunda versão integral, reescrita a partir das três críticas; a v1 permanece preservada.
