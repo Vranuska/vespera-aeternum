@@ -317,3 +317,31 @@ A ordem editorial secundária é *A maré não assina recibos* → *O primeiro q
 A classificação também foi corrigida: *A maré não assina recibos* tinha data de universo conhecida, mas estava na lista de obras sem posição cronológica. Agora aparece na era de 1921; a seção residual passa a chamar-se «Sem posição cronológica». O Volume I continua com 19 capítulos.
 
 A composição aprovada do portal não foi alterada. A prancha é um asset novo, separado, vetorial e com fundo transparente. As fontes históricas e os limites de localização foram registrados no caderno do Atlas.
+
+
+
+## Auditoria de integração — 18 de novembro de 2026 · Caderno das Travessias
+
+O ciclo editorial desta data já estava completo no repositório ao iniciar esta auditoria. Não foi criado um segundo trio de peças, para respeitar a regra de um único ciclo por dia.
+
+### Verificação do conteúdo canônico
+
+- `entries.json`: 53 obras, sem IDs duplicados e sem referências relacionadas quebradas.
+- As duas obras do ciclo estão preservadas: *O primeiro quarto em terra* (96 parágrafos) e *Carta de Nao a Sōta* (15 parágrafos). Os manuscritos foram relidos; a carta separa o que comprova, sugere e não permite concluir.
+- O índice mantém 19 capítulos do Volume I, 22 registros cronológicos e 31 obras sem posição cronológica. O Caderno das Travessias permanece numa sequência editorial própria: *A maré não assina recibos* → *O primeiro quarto em terra* → *Carta de Nao a Sōta*. A ordem editorial coloca a narrativa antes da carta; a cronologia conserva 5 e 12 de janeiro de 1922.
+- O Atlas contém onze lugares. O Porto de Hakodate possui história, limites, habitantes, conexões e prancha vetorial independente. O cais e a hospedaria de Sōta continuam sem endereço ou coordenadas.
+- Os fallbacks de obras, índice editorial, Atlas e Bestiário no frontend GitHub têm os mesmos blobs SHA dos arquivos canônicos. O Bestiário conserva uma ficha completa e quatro menções; nenhuma criatura nova foi inventada para completar o trio.
+
+### Estado da sincronização Lovable/GitHub
+
+A auditoria do projeto Lovable `67d4aa78-e2dc-46a4-bf90-f7e8039f51c3` encontrou o projeto pronto e marcado como publicado, mas com dados antigos: o fallback contém 31 obras, não existe a rota `/arquivo-das-eras`, o mapa estático não contém Otaru nem Hakodate e os arquivos de fallback canônicos do Atlas e do Bestiário não estão presentes nessa versão. O último commit interno reportado pelo Lovable é `82cacb5c3e0f3b93d7b0caa8c455d7b506b6fa3a`; o frontend GitHub já contém a rota, os 53 registros e os onze lugares.
+
+O workspace Lovable está no plano Free e a tentativa de auditoria sem edição foi recusada por falta de créditos. Nenhum arquivo, layout ou publicação do Lovable foi alterado. A sincronização deve aguardar créditos e ser feita somente sobre dados, rotas e renderizadores necessários, sem substituir a composição Reforged aprovada.
+
+O preview atual, o preview aprovado e a produção Lovable foram tentados separadamente, mas não retornaram conteúdo legível neste ambiente. O projeto reporta `is_published: true`; isso não confirma que a produção esteja na versão atual. O endereço público e o preview continuam sem inspeção visual confirmada.
+
+### Publicação e validação
+
+O commit frontend `6712c910d16dd6f7ef05392f965f473d1ad1ccb7` não apresenta status checks no endpoint consultado. Portanto, não se declara build ou testes aprovados para este ciclo. O endereço GitHub Pages também não pôde ser lido. A origem de Pages em GitHub Actions ainda não foi confirmada nas configurações do repositório; a alteração em Settings → Pages permanece pendente de acesso.
+
+Fontes históricas consultadas para Hakodate: [Hakodate City — Information on Port of Hakodate](https://www.city.hakodate.hokkaido.jp/docs/2019020800086/) e [Travel Hakodate — History](https://www.hakodate.travel/en/about/history/).
