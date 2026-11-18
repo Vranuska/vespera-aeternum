@@ -302,3 +302,18 @@ O ID editorial e a posição fora da cronologia do Volume I não mudam. entries.
 A execução dinâmica Pages `44191141812` concluiu às 22:38:44 UTC, depois da execução React `44191143605`, concluída às 22:35:37 UTC. A espera fixa de 120 segundos não cobria essa duração e não assegurava a ordem final dos artefatos.
 
 O workflow passa a consultar a API de Actions com permissão somente de leitura, localizar a execução dinâmica do mesmo SHA e aguardar seu término antes de chamar `deploy-pages`. Se a origem do Pages for trocada para GitHub Actions, a execução dinâmica deixa de aparecer e a etapa prossegue após a janela de descoberta. A alteração não muda o conteúdo nem a composição visual. A troca da origem em Settings → Pages continua sendo a solução definitiva e requer acesso às configurações do repositório.
+
+
+## Ciclo editorial — 18 de novembro de 2026 · Caderno das Travessias
+
+O ciclo de hoje acrescenta três peças coordenadas ao fio de Nao Sakamoto e Sōta:
+
+- *O primeiro quarto em terra* — narrativa em terceira pessoa limitada por Sōta, em Hakodate, 12/01/1922. A consequência concreta da carta de dezembro é um endereço temporário, não um regresso.
+- *Carta de Nao a Sōta* — documento datado de 05/01/1922. Registra a prova de escrituração e a suspensão ainda sem resposta; não prova aprovação, dispensa ou contratação.
+- *Porto de Hakodate* — décimo primeiro lugar ilustrado do Atlas, com prancha vetorial independente em \`assets/atlas/hakodate-porto-1922.svg\`. A reconstituição não identifica cais, edifício ou coordenadas.
+
+A ordem editorial secundária é *A maré não assina recibos* → *O primeiro quarto em terra* → *Carta de Nao a Sōta*. A cronologia permanece distinta: novembro–dezembro de 1921, 5 de janeiro de 1922 e 12 de janeiro de 1922. O arco não entra no Volume I nem recebe numeração de capítulo.
+
+A classificação também foi corrigida: *A maré não assina recibos* tinha data de universo conhecida, mas estava na lista de obras sem posição cronológica. Agora aparece na era de 1921; a seção residual passa a chamar-se «Sem posição cronológica». O Volume I continua com 19 capítulos.
+
+A composição aprovada do portal não foi alterada. A prancha é um asset novo, separado, vetorial e com fundo transparente. As fontes históricas e os limites de localização foram registrados no caderno do Atlas.
