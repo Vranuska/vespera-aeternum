@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t d">
+<title id="t">A segunda chegada de Azrakhel</title>
+<desc id="d">Azrakhel surge descalço à porta de um salão escuro, segurando lírios brancos, depois de retornar para pedir desculpas a Vespera.</desc>
+<defs>
+ <linearGradient id="room" x2="0" y2="1"><stop stop-color="#110d16"/><stop offset=".62" stop-color="#261724"/><stop offset="1" stop-color="#4a2632"/></linearGradient>
+ <linearGradient id="door" x2="1" y2="0"><stop stop-color="#0d0a12"/><stop offset=".5" stop-color="#51303b"/><stop offset="1" stop-color="#100b13"/></linearGradient>
+ <linearGradient id="cloak" x2="1" y2="1"><stop stop-color="#3e2a3a"/><stop offset=".5" stop-color="#130e18"/><stop offset="1" stop-color="#08070c"/></linearGradient>
+ <linearGradient id="bone" x2="0" y2="1"><stop stop-color="#e7d7b8"/><stop offset="1" stop-color="#70606a"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="26"/></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#room)"/>
+<ellipse cx="825" cy="420" rx="220" ry="320" fill="#cf9b69" opacity=".16" filter="url(#glow)"/>
+<path d="M125 900V120H1075V900" fill="#130d17" stroke="#ac8966" stroke-opacity=".55" stroke-width="8"/>
+<path d="M190 900V210Q190 150 250 150H950Q1010 150 1010 210V900" fill="url(#door)" stroke="#b69575" stroke-opacity=".5" stroke-width="5"/>
+<path d="M240 900V245Q240 195 290 195H910Q960 195 960 245V900" fill="#17101b" stroke="#5e4050" stroke-width="4"/>
+<g stroke="#d4b48a" stroke-opacity=".24" fill="none" stroke-width="3">
+ <path d="M300 240V850M450 240V850M750 240V850M900 240V850"/>
+ <path d="M240 400H960M240 620H960"/>
+</g>
+<path d="M460 890Q405 690 458 500Q480 410 530 360L515 286Q540 220 600 205Q660 220 685 286L670 360Q720 410 742 500Q795 690 740 890Z" fill="url(#cloak)" stroke="#a38a77" stroke-width="4"/>
+<path d="M535 385Q490 315 515 242Q560 270 574 325Q584 255 600 210Q631 278 626 327Q658 270 691 245Q708 320 655 385Q620 414 600 410Q565 410 535 385Z" fill="url(#bone)" stroke="#3a2934" stroke-width="6"/>
+<path d="M536 275Q465 266 438 184Q514 200 570 312" fill="none" stroke="#05050a" stroke-width="22" stroke-linecap="round"/>
+<path d="M664 275Q735 266 762 184Q686 200 630 312" fill="none" stroke="#05050a" stroke-width="22" stroke-linecap="round"/>
+<ellipse cx="566" cy="337" rx="9" ry="6" fill="#d08c54"/><ellipse cx="634" cy="337" rx="9" ry="6" fill="#d08c54"/>
+<path d="M500 445L440 545L500 640L565 575L575 454Z" fill="url(#bone)" stroke="#3a2934" stroke-width="8"/>
+<path d="M700 445L760 545L700 640L635 575L625 454Z" fill="url(#bone)" stroke="#3a2934" stroke-width="8"/>
+<path d="M535 445Q600 422 665 445L645 700Q600 730 555 700Z" fill="#332633" stroke="#c0a17e" stroke-width="5"/>
+<g fill="none" stroke="#dfc7a5" stroke-width="4" opacity=".75"><path d="M548 500L580 480L594 545L560 565Z"/><path d="M652 500L620 480L606 545L640 565Z"/><path d="M565 618Q600 590 635 618L625 685Q600 704 575 685Z"/></g>
+<path d="M460 900Q600 844 740 900" fill="#0c0910"/>
+<g transform="translate(706 504)">
+ <path d="M0 260Q20 100 40 32M40 260Q48 95 88 8M25 260Q85 126 130 72" fill="none" stroke="#71806a" stroke-width="8" stroke-linecap="round"/>
+ <g fill="#efe7d5" stroke="#a58d70" stroke-width="2">
+  <path d="M40 70Q-4 40 22 0Q59 -13 68 26Q85 -7 112 16Q124 55 80 72Z"/>
+  <path d="M90 104Q52 74 79 44Q116 36 124 76Q144 49 167 75Q170 109 126 116Z"/>
+  <path d="M4 133Q-34 108 -12 80Q17 70 28 102Q46 81 66 105Q65 137 29 146Z"/>
+ </g>
+ <g fill="#ceb58e"><circle cx="49" cy="40" r="5"/><circle cx="113" cy="85" r="5"/><circle cx="20" cy="111" r="5"/></g>
+</g>
+<path d="M260 760Q330 740 385 760M805 755Q875 735 940 758" stroke="#9e765b" stroke-opacity=".3" stroke-width="5" fill="none"/>
+<g fill="#39222e" opacity=".9"><path d="M345 860Q360 815 375 788Q410 827 400 875Z"/><path d="M420 875Q415 824 450 790Q466 837 460 878Z"/></g>
+<rect x="22" y="22" width="1156" height="856" fill="none" stroke="#d0b28b" stroke-opacity=".55" stroke-width="2"/>
+<rect x="35" y="35" width="1130" height="830" fill="none" stroke="#d0b28b" stroke-opacity=".2"/>
+</svg>
