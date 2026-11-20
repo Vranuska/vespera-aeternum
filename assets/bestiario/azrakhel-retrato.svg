@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t d">
+<title id="t">Azrakhel, retrato de arquivo</title>
+<desc id="d">Uma figura demoníaca de quase três metros, com chifres negros, armadura de ossos, olhos de carvão e uma capa feita de sombra viva, diante de um arco escuro.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#110d17"/><stop offset=".55" stop-color="#321a2b"/><stop offset="1" stop-color="#70404a"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#d8a66e" stop-opacity=".48"/><stop offset=".55" stop-color="#8c4d4a" stop-opacity=".15"/><stop offset="1" stop-color="#1a101b" stop-opacity="0"/></radialGradient>
+ <linearGradient id="shadow" x2="1" y2="1"><stop stop-color="#120e18"/><stop offset=".45" stop-color="#30202f"/><stop offset="1" stop-color="#08070d"/></linearGradient>
+ <linearGradient id="bone" x2="0" y2="1"><stop stop-color="#eee0c0"/><stop offset=".55" stop-color="#b6a184"/><stop offset="1" stop-color="#60505a"/></linearGradient>
+ <linearGradient id="armor" x2=".9" y2="1"><stop stop-color="#665564"/><stop offset=".4" stop-color="#30232e"/><stop offset="1" stop-color="#0e0b13"/></linearGradient>
+ <radialGradient id="eye"><stop stop-color="#fff2c5"/><stop offset=".24" stop-color="#d28b4d"/><stop offset="1" stop-color="#7b3029"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="2" seed="7"/><feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .09 0"/></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#sky)"/>
+<ellipse cx="600" cy="390" rx="390" ry="410" fill="url(#glow)" filter="url(#blur)"/>
+<path d="M100 900V260Q100 90 270 90H930Q1100 90 1100 260V900" fill="#17111c" stroke="#9a795f" stroke-opacity=".42" stroke-width="12"/>
+<path d="M165 900V285Q165 150 295 150H905Q1035 150 1035 285V900" fill="none" stroke="#d1b18b" stroke-opacity=".22" stroke-width="3"/>
+<path d="M270 900V360Q270 250 380 250H820Q930 250 930 360V900" fill="#261727" opacity=".72"/>
+<g fill="#b88c66" opacity=".55"><circle cx="215" cy="660" r="4"/><circle cx="980" cy="580" r="3"/><circle cx="330" cy="300" r="2"/><circle cx="860" cy="250" r="3"/></g>
+<path d="M405 420Q280 330 210 440Q318 442 374 545Q290 600 230 815Q390 780 455 680Z" fill="url(#shadow)"/>
+<path d="M795 415Q935 325 1010 445Q900 465 835 555Q950 625 1000 840Q835 800 770 680Z" fill="url(#shadow)"/>
+<path d="M425 495Q350 610 330 900H870Q850 620 775 490Q690 425 600 430Q505 425 425 495Z" fill="url(#armor)" stroke="#a78a73" stroke-opacity=".55" stroke-width="5"/>
+<path d="M475 480Q392 465 365 535L430 650L515 600L540 500Z" fill="url(#bone)" stroke="#4a3942" stroke-width="9"/>
+<path d="M725 480Q808 465 835 535L770 650L685 600L660 500Z" fill="url(#bone)" stroke="#4a3942" stroke-width="9"/>
+<path d="M495 520L600 485L705 520L680 735Q600 795 520 735Z" fill="url(#armor)" stroke="#c1a78a" stroke-width="5"/>
+<g fill="none" stroke="#d2bea0" stroke-opacity=".7" stroke-width="5">
+ <path d="M455 562Q500 530 545 560L526 650Q488 678 455 640Z"/>
+ <path d="M745 562Q700 530 655 560L674 650Q712 678 745 640Z"/>
+ <path d="M552 550Q600 522 648 550L635 710Q600 735 565 710Z"/>
+ <path d="M474 690Q525 660 574 693L558 760Q514 785 480 748Z"/>
+ <path d="M726 690Q675 660 626 693L642 760Q686 785 720 748Z"/>
+</g>
+<path d="M490 348Q445 275 470 200Q510 245 530 282Q525 205 605 125Q676 205 666 282Q704 225 760 200Q773 288 707 355Q674 405 600 404Q526 405 490 348Z" fill="url(#bone)" stroke="#4f3541" stroke-width="9"/>
+<path d="M485 252Q375 234 352 116Q458 145 523 285" fill="none" stroke="#08070d" stroke-width="27" stroke-linecap="round"/>
+<path d="M715 252Q825 234 848 116Q742 145 677 285" fill="none" stroke="#08070d" stroke-width="27" stroke-linecap="round"/>
+<path d="M515 285Q600 235 685 285L712 367Q600 425 488 367Z" fill="#211521" stroke="#bca17f" stroke-width="4"/>
+<path d="M526 326Q555 308 578 325" fill="none" stroke="#d0a66e" stroke-width="7" stroke-linecap="round"/>
+<path d="M674 326Q645 308 622 325" fill="none" stroke="#d0a66e" stroke-width="7" stroke-linecap="round"/>
+<ellipse cx="552" cy="329" rx="11" ry="8" fill="url(#eye)"/>
+<ellipse cx="648" cy="329" rx="11" ry="8" fill="url(#eye)"/>
+<path d="M600 340L584 373L612 373" fill="none" stroke="#c1a78a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M565 391Q600 401 635 391" fill="none" stroke="#bd9b7c" stroke-width="4" stroke-linecap="round"/>
+<path d="M600 402V470" stroke="#d6c19e" stroke-width="5" opacity=".6"/>
+<g fill="#211621" stroke="#b08c6b" stroke-width="3" opacity=".8">
+ <path d="M470 545L425 610L495 594Z"/><path d="M730 545L775 610L705 594Z"/>
+ <path d="M420 760L390 875H480L470 760Z"/><path d="M780 760L810 875H720L730 760Z"/>
+</g>
+<path d="M370 890Q440 846 505 879Q600 915 695 879Q760 846 830 890" fill="none" stroke="#c9a77e" stroke-opacity=".36" stroke-width="4"/>
+<rect width="1200" height="900" filter="url(#grain)" opacity=".22"/>
+<rect x="22" y="22" width="1156" height="856" fill="none" stroke="#d0b28b" stroke-opacity=".55" stroke-width="2"/>
+<rect x="35" y="35" width="1130" height="830" fill="none" stroke="#d0b28b" stroke-opacity=".2"/>
+</svg>
