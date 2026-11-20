@@ -372,3 +372,49 @@ Fontes históricas consultadas para Hakodate: [Hakodate City — Information on 
 O frontend recebeu primeiro os snapshots de `entries.json`, `bestiario.json` e `editorial/indice-romance-mosaico.json`, e depois os arquivos canônicos foram atualizados com os mesmos conteúdos para satisfazer a comparação byte a byte do workflow. As validações locais de estrutura e as leituras de retorno ainda devem ser registradas após a execução de CI.
 
 A configuração de GitHub Pages deve continuar sendo verificada em Settings → Pages → Build and deployment → Source. Enquanto a origem for publicação por branch, o workflow conserva uma etapa de espera pela execução Jekyll antes de entregar o artefato React. O indicador `is_published` do Lovable não substitui inspeção independente do preview e da produção.
+
+
+## Fechamento da auditoria — 20 de novembro de 2026 · Caderno de Eva
+
+A inspeção dos repositórios confirmou que o trio acima já estava criado e integrado. Esta revisão não criou um segundo conjunto de entradas: corrigiu a apresentação do dossiê no índice do Bestiário, removeu uma leitura indevida de habilidade e reparou um teste de Atlas que ainda esperava dez pranchas quando o cânone contém onze.
+
+### Conferência do cânone e da ordem
+
+- `entries.json` contém 55 obras. Os IDs `2026-11-20-as-estrelas-do-lado-de-dentro` e `2026-11-20-folha-de-prova-de-eva` existem uma única vez, têm ligações relacionadas válidas e ocupam as posições 1 e 2 da série secundária **Caderno de Eva**.
+- O índice editorial tem 19 capítulos no Volume I, 22 itens com posição cronológica e 33 fora da cronologia. As duas peças permanecem fora do Volume I e em `unplaced_archive`: a data de publicação não determina o tempo do universo, e os manuscritos não fornecem data absoluta.
+- `bestiario.json` contém dois dossiês completos e três menções. Azrakhel é a terceira entrada deste ciclo por meio de um dossiê canônico; a oficina permanece sem ficha no Atlas porque nome, domínio e localização não foram estabelecidos.
+- O dossiê mantém a contradição entre a declaração de Azrakhel e a fala do reflexo de Vespera sobre Eva. O bordado não recebeu propriedades sobrenaturais. A única aptidão registrada é o manejo de arma branca, efetivamente testemunhado.
+- Os três SVGs de Azrakhel são arquivos independentes. O retrato e as duas cenas da galeria estão identificados como reconstituições ilustrativas; não são tratados como fotografias.
+
+### Correções na integração
+
+- No frontend, `src/test/atlas.test.ts` foi corrigido de dez para onze pranchas ilustradas.
+- `src/data/characters.ts` deixou de apresentar o parentesco de Eva como fato confirmado e passou a mencionar a contestação do reflexo. Também foi retirada a formulação “Incendeia sobremesas sem querer” do conjunto de traços, pois o manuscrito não demonstra controle do fogo.
+- `src/test/bestiary.test.ts` ganhou uma regressão que verifica a apresentação não conclusiva de Azrakhel e a ausência do traço ambíguo.
+- O README canônico foi alinhado à mesma distinção sobre Eva e atualizado para indicar os dois dossiês completos.
+
+Commits canônicos: [catálogo e manuscritos — f0c10dc](https://github.com/Vranuska/vespera-aeternum/commit/f0c10dc7564959c4bf8620d6e0e32e0a86d3ec06), [dossiê — e6ab271](https://github.com/Vranuska/vespera-aeternum/commit/e6ab271320b28c12390edb60f3be56823debe6bf), [ordem editorial — a272b09](https://github.com/Vranuska/vespera-aeternum/commit/a272b09a10106c3b747f29fa8004df13eff879cc), [gravura de Eva — b71d913](https://github.com/Vranuska/vespera-aeternum/commit/b71d9130b14a953a90a692a1196a638a5f3ddeba), [registro do ciclo — 2bda7ff](https://github.com/Vranuska/vespera-aeternum/commit/2bda7ff7532b9a41552251b572c8b3787aa347a8) e [README — e7493f7](https://github.com/Vranuska/vespera-aeternum/commit/e7493f7a78cea159a7f4e7fc1935423414249416).
+
+Commits do frontend: [correção da contagem do Atlas — 0234058](https://github.com/Vranuska/vespera-aeternum-blog/commit/0234058f6b42592c094b8f04e2d2c40d0e971709), [resumo de Azrakhel — 6db1b46](https://github.com/Vranuska/vespera-aeternum-blog/commit/6db1b46ed377511b1afd4178f1b65cd8a032a3e0) e [teste de regressão — 18b3fad](https://github.com/Vranuska/vespera-aeternum-blog/commit/18b3fadc288afd58da4d86deafc50e08ded11641).
+
+### CI, build e deploy
+
+A execução [44733566494](https://github.com/Vranuska/vespera-aeternum/actions/runs/44733566494), no commit canônico `e7493f7`, terminou com sucesso. Os logs confirmam:
+
+- 55 obras, 19 capítulos, 22 registros cronológicos, 33 fora da cronologia e todas as referências relacionadas válidas;
+- 2 dossiês do Bestiário, 3 menções e 11 lugares no Atlas, com snapshots sincronizados;
+- 8 arquivos de teste aprovados e 54 testes aprovados;
+- build e pré-renderização de 91 páginas, incluindo o Arquivo das Eras, os dois novos manuscritos e `/bestiario/azrakhel`;
+- artefato Pages enviado e etapa React de publicação concluída com “Reported success”.
+
+A execução dinâmica Pages/Jekyll do mesmo SHA, [44733566208](https://github.com/Vranuska/vespera-aeternum/actions/runs/44733566208), terminou antes do deploy React. O workflow aguardou essa execução e publicou o artefato React depois dela. Isso confirma a ordem desta publicação, mas não muda a configuração da origem: **Settings → Pages → Build and deployment → Source** ainda deve ser conferido manualmente e, se continuar como publicação por branch, alterado para **GitHub Actions**. A etapa de espera do workflow é apenas uma proteção provisória.
+
+O deploy React mais recente confirmado corresponde ao commit `e7493f7`. As rotas emitidas no artefato são [Arquivo das Eras](https://vranuska.github.io/vespera-aeternum/arquivo-das-eras/), [As estrelas do lado de dentro](https://vranuska.github.io/vespera-aeternum/diarios/2026-11-20-as-estrelas-do-lado-de-dentro/), [Folha de prova de um par para Eva](https://vranuska.github.io/vespera-aeternum/diarios/2026-11-20-folha-de-prova-de-eva/) e [Dossiê de Azrakhel](https://vranuska.github.io/vespera-aeternum/bestiario/azrakhel/). **A inspeção HTTP e visual independente não foi concluída**: as tentativas de abrir a produção e as rotas no ambiente disponível retornaram erro de acesso. Portanto, build, pré-renderização e deploy estão confirmados; a aparência no navegador público não está.
+
+### Estado do Lovable
+
+O projeto `67d4aa78-e2dc-46a4-bf90-f7e8039f51c3` continua marcado como publicado e pronto, mas seu último commit interno é `82cacb5c3e0f3b93d7b0caa8c455d7b506b6fa3a`, anterior às alterações atuais. Na revisão desse ref não havia rota `/arquivo-das-eras`, e os fallbacks/índices permaneciam antigos. Nenhuma edição ou publicação foi feita no workspace Lovable; o preview e a produção Lovable não puderam ser inspecionados separadamente neste ambiente. A sincronização deve levar os dados e componentes do frontend GitHub para o workspace sem reconstruir a composição Reforged aprovada.
+
+### Fios que permanecem abertos
+
+O próximo desenvolvimento do Caderno de Eva deve confrontar, sem resolver por conveniência, a memória da oficina com o sapatinho encontrado no Salão: ainda não sabemos se são o mesmo par, como chegou à Casa, nem por que o reflexo nega o parentesco. Permanecem sem identificação a sapateira, a oficina, a mulher de vestido cinza e quem sugeriu os lírios. Nenhuma dessas lacunas deve ser preenchida no Atlas ou no Bestiário antes de haver testemunho narrativo.
