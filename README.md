@@ -166,3 +166,12 @@ O site é uma publicação literária estática, acessível diretamente pelo nav
 *Non omnis moriar.*
 
 </div>
+
+
+## Caderno de Eva — 20 de novembro de 2026
+
+- [As estrelas do lado de dentro](arquivo/azrakhel/as-estrelas-do-lado-de-dentro.md) — memória anterior ao desaparecimento de Eva, narrada a partir de Azrakhel, sobre a escolha de um par de sapatos.
+- [Folha de prova de um par para Eva](arquivo/azrakhel/folha-de-prova-de-eva.md) — documento ficcional complementar, com proveniência e limites de interpretação explicitados.
+- [Dossiê de Azrakhel no Bestiário](bestiario.json) — primeira ficha canônica do personagem, com retrato, galeria, história, aptidão efetivamente testemunhada e lacunas preservadas.
+
+O Caderno de Eva é um arco secundário, separado do Volume I. Sua memória e o documento não receberam data de universo nem posição cronológica inventada.
