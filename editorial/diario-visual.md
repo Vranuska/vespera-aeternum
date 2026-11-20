@@ -345,3 +345,30 @@ O preview atual, o preview aprovado e a produção Lovable foram tentados separa
 O commit frontend `6712c910d16dd6f7ef05392f965f473d1ad1ccb7` não apresenta status checks no endpoint consultado. Portanto, não se declara build ou testes aprovados para este ciclo. O endereço GitHub Pages também não pôde ser lido. A origem de Pages em GitHub Actions ainda não foi confirmada nas configurações do repositório; a alteração em Settings → Pages permanece pendente de acesso.
 
 Fontes históricas consultadas para Hakodate: [Hakodate City — Information on Port of Hakodate](https://www.city.hakodate.hokkaido.jp/docs/2019020800086/) e [Travel Hakodate — History](https://www.hakodate.travel/en/about/history/).
+
+
+---
+
+## Ciclo editorial integrado — 20 de novembro de 2026 · Caderno de Eva
+
+### As três entradas
+
+1. **As estrelas do lado de dentro** — memória de Azrakhel anterior ao desaparecimento de Eva. A cena desloca a relação entre os dois para um gesto cotidiano: Eva escolhe os próprios sapatos e Azrakhel aprende a não decidir por ela.
+2. **Folha de prova de um par para Eva** — documento ficcional da oficina. A anotação da sapateira fornece uma perspectiva profissional independente da lembrança do pai e explicita o que o papel comprova, sugere e não permite concluir.
+3. **Dossiê de Azrakhel** — ficha canônica aberta no Bestiário, com um retrato e duas imagens de galeria em SVGs separados. O dossiê diferencia o uso observado de uma espada de qualquer poder não demonstrado; não atribui domínio do fogo, posto infernal ou identidade à mulher de vestido cinza.
+
+### Continuidade editorial e visual
+
+- O arquivo canônico passa a conter 55 obras. Os dois novos IDs estão no catálogo de leitura e ligados explicitamente ao manuscrito de origem.
+- O Volume I permanece com 19 capítulos. O Caderno de Eva possui uma ordem própria — memória, depois documento — sem numeração de capítulo.
+- A cronologia do universo permanece com 22 registros. As duas entradas novas ficam em `unplaced_archive`, pois a data de publicação não é uma data de acontecimento e os manuscritos não fornecem data absoluta.
+- O Bestiário passa a ter dois dossiês completos (Eithne e Azrakhel) e três menções (Ithariel, Aurelian e Malpherion).
+- O possível vínculo entre os sapatos encomendados na memória e o sapatinho encontrado no Salão foi mantido como questão aberta. Nenhum encantamento ou poder foi atribuído ao bordado.
+- Foram criados três assets vetoriais independentes: retrato de Azrakhel, segunda chegada ao Salão e prova dos sapatos de Eva. São reconstituições ilustrativas, não fotografias ou documentos históricos.
+- A composição Reforged aprovada não foi redesenhada. O frontend já dispõe de renderizador de dossiê canônico; a integração foi feita por dados e assets, sem introduzir hero, grade protagonista ou alteração tipográfica.
+
+### Integração e publicação
+
+O frontend recebeu primeiro os snapshots de `entries.json`, `bestiario.json` e `editorial/indice-romance-mosaico.json`, e depois os arquivos canônicos foram atualizados com os mesmos conteúdos para satisfazer a comparação byte a byte do workflow. As validações locais de estrutura e as leituras de retorno ainda devem ser registradas após a execução de CI.
+
+A configuração de GitHub Pages deve continuar sendo verificada em Settings → Pages → Build and deployment → Source. Enquanto a origem for publicação por branch, o workflow conserva uma etapa de espera pela execução Jekyll antes de entregar o artefato React. O indicador `is_published` do Lovable não substitui inspeção independente do preview e da produção.
