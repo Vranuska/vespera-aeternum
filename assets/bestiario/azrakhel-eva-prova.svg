@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t d">
+<title id="t">Azrakhel acompanha Eva na prova de seus sapatos</title>
+<desc id="d">Num ateliê de calçado, uma menina sem chifres escolhe um sapato de couro com pequenas estrelas prateadas bordadas por dentro. Ao lado, o pai demoníaco observa sem interferir.</desc>
+<defs>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#241723"/><stop offset=".6" stop-color="#52303b"/><stop offset="1" stop-color="#1a131d"/></linearGradient>
+ <linearGradient id="light" x2="0" y2="1"><stop stop-color="#f0d4a2" stop-opacity=".32"/><stop offset="1" stop-color="#b67862" stop-opacity="0"/></linearGradient>
+ <linearGradient id="shadow" x2="1" y2="1"><stop stop-color="#312436"/><stop offset="1" stop-color="#090810"/></linearGradient>
+ <linearGradient id="leather" x2="0" y2="1"><stop stop-color="#4b2c38"/><stop offset="1" stop-color="#160f19"/></linearGradient>
+ <linearGradient id="silver" x2="0" y2="1"><stop stop-color="#f1e3c6"/><stop offset="1" stop-color="#8e8790"/></linearGradient>
+</defs>
+<rect width="1200" height="900" fill="url(#wall)"/>
+<path d="M0 100Q220 35 425 120T830 105T1200 90V0H0Z" fill="#130e18"/>
+<path d="M80 0V900M1120 0V900" stroke="#d0b28b" stroke-opacity=".22" stroke-width="5"/>
+<rect x="110" y="130" width="980" height="510" fill="url(#light)"/>
+<g transform="translate(120 120)">
+ <rect x="0" y="0" width="270" height="350" fill="#19111b" stroke="#a98766" stroke-width="7"/>
+ <g stroke="#c4a47d" stroke-opacity=".35" stroke-width="4"><path d="M35 45H235M35 95H235M35 145H235M35 195H235M35 245H235"/></g>
+ <g fill="#b3a38d"><path d="M54 62Q82 10 112 62V106H54Z"/><path d="M143 63Q165 15 194 63V106H143Z"/></g>
+ <g fill="#6e4c50"><path d="M20 280H250V334H20Z"/></g>
+</g>
+<path d="M0 720Q220 680 435 730T870 720T1200 700V900H0Z" fill="#17101a"/>
+<path d="M0 790Q270 755 510 800T970 785T1200 770" stroke="#ad8764" stroke-opacity=".28" stroke-width="5" fill="none"/>
+<!-- sapateira -->
+<g transform="translate(250 380)">
+ <path d="M50 150Q68 74 105 58Q139 75 143 151L158 300H32Z" fill="#5a4248" stroke="#d0b28b" stroke-width="4"/>
+ <circle cx="105" cy="40" r="37" fill="#b99a7d"/>
+ <path d="M71 34Q79 -5 122 0Q151 17 143 40Q113 20 71 34Z" fill="#211820"/>
+ <path d="M35 302L20 480M150 300L168 480" stroke="#b99a7d" stroke-width="20" stroke-linecap="round"/>
+ <path d="M41 170Q-15 215 -43 275M141 170Q200 196 225 238" stroke="#b99a7d" stroke-width="16" stroke-linecap="round"/>
+</g>
+<!-- Eva -->
+<g transform="translate(500 440)">
+ <path d="M40 155Q48 102 93 85Q137 102 145 155L166 330H20Z" fill="#42303c" stroke="#c3a17c" stroke-width="4"/>
+ <circle cx="95" cy="54" r="42" fill="#c7ad91"/>
+ <path d="M55 40Q65 -7 111 10Q140 20 138 61Q124 32 95 30Q77 48 55 40Z" fill="#251b2a"/>
+ <path d="M40 324L25 480M144 323L160 480" stroke="#c7ad91" stroke-width="18" stroke-linecap="round"/>
+ <path d="M27 475Q56 492 77 482M144 476Q171 495 192 482" fill="none" stroke="#c7ad91" stroke-width="9" stroke-linecap="round"/>
+</g>
+<!-- Azrakhel: tall, imposing, armor and shadow cape; no horns on Eva -->
+<g transform="translate(760 215)">
+ <path d="M125 210Q44 250 30 415L0 660H355L320 410Q300 250 215 210Z" fill="url(#shadow)" stroke="#a88970" stroke-width="5"/>
+ <path d="M128 205Q76 163 96 93Q129 105 151 146Q161 94 196 59Q224 112 207 153Q245 117 274 104Q286 185 210 218Z" fill="#d0bea2" stroke="#3a2936" stroke-width="7"/>
+ <path d="M120 120Q41 104 28 14Q106 37 155 151" fill="none" stroke="#08070d" stroke-width="24" stroke-linecap="round"/>
+ <path d="M225 120Q304 104 317 14Q239 37 190 151" fill="none" stroke="#08070d" stroke-width="24" stroke-linecap="round"/>
+ <ellipse cx="147" cy="179" rx="10" ry="7" fill="#d89a58"/><ellipse cx="200" cy="179" rx="10" ry="7" fill="#d89a58"/>
+ <path d="M90 260L55 345L135 395L158 300Z" fill="#d1c0a1" stroke="#3b2938" stroke-width="8"/>
+ <path d="M245 260L280 345L200 395L177 300Z" fill="#d1c0a1" stroke="#3b2938" stroke-width="8"/>
+ <path d="M144 290L170 285L196 290L189 425L170 449L151 425Z" fill="#2b202c" stroke="#bea180" stroke-width="5"/>
+</g>
+<!-- work table and shoe -->
+<g transform="translate(520 745)">
+ <path d="M0 0H410L375 45H35Z" fill="#7d5a49" stroke="#c9a57c" stroke-width="5"/>
+ <path d="M42 42L30 120M365 42L380 120" stroke="#5d3f3e" stroke-width="14" stroke-linecap="round"/>
+ <path d="M125 -8Q146 -48 208 -42Q245 -40 270 -12Q252 14 195 12Q143 12 125 -8Z" fill="url(#leather)" stroke="#d2b28a" stroke-width="4"/>
+ <path d="M147 -16Q160 -50 179 -50M190 -18Q205 -56 222 -42M230 -16Q249 -43 260 -29" stroke="url(#silver)" stroke-width="5" fill="none"/>
+ <g fill="#e4d9c2"><path d="M178 -45l6 -13 6 13-6 7Z"/><path d="M215 -41l6 -13 6 13-6 7Z"/><path d="M251 -29l6 -13 6 13-6 7Z"/></g>
+</g>
+<g fill="#d7bd97" opacity=".65"><circle cx="410" cy="195" r="3"/><circle cx="475" cy="265" r="2"/><circle cx="700" cy="135" r="2"/><circle cx="990" cy="300" r="3"/></g>
+<rect x="22" y="22" width="1156" height="856" fill="none" stroke="#d0b28b" stroke-opacity=".55" stroke-width="2"/>
+<rect x="35" y="35" width="1130" height="830" fill="none" stroke="#d0b28b" stroke-opacity=".2"/>
+</svg>
