@@ -546,16 +546,6 @@
       "title": "Folha de prova de um par para Eva",
       "publication_label": "20 de novembro de 2026 · documento ficcional; data de universo não identificada",
       "universe_chronology": "indeterminada / não posicionada neste volume"
-    },
-    {
-      "entry_id": "2026-11-23-a-feira-nao-perguntou-meu-nome",
-      "title": "A feira não perguntou meu nome",
-      "publication_label": "23 de novembro de 2026 · série A primeira saída; fora do Volume I"
-    },
-    {
-      "entry_id": "2026-11-23-nota-da-banca-de-papelaria",
-      "title": "Nota da banca de papelaria",
-      "publication_label": "23 de novembro de 2026 · documento da série A primeira saída; fora do Volume I"
     }
   ],
   "continuity_notes": {
@@ -913,7 +903,7 @@
     "react_portal": {
       "route": "src/routes/index.tsx",
       "source": "editorial/indice-romance-mosaico.json → src/lib/editorial.ts → src/components/vespera/Constellation.tsx",
-      "status": "Em 23/11/2026, o portal mantém a composição editorial registrada na branch main: índice lateral, monograma, manuscrito em destaque, imagem secundária emoldurada, lista de manuscritos e Constelação depois da leitura. O arquivo reúne 24 registros cronológicos, de 1886 a 1997, 33 obras fora do Volume I e 19 capítulos aprovados. A primeira saída é uma sequência independente, fora dos 19 capítulos.",
+      "status": "Em 23/11/2026, o portal mantém a composição editorial registrada na branch main: índice lateral, monograma, manuscrito em destaque, imagem secundária emoldurada, lista de manuscritos e Constelação depois da leitura. O arquivo reúne 24 registros cronológicos, de 1886 a 1997, 33 obras sem posição cronológica e 19 capítulos aprovados. A primeira saída é uma sequência independente, fora dos 19 capítulos, mas situada em 1996 na cronologia.",
       "features": [
         "hero Reforged preservado",
         "anéis lentos e frase central",
