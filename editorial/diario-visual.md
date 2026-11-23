@@ -444,3 +444,16 @@ A execução 44734308976 (pages build and deployment, evento dynamic) continua e
 
 
 A execução push 45164353740, disparada antes de os snapshots do frontend serem atualizados, parou na validação de sincronização. O frontend foi sincronizado em seguida; uma nova execução será disparada por este registro de integração para validar snapshots, testes, build e deploy sobre o estado final.
+
+
+## Atualização após validação — 23 de novembro de 2026
+
+A execução final **45165156632**, no commit canônico **6b4ae081169b83377497115b6aaa00ee30771848**, terminou em **success**. Foram concluídas com sucesso as etapas de validação dos snapshots sincronizados, validação dos fallbacks canônicos de Bestiário e Atlas, testes de regressão de arquivo/continuidade/atribuição, build prerenderizado, verificação da raiz do site, configuração do Pages, upload do artefato, espera pelo evento Pages e deploy. A execução complementar **45165156406** (evento dynamic) também terminou em success.
+
+A branch do frontend ficou no commit **076d6497daafd65c4c85a92f848011ba001450de**. Os fallbacks de entradas, Atlas e índice editorial foram conferidos por SHA e são idênticos aos arquivos canônicos; o fallback do Bestiário também continua idêntico. O Volume I conserva os 19 IDs aprovados. O marcador existente entre:jardim foi reutilizado, sem novas coordenadas.
+
+O deploy está confirmado no nível do workflow. A URL pública https://vranuska.github.io/vespera-aeternum/ não pôde ser aberta pelo leitor HTTP disponível, portanto a inspeção visual pública permanece pendente e não é declarada como concluída.
+
+O projeto Lovable continua separado: preview ready em https://id-preview--67d4aa78-e2dc-46a4-bf90-f7e8039f51c3.lovable.app, SHA interno 82cacb5c3e0f3b93d7b0caa8c455d7b506b6fa3a e flag de publicação true, mas sem URL de produção retornada nos metadados. Os arquivos lidos no projeto ainda correspondem à versão antiga com hero fotográfico de tela inteira e não à composição da branch main. O agente Lovable recusou a inspeção/sincronização por insuficiência de créditos; não houve alteração nem publicação no Lovable.
+
+O evento dynamic do Pages continua sendo disparado após o push, indício de que a fonte automática por branch ainda está ativa. A configuração de Settings → Pages → Source não pôde ser consultada ou alterada pelo conector disponível. A migração para uma configuração exclusivamente GitHub Actions e a sincronização do preview Lovable continuam pendentes de intervenção com acesso/créditos.
