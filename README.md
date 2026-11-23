@@ -188,4 +188,4 @@ As duas obras formam a sequência independente **A primeira saída**, fora do Vo
 
 ### Integração do frontend — 23 de novembro de 2026
 
-A branch main de Vranuska/vespera-aeternum-blog foi atualizada até o commit 076d6497daafd65c4c85a92f848011ba001450de. Os fallbacks de entradas, Atlas e índice editorial agora espelham os arquivos canônicos; a coleção A primeira saída, a ficha da menina e o marcador preexistente do jardim foram integrados. O Volume I continua com 19 capítulos. A validação e o deploy correspondentes serão confirmados pela execução do workflow disparada após esta sincronização.
+A branch main de Vranuska/vespera-aeternum-blog foi atualizada até o commit 076d6497daafd65c4c85a92f848011ba001450de. Os fallbacks de entradas, Atlas e índice editorial agora espelham os arquivos canônicos; a coleção A primeira saída, a ficha da menina e o marcador preexistente do jardim foram integrados. O Volume I continua com 19 capítulos. A execução 45165156632 confirmou snapshots, testes de regressão, build prerenderizado e deploy pelo GitHub Actions; a inspeção visual pública e a sincronização do preview Lovable continuam pendentes.
