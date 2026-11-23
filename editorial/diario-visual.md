@@ -457,3 +457,37 @@ O deploy está confirmado no nível do workflow. A URL pública https://vranuska
 O projeto Lovable continua separado: preview ready em https://id-preview--67d4aa78-e2dc-46a4-bf90-f7e8039f51c3.lovable.app, SHA interno 82cacb5c3e0f3b93d7b0caa8c455d7b506b6fa3a e flag de publicação true, mas sem URL de produção retornada nos metadados. Os arquivos lidos no projeto ainda correspondem à versão antiga com hero fotográfico de tela inteira e não à composição da branch main. O agente Lovable recusou a inspeção/sincronização por insuficiência de créditos; não houve alteração nem publicação no Lovable.
 
 O evento dynamic do Pages continua sendo disparado após o push, indício de que a fonte automática por branch ainda está ativa. A configuração de Settings → Pages → Source não pôde ser consultada ou alterada pelo conector disponível. A migração para uma configuração exclusivamente GitHub Actions e a sincronização do preview Lovable continuam pendentes de intervenção com acesso/créditos.
+
+
+## Verificação complementar — 23 de novembro de 2026, 08h51 (Brasília)
+
+A inspeção encontrou o ciclo editorial de 23/11 já completo no repositório. Para respeitar a regra de um único ciclo por dia, não foi criado um segundo trio. O registro existente foi conferido diretamente nos manuscritos, índices e fichas:
+
+- *A feira não perguntou meu nome* — memória da menina, aos seis anos, em sua travessia escolhida de 1996 até a Feira de São Joaquim, em Salvador.
+- *Nota da banca de papelaria* — registro ficcional da compra, com a perspectiva da feirante e limites explícitos de interpretação.
+- **Atlas — Jardim das Coisas Esquecidas** — atualização da ficha existente, ligada ao marcador simbólico `entre:jardim`; nenhuma coordenada, rota ou propriedade de portal foi acrescentada.
+
+As duas obras estão em `entries.json`, com IDs únicos e vínculos recíprocos válidos. O índice editorial conserva a ordem independente — memória antes do documento — e situa ambas em 1996 com precisão anual; nenhuma foi inserida nos 19 capítulos do Volume I. A ficha do jardim lista as duas fontes, registra que a visita é ficcional e mantém desconhecido o caminho até a feira. A história real do mercado foi conferida no Governo da Bahia e no Correio; o incêndio de 1964 e a reconstrução posterior estão documentados, assim como uma fotografia da feira em 1995. Essas fontes contextualizam o lugar, não comprovam a visita ficcional.
+
+### Integração e validação
+
+- Repositório literário: ciclo integrado até `a9ddd8e1f7e6f0a0593f7b46c2861deabf72706e`.
+- Frontend GitHub: `Vranuska/vespera-aeternum-blog` em `076d6497daafd65c4c85a92f848011ba001450de`. Os quatro fallbacks de entradas, índice editorial, Atlas e Bestiário foram comparados byte a byte com os arquivos canônicos; todos são idênticos. O catálogo inclui os dois IDs e a ficha da menina registra a nota da banca.
+- O README canônico teve o estado de publicação corrigido no commit `ddf4cce737507089f1b8052d8d63e5383114a219`; a leitura de retorno confirmou o blob `d82078f01c58581d002933adb5ca4e719e147cf8`.
+- A execução React [45168743266](https://github.com/Vranuska/vespera-aeternum/actions/runs/45168743266), para o commit de documentação, terminou com `success`: 57 obras, 19 capítulos, 24 itens cronológicos, 33 sem posição cronológica, 57 testes em oito arquivos e 93 páginas pré-renderizadas. A execução dinâmica [45168741708](https://github.com/Vranuska/vespera-aeternum/actions/runs/45168741708) terminou antes dela, também com sucesso.
+
+### Estados que continuam separados
+
+- **Integração GitHub:** confirmada para o ciclo e os quatro snapshots.
+- **Build e testes:** confirmados no workflow `45168743266`.
+- **Deploy:** artefato React enviado após o Pages/Jekyll. A execução dinâmica com `Build with Jekyll` confirma que a origem do Pages ainda é branch; a migração para **Settings → Pages → Source → GitHub Actions** permanece pendente de acesso administrativo.
+- **Lovable preview:** projeto `67d4aa78-e2dc-46a4-bf90-f7e8039f51c3` em estado `ready`, última edição em 18/11, SHA interno `82cacb5c3e0f3b93d7b0caa8c455d7b506b6fa3a`. Esse SHA não existe na branch GitHub. O código lido nesse ref ainda contém o hero fotográfico de tela cheia, enquanto a branch GitHub preserva a hierarquia aprovada de cabeçalho, monograma, índice lateral e manuscrito protagonista.
+- **Sincronização Lovable:** não realizada. A tentativa de inspeção pelo agente foi bloqueada porque o workspace está sem créditos; nenhum arquivo ou publicação Lovable foi alterado.
+- **Produção e inspeção visual:** o deploy foi confirmado, mas a URL pública e o screenshot do preview não puderam ser inspecionados neste ambiente. Não há aprovação visual registrada.
+
+### Próximas tarefas técnicas
+
+1. Recuperar créditos no workspace Lovable e sincronizar o projeto com a branch GitHub sem reintroduzir o hero de tela cheia nem substituir a composição Reforged.
+2. Alterar a origem do GitHub Pages para GitHub Actions em Settings → Pages, removendo a publicação concorrente Jekyll.
+3. Depois dessas duas intervenções, conferir preview e produção separadamente por HTTP e visualmente em desktop e celular.
+
