@@ -42,3 +42,12 @@ Não transformar uma lacuna em fato. Não estabelecer fronteiras, hierarquias, l
 - **Contexto histórico verificado:** Hakodate abriu ao comércio internacional em 1859, ao lado de Yokohama e Nagasaki. A ligação de ferry ferroviário entre Aomori e Hakodate entrou em serviço em 1908; na década de 1920, a pesca do mar do norte começou a expandir-se e o porto prosperou como ponto de saída de frotas pesqueiras. A narrativa não afirma que Sōta tenha viajado no ferry.
 - **Limites canônicos:** Sōta passa pelo porto em janeiro de 1922 e aluga uma hospedaria próxima, mas o cais, a rua, o número e a hospedaria não são identificados. O Atlas registra a cidade e a zona portuária em escala ampla, sem coordenadas inventadas.
 - **Fontes históricas:** [Hakodate City — Information on Port of Hakodate](https://www.city.hakodate.hokkaido.jp/docs/2019020800086/); [Travel Hakodate — History](https://www.hakodate.travel/en/about/history/).
+
+
+## Jardim das Coisas Esquecidas
+
+- **Jardim das Coisas Esquecidas** — ficha canônica jardim-das-coisas-esquecidas, ligada ao marcador já existente entre:jardim. O marcador é simbólico; não representa coordenadas nem escala do Entre.
+- **História documentada no cânone:** Vespera mantém o jardim; a menina do sapato vermelho recebeu asas temporárias, pediu um portão construído sem magia e inicialmente decidiu não atravessá-lo. Em 1996, escolheu passar pelo portão e chegou à Feira de São Joaquim. Décadas depois, voltou adulta com a filha.
+- **Limites:** a visita à feira é ficcional; não há rua, banca, corredor ou caminho identificados. A travessia não confirma portal permanente, destino fixo ou cartografia interna do jardim.
+- **Contexto histórico real do destino:** a antiga Feira de Água de Meninos foi destruída por um incêndio em 1964; os feirantes foram transferidos para a enseada de São Joaquim, onde a feira passou a usar o nome atual. O comércio anterior inclui a Feira do Sete, na década de 1930. Um registro fotográfico de 1995 confirma a presença da feira no período próximo à cena ficcional.
+- **Fontes:** [Governo da Bahia — história e requalificação da Feira de São Joaquim](https://www.ba.gov.br/turismo/noticia/2024-07/3705/segunda-etapa-da-requalificacao-da-feira-de-sao-joaquim-e-autorizada-pelo); [Correio 24 Horas — história da feira e fotografia de 1995](https://www.correio24horas.com.br/entre/feira-com-historia-comercio-em-sao-joaquim-comecou-com-pescadores-no-seculo-19-0520).

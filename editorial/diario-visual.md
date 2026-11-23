@@ -418,3 +418,26 @@ O projeto `67d4aa78-e2dc-46a4-bf90-f7e8039f51c3` continua marcado como publicado
 ### Fios que permanecem abertos
 
 O próximo desenvolvimento do Caderno de Eva deve confrontar, sem resolver por conveniência, a memória da oficina com o sapatinho encontrado no Salão: ainda não sabemos se são o mesmo par, como chegou à Casa, nem por que o reflexo nega o parentesco. Permanecem sem identificação a sapateira, a oficina, a mulher de vestido cinza e quem sugeriu os lírios. Nenhuma dessas lacunas deve ser preenchida no Atlas ou no Bestiário antes de haver testemunho narrativo.
+
+
+## Registro de 23 de novembro de 2026 — A primeira saída e estado de integração
+
+### Ciclo literário
+
+Foram acrescentadas duas obras ligadas ao arco da menina do sapato vermelho: *A feira não perguntou meu nome*, memória em primeira pessoa da menina adulta sobre a travessia escolhida em 1996, e *Nota da banca de papelaria*, registro ficcional da feirante. Ambas permanecem fora do Volume I; a ordem editorial coloca a memória antes do documento, enquanto a cronologia registra as duas em 1996, com precisão anual. O Atlas recebeu a ficha canônica do Jardim das Coisas Esquecidas, mapeada ao marcador preexistente entre:jardim. Nenhuma coordenada ou rota foi criada.
+
+### Identidade visual e frontend
+
+Nenhuma alteração de composição visual foi feita nesta execução. A branch main do frontend conserva índice lateral, monograma, manuscrito em destaque, imagem secundária emoldurada e Constelação depois da leitura. O projeto Lovable permanece no SHA interno 82cacb5c3e0f3b93d7b0caa8c455d7b506b6fa3a, com preview ready, mas o conteúdo lido no projeto não corresponde à branch GitHub main (18b3fadc288afd58da4d86deafc50e08ded11641). A tentativa de inspeção/sincronização pelo agente Lovable foi bloqueada por falta de créditos no workspace; nenhum arquivo do projeto foi alterado nem publicado por essa via.
+
+### Build, deploy e inspeção pública
+
+A execução agendada 45096441971 do workflow Deploy Lovable archive to GitHub Pages terminou em success em 23/11/2026, usando o commit canônico c417c1683ecf20966dc422c4c252bc5d249fd5e7. Isso confirma a execução de validações, build e deploy daquela versão, não a publicação do novo ciclo ainda não integrado.
+
+A execução 44734308976 (pages build and deployment, evento dynamic) continua evidenciando a publicação automática de Pages acionada por branch; a troca de Settings → Pages → Source para GitHub Actions permanece pendente de confirmação administrativa. As tentativas de abrir o domínio público e o preview por HTTP não retornaram conteúdo legível neste ambiente. Portanto, a inspeção visual pública continua pendente e não se declara publicação do ciclo de 23/11.
+
+### Próximas tarefas
+
+- Sincronizar o projeto Lovable com Vranuska/vespera-aeternum-blog main quando houver créditos; preservar a composição atual da branch, sem restaurar a página antiga com hero de tela inteira.
+- Confirmar a fonte de publicação do GitHub Pages em Settings e, se ainda estiver em Deploy from a branch, alterá-la para GitHub Actions.
+- Depois da integração, confirmar o workflow disparado pelo commit do ciclo, a resposta HTTP e a inspeção visual em desktop e celular.

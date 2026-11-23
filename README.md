@@ -175,3 +175,12 @@ O site é uma publicação literária estática, acessível diretamente pelo nav
 - [Dossiê de Azrakhel no Bestiário](bestiario.json) — primeira ficha canônica do personagem, com retrato, galeria, história, aptidão efetivamente testemunhada e lacunas preservadas.
 
 O Caderno de Eva é um arco secundário, separado do Volume I. Sua memória e o documento não receberam data de universo nem posição cronológica inventada.
+
+
+## Ciclo editorial — 23 de novembro de 2026: A primeira saída
+
+- [A feira não perguntou meu nome](arquivo/menina-do-sapato-vermelho/a-feira-nao-perguntou-meu-nome.md) — memória da menina do sapato vermelho, aos seis anos, na primeira travessia do portão verde até a Feira de São Joaquim, em Salvador, em 1996.
+- [Nota da banca de papelaria](arquivo/menina-do-sapato-vermelho/nota-da-banca-de-papelaria.md) — registro ficcional da feirante, com proveniência e limites de interpretação.
+- **Atlas:** Jardim das Coisas Esquecidas, ficha canônica ligada ao marcador existente entre:jardim; nenhuma coordenada ou rota nova foi inventada.
+
+As duas obras formam a sequência independente **A primeira saída**, fora do Volume I. A cronologia do universo registra 1996; a ordem editorial põe a memória antes do documento. O contexto histórico da feira foi conferido em fontes do Governo da Bahia e do Correio 24 Horas.
