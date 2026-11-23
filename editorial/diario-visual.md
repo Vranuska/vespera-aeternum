@@ -428,7 +428,7 @@ Foram acrescentadas duas obras ligadas ao arco da menina do sapato vermelho: *A 
 
 ### Identidade visual e frontend
 
-Nenhuma alteração de composição visual foi feita nesta execução. A branch main do frontend conserva índice lateral, monograma, manuscrito em destaque, imagem secundária emoldurada e Constelação depois da leitura. O projeto Lovable permanece no SHA interno 82cacb5c3e0f3b93d7b0caa8c455d7b506b6fa3a, com preview ready, mas o conteúdo lido no projeto não corresponde à branch GitHub main (18b3fadc288afd58da4d86deafc50e08ded11641). A tentativa de inspeção/sincronização pelo agente Lovable foi bloqueada por falta de créditos no workspace; nenhum arquivo do projeto foi alterado nem publicado por essa via.
+Nenhuma alteração de composição visual foi feita nesta execução. A branch main do frontend está agora no commit 076d6497daafd65c4c85a92f848011ba001450de. O ciclo foi integrado aos snapshots offline, catálogo, ficha da menina e Atlas; o painel do Atlas ganhou apenas uma seção de fontes históricas. A composição da página inicial não foi alterada. O projeto Lovable permanece no SHA interno 82cacb5c3e0f3b93d7b0caa8c455d7b506b6fa3a, com preview ready, mas o conteúdo lido no projeto não corresponde à branch GitHub main. A tentativa de inspeção/sincronização pelo agente Lovable foi bloqueada por falta de créditos no workspace; nenhum arquivo do projeto foi alterado nem publicado por essa via.
 
 ### Build, deploy e inspeção pública
 
@@ -441,3 +441,6 @@ A execução 44734308976 (pages build and deployment, evento dynamic) continua e
 - Sincronizar o projeto Lovable com Vranuska/vespera-aeternum-blog main quando houver créditos; preservar a composição atual da branch, sem restaurar a página antiga com hero de tela inteira.
 - Confirmar a fonte de publicação do GitHub Pages em Settings e, se ainda estiver em Deploy from a branch, alterá-la para GitHub Actions.
 - Depois da integração, confirmar o workflow disparado pelo commit do ciclo, a resposta HTTP e a inspeção visual em desktop e celular.
+
+
+A execução push 45164353740, disparada antes de os snapshots do frontend serem atualizados, parou na validação de sincronização. O frontend foi sincronizado em seguida; uma nova execução será disparada por este registro de integração para validar snapshots, testes, build e deploy sobre o estado final.

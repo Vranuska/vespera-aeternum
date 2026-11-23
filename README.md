@@ -184,3 +184,8 @@ O Caderno de Eva é um arco secundário, separado do Volume I. Sua memória e o 
 - **Atlas:** Jardim das Coisas Esquecidas, ficha canônica ligada ao marcador existente entre:jardim; nenhuma coordenada ou rota nova foi inventada.
 
 As duas obras formam a sequência independente **A primeira saída**, fora do Volume I. A cronologia do universo registra 1996; a ordem editorial põe a memória antes do documento. O contexto histórico da feira foi conferido em fontes do Governo da Bahia e do Correio 24 Horas.
+
+
+### Integração do frontend — 23 de novembro de 2026
+
+A branch main de Vranuska/vespera-aeternum-blog foi atualizada até o commit 076d6497daafd65c4c85a92f848011ba001450de. Os fallbacks de entradas, Atlas e índice editorial agora espelham os arquivos canônicos; a coleção A primeira saída, a ficha da menina e o marcador preexistente do jardim foram integrados. O Volume I continua com 19 capítulos. A validação e o deploy correspondentes serão confirmados pela execução do workflow disparada após esta sincronização.
