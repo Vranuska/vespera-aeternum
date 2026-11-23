@@ -491,3 +491,15 @@ As duas obras estão em `entries.json`, com IDs únicos e vínculos recíprocos 
 2. Alterar a origem do GitHub Pages para GitHub Actions em Settings → Pages, removendo a publicação concorrente Jekyll.
 3. Depois dessas duas intervenções, conferir preview e produção separadamente por HTTP e visualmente em desktop e celular.
 
+
+
+## Verificação técnica complementar — 23 de novembro de 2026, 09h03 (Brasília)
+
+O ciclo **A primeira saída** já estava completo e integrado nesta data; nenhum segundo trio foi criado. A auditoria encontrou uma divergência apenas no resumo do índice: `universe_chronology` continha 24 registros, mas `site_integration.chronology_items` ainda indicava 22. O resumo foi corrigido para 24 no índice canônico e no fallback React. Os dois arquivos agora compartilham o blob `09734583f56fd5cd66f3b82d7331ea182b18e874`.
+
+- Índice canônico: commit `7b12f0166a203d73d37ec2d5bef1881b53fdb2c8`.
+- Frontend GitHub: commit `0cc997503a358c178b85c4d68080c1d84d485639`.
+- A contagem real permanece em 57 obras, 19 capítulos, 24 itens cronológicos e 33 obras sem posição cronológica. Os manuscritos, as ligações, a ficha do Jardim e os doze lugares do Atlas não foram alterados.
+- Os status checks dos dois commits de correção ainda não retornaram resultados. O workflow anterior `45168743266` confirmou 57 testes em oito arquivos, 93 páginas pré-renderizadas e deploy React para o conteúdo já integrado; ele não deve ser confundido com uma validação posterior destes dois commits.
+- O projeto Lovable continua em `82cacb5c3e0f3b93d7b0caa8c455d7b506b6fa3a`, sem sincronização com a branch GitHub. A tentativa de sincronização foi novamente bloqueada por falta de créditos; nenhum arquivo ou preview foi alterado.
+- A execução Pages/Jekyll `45168741708` continua evidenciando a publicação por branch. A troca para GitHub Actions e a inspeção HTTP/visual independente de preview e produção permanecem pendentes.
