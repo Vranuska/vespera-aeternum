@@ -503,3 +503,44 @@ O ciclo **A primeira saída** já estava completo e integrado nesta data; nenhum
 - Os status checks dos dois commits de correção ainda não retornaram resultados. O workflow anterior `45168743266` confirmou 57 testes em oito arquivos, 93 páginas pré-renderizadas e deploy React para o conteúdo já integrado; ele não deve ser confundido com uma validação posterior destes dois commits.
 - O projeto Lovable continua em `82cacb5c3e0f3b93d7b0caa8c455d7b506b6fa3a`, sem sincronização com a branch GitHub. A tentativa de sincronização foi novamente bloqueada por falta de créditos; nenhum arquivo ou preview foi alterado.
 - A execução Pages/Jekyll `45168741708` continua evidenciando a publicação por branch. A troca para GitHub Actions e a inspeção HTTP/visual independente de preview e produção permanecem pendentes.
+
+
+## Verificação editorial e técnica — 25 de novembro de 2026, 09h00 (Brasília)
+
+O ciclo **Intervalos de Lamu** foi criado e integrado depois da inspeção do cânone e das versões de frontend. As três contribuições formam uma sequência independente, fora do Volume I:
+
+- *A sala dos onze minutos* — memória de Amina, reparadora de relógios, em 1998. Hawa pede que o mecanismo seja reparado sem corrigir o desvio deliberado de onze minutos; a sala informa os visitantes sobre a diferença e usa o mostrador apenas para o seu próprio horário. Amina assina a primeira reparação em nome próprio.
+- *Caderno de marcha da oficina* — registro ficcional da oficina de Salim, com a instrução de regulagem, a supervisão e a anotação marginal de uma visitante que se apresenta como Vespera. O documento delimita o que atesta, sugere e não permite concluir.
+- **Atlas — Cidade Velha de Lamu** — nova ficha documental no Mundo dos Mortais, vinculada às duas obras. A posição no painel React é esquemática, não representa coordenadas geográficas nem rota. A oficina de Salim e a sala de leitura de Hawa são ficcionais e não recebem endereço real.
+
+A ordem editorial é narrativa → caderno; a cronologia do universo situa ambas as peças em 1998, com precisão anual. Nenhuma foi acrescentada aos 19 capítulos do Volume I. O ciclo adiciona o motivo dos relógios regulados por convenção humana e intervalos concedidos, mas não transforma os onze minutos em fenômeno sobrenatural nem estabelece regra nova para o Entre. O fio futuro fica restrito à autonomia profissional de Amina e à eventual continuidade da sala, caso surja uma consequência concreta.
+
+O contexto histórico foi conferido na ficha oficial da UNESCO: Lamu é descrita como assentamento suaíli com mais de 700 anos de ocupação contínua, construído com pedra coralina e madeira de mangue, com ruas estreitas, pátios interiores, varandas e portas entalhadas; a inscrição na Lista do Patrimônio Mundial é de 2001. A fonte documenta a cidade, não a oficina, a sala ou os acontecimentos ficcionais.
+
+### Integração e leitura de retorno
+
+- Repositório literário Vranuska/vespera-aeternum: o commit 781ae10a92e6afb26e7c0b10e196b8ff1218e35a integrou as duas obras, o Atlas, os índices de documentação e o README. O commit d13a1af85a9f283849ed20c028d5142dae412c5a completou o índice da Constelação, acrescentando as eras de 1996 e 1998 ao resumo e mantendo a sequência fora do Volume I.
+- Frontend Vranuska/vespera-aeternum-blog: branch main em fd3b07b710212c112be9c5e72a36a94970855241. Os fallbacks de entradas, índice editorial e Atlas foram sincronizados com os blobs canônicos. As entradas e o caderno aparecem nos caminhos pré-renderizados; o marcador mortais:lamu resolve para cidade-velha-de-lamu.
+- Leitura de retorno: 59 IDs únicos; 26 registros cronológicos; 33 obras sem posição cronológica; 19 capítulos aprovados; 13 lugares no Atlas. Todas as obras referenciadas pelo índice, por related_entries e pelas ligações do Atlas existem. Os três snapshots JSON de entradas, índice e Atlas são byte a byte idênticos entre o repositório literário e os fallbacks React.
+- Blobs canônicos/fallback: entries.json e src/data/entries-fallback.json — a57f1aca06d796d836f00373ef019ae1c1411564; índice e fallback — 4792ca36a5d43bf582235e1697628d0b3b5d8716; Atlas e fallback — f60a3ddd2fb227fe32105b8db9405c8bd387aa1a.
+
+### Testes, build e publicação
+
+A primeira execução de regressão encontrou três expectativas antigas: a nova era de 1998, a ordem diária após a entrada de 25/11 e a capitalização de uma frase de limite cartográfico. Os testes foram atualizados para refletir a nova ordem e os dados reais, sem enfraquecer as verificações de integridade. Na execução final, 45609355106, todos os testes passaram: **59 testes em 8 arquivos**. O build Vite/Nitro, a pré-renderização e a preparação do artefato terminaram com sucesso; as duas páginas novas foram pré-renderizadas. O artefato GitHub Pages github-pages-45609355106-1 foi enviado com 1.864.840 bytes. O passo de deploy reportou sucesso em 25/11/2026, às 08h59 (Brasília), para a base https://vranuska.github.io/vespera-aeternum/.
+
+O evento dynamic/Jekyll 45609354018 também concluiu com sucesso. Isso mostra que a execução Pages com Jekyll continua sendo disparada; não foi possível ler ou alterar Settings → Pages → Source pelo conector, portanto a migração para uma origem exclusivamente GitHub Actions permanece pendente de configuração administrativa.
+
+### Estados separados do site
+
+- **Integração GitHub:** confirmada, com os commits acima e os fallbacks comparados byte a byte.
+- **Build e testes:** confirmados no workflow 45609355106, 59/59 testes e build/prerender bem-sucedidos.
+- **Deploy React:** confirmado pelo status do passo Deploy to GitHub Pages; isso comprova o envio do artefato, não a inspeção visual da página pública.
+- **Produção pública:** a URL do Pages não pôde ser aberta pelo leitor HTTP disponível; o estado visual da página permanece não verificado.
+- **Lovable preview:** o projeto 67d4aa78-e2dc-46a4-bf90-f7e8039f51c3 continua em estado ready, com flag is_published=true, mas seu último SHA interno é 82cacb5c3e0f3b93d7b0caa8c455d7b506b6fa3a, sem correspondência no HEAD GitHub. A última edição informada continua em 18/11/2026. O preview não pôde ser aberto; o código inspecionado anteriormente mantém um hero fotográfico de tela cheia e grade de cards, diferente da composição Reforged aprovada. Nenhuma alteração foi feita no projeto Lovable.
+- **Identidade visual:** nenhum CSS, cabeçalho, índice, moldura ou composição de página foi substituído neste ciclo. As alterações no frontend limitam-se a dados, mapa e testes.
+
+### Fios e tarefas pendentes
+
+Narrativamente, Amina pode reaparecer somente quando houver uma decisão profissional ou consequência comunitária concreta; Hawa e Zahra não recebem biografias adicionais por inferência. A anotação “Vespera” permanece um testemunho único, sem confirmação independente. Os onze minutos continuam sendo convenção humana, não pista automática de manipulação temporal.
+
+Tecnicamente, ainda faltam: (1) sincronizar o Lovable com a branch atual preservando a composição Reforged; (2) conferir e, se administrativamente possível, fixar GitHub Pages em GitHub Actions como única origem; (3) inspecionar preview e produção separadamente, em desktop e celular, depois da sincronização. Nenhuma dessas tarefas foi declarada concluída.
