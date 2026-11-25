@@ -51,3 +51,11 @@ Não transformar uma lacuna em fato. Não estabelecer fronteiras, hierarquias, l
 - **Limites:** a visita à feira é ficcional; não há rua, banca, corredor ou caminho identificados. A travessia não confirma portal permanente, destino fixo ou cartografia interna do jardim.
 - **Contexto histórico real do destino:** a antiga Feira de Água de Meninos foi destruída por um incêndio em 1964; os feirantes foram transferidos para a enseada de São Joaquim, onde a feira passou a usar o nome atual. O comércio anterior inclui a Feira do Sete, na década de 1930. Um registro fotográfico de 1995 confirma a presença da feira no período próximo à cena ficcional.
 - **Fontes:** [Governo da Bahia — história e requalificação da Feira de São Joaquim](https://www.ba.gov.br/turismo/noticia/2024-07/3705/segunda-etapa-da-requalificacao-da-feira-de-sao-joaquim-e-autorizada-pelo); [Correio 24 Horas — história da feira e fotografia de 1995](https://www.correio24horas.com.br/entre/feira-com-historia-comercio-em-sao-joaquim-comecou-com-pescadores-no-seculo-19-0520).
+
+
+## Cidade Velha de Lamu
+
+- **Cidade Velha de Lamu** — ficha canônica `cidade-velha-de-lamu`, ligada ao marcador esquemático `mortais:lamu` no painel do Mundo dos Mortais. O marcador é editorial; não representa coordenadas geográficas, distância ou rota.
+- **Contexto histórico verificado:** a Cidade Velha de Lamu, na Ilha de Lamu, é descrita pela UNESCO como o mais antigo e mais bem preservado assentamento suaíli da África Oriental, habitado continuamente por mais de 700 anos. A arquitetura tradicional inclui ruas estreitas e sinuosas, pátios interiores, varandas, portas entalhadas, pedra coralina e madeira de mangue. A inscrição como Patrimônio Mundial ocorreu em 2001.
+- **Limites canônicos:** *A sala dos onze minutos* e *Caderno de marcha da oficina* são ficcionais, situados no ano de 1998. A oficina de Salim e a sala de leitura de Hawa não têm endereço identificado; nenhum edifício real é associado às personagens. O atraso de onze minutos é uma convenção humana, não fenômeno sobrenatural nem regra do Entre.
+- **Fontes históricas:** [UNESCO World Heritage Centre — Lamu Old Town](https://whc.unesco.org/en/list/1055/).

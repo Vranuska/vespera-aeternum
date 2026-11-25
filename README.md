@@ -187,3 +187,12 @@ As duas obras formam a sequência independente **A primeira saída**, fora do Vo
 ### Integração do frontend — 23 de novembro de 2026
 
 A branch main de Vranuska/vespera-aeternum-blog foi atualizada até o commit 076d6497daafd65c4c85a92f848011ba001450de. Os fallbacks de entradas, Atlas e índice editorial agora espelham os arquivos canônicos; a coleção A primeira saída, a ficha da menina e o marcador preexistente do jardim foram integrados. O Volume I continua com 19 capítulos. A execução 45165156632 confirmou snapshots, testes de regressão, build prerenderizado e deploy pelo GitHub Actions; a inspeção visual pública e a sincronização do preview Lovable continuam pendentes.
+
+
+## Ciclo editorial — 25 de novembro de 2026: Intervalos de Lamu
+
+- [A sala dos onze minutos](arquivo/lamu/a-sala-dos-onze-minutos.md) — memória de Amina, reparadora de relógios, sobre a primeira reparação assinada em seu nome e o relógio deliberadamente ajustado para o horário de uma sala de leitura.
+- [Caderno de marcha da oficina](arquivo/lamu/caderno-de-marcha.md) — registro ficcional da oficina de Salim, com a regulagem solicitada, supervisão, proveniência e limites do testemunho.
+- **Atlas:** Cidade Velha de Lamu, ficha canônica ligada a um marcador esquemático no Mundo dos Mortais. O episódio é ficcional; a oficina e a sala de leitura não têm endereço identificado e não foram criadas coordenadas geográficas.
+
+A sequência editorial põe a narrativa antes do caderno. Ambas as peças estão situadas em 1998 na cronologia do universo e permanecem fora dos 19 capítulos do Volume I. O cenário histórico foi conferido no registro da UNESCO; a fonte documenta a cidade e sua arquitetura, não os acontecimentos ficcionais.
