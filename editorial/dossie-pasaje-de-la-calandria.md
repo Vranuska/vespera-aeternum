@@ -102,3 +102,36 @@ Nenhuma dessas possibilidades é fato canônico até aparecer num manuscrito.
 ---
 
 *Nota editorial: a incompletude do Pasaje é parte do estado atual do arquivo. Não é uma falha a ser corrigida pelo próximo capítulo.*
+
+
+---
+
+## Continuidade lateral — Elena e Nélida, 4 de outubro de 1997
+
+### Fontes canônicas
+
+- [Depois do terceiro toque](../arquivo/pasaje-de-la-calandria/depois-do-terceiro-toque.md), narrativa situada em Barracas em 4 de outubro de 1997.
+- [Transcrição da primeira mensagem guardada](../arquivo/pasaje-de-la-calandria/transcricao-da-primeira-mensagem.md), transcrição produzida por Elena a partir da fita do contestador.
+- O episódio desenvolve a vida doméstica e social de Elena depois do encontro com Micaela. Não substitui nem reinterpreta o testemunho sobre o Pasaje.
+
+### Fatos acrescentados
+
+- Elena continua na residência junto ao Pasaje; a cópia do mapa que Micaela lhe deixou permanece guardada num envelope na casa.
+- Nélida é identificada somente como antiga colega de Elena no serviço telefônico. Em 4 de outubro, visita a casa e ajuda a instalar um contestador automático de segunda mão.
+- Nélida deixa uma mensagem de teste que também contém um convite para almoço no dia seguinte, às duas, no café onde costumavam parar depois do turno. Diz ter falado com outras três antigas colegas.
+- Elena aceita o convite por telefone e transcreve a mensagem num papel. A fita permanece preservada com a anotação «Não apagar a fita».
+
+### O que permanece em aberto
+
+- O sobrenome, a idade, a moradia e a trajetória posterior de Nélida não foram estabelecidos.
+- As outras três colegas não são nomeadas. O café não tem nome nem endereço no manuscrito.
+- A narrativa termina com a aceitação do convite; não comprova que o almoço aconteceu.
+- A custódia futura da fita e do papel transcrito não está documentada.
+
+### Limites de interpretação
+
+O contestador, a fita e a gravação são elementos domésticos. Não são artefatos do Entre e não fornecem evidência sobre a porta do fundo, a estrela da planta de 1948 ou o que existiria além do corredor. A sequência não altera a custódia conhecida da chave, não abre a porta e não classifica o lugar como Umbra, Sonhar ou outro plano.
+
+### Contexto histórico verificado, sem extrapolação
+
+Uma reportagem contemporânea da agência IPS, publicada em abril de 1997, descreveu a oferta de serviços de contestador automático que armazenavam mensagens e a presença de telefones públicos nas ruas argentinas. Isso sustenta a plausibilidade do contexto telefônico da narrativa, mas não comprova o modelo do aparelho ficcional nem sua distribuição específica em Barracas: [IPS — Argentina: el gran salto de las telecomunicaciones (abril de 1997)](https://ipsnoticias.net/1997/04/argentina-el-gran-salto-de-las-telecomunicaciones/).

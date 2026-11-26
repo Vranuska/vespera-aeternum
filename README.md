@@ -196,3 +196,9 @@ A branch main de Vranuska/vespera-aeternum-blog foi atualizada até o commit 076
 - **Atlas:** Cidade Velha de Lamu, ficha canônica ligada a um marcador esquemático no Mundo dos Mortais. O episódio é ficcional; a oficina e a sala de leitura não têm endereço identificado e não foram criadas coordenadas geográficas.
 
 A sequência editorial põe a narrativa antes do caderno. Ambas as peças estão situadas em 1998 na cronologia do universo e permanecem fora dos 19 capítulos do Volume I. O cenário histórico foi conferido no registro da UNESCO; a fonte documenta a cidade e sua arquitetura, não os acontecimentos ficcionais.
+
+
+## Barracas — outubro de 1997
+
+- [Depois do terceiro toque](arquivo/pasaje-de-la-calandria/depois-do-terceiro-toque.md) — Elena Roldán, antiga telefonista, recebe a visita de Nélida e decide reencontrar antigas colegas.
+- [Transcrição da primeira mensagem guardada](arquivo/pasaje-de-la-calandria/transcricao-da-primeira-mensagem.md) — a gravação preservada por Elena registra o convite e os limites do que se pode afirmar sobre ele.

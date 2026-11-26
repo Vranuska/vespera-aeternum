@@ -59,3 +59,12 @@ Não transformar uma lacuna em fato. Não estabelecer fronteiras, hierarquias, l
 - **Contexto histórico verificado:** a Cidade Velha de Lamu, na Ilha de Lamu, é descrita pela UNESCO como o mais antigo e mais bem preservado assentamento suaíli da África Oriental, habitado continuamente por mais de 700 anos. A arquitetura tradicional inclui ruas estreitas e sinuosas, pátios interiores, varandas, portas entalhadas, pedra coralina e madeira de mangue. A inscrição como Patrimônio Mundial ocorreu em 2001.
 - **Limites canônicos:** *A sala dos onze minutos* e *Caderno de marcha da oficina* são ficcionais, situados no ano de 1998. A oficina de Salim e a sala de leitura de Hawa não têm endereço identificado; nenhum edifício real é associado às personagens. O atraso de onze minutos é uma convenção humana, não fenômeno sobrenatural nem regra do Entre.
 - **Fontes históricas:** [UNESCO World Heritage Centre — Lamu Old Town](https://whc.unesco.org/en/list/1055/).
+
+
+## Pasaje de la Calandria — atualização de 4 de outubro de 1997
+
+- [Depois do terceiro toque](../pasaje-de-la-calandria/depois-do-terceiro-toque.md) e [Transcrição da primeira mensagem guardada](../pasaje-de-la-calandria/transcricao-da-primeira-mensagem.md) desenvolvem a vida de Elena Roldán na residência junto ao Pasaje, sem reabrir a investigação cartográfica.
+- Nélida aparece apenas como antiga colega de Elena, visitante em 4 de outubro de 1997. O contestador de segunda mão e a fita são objetos domésticos; a mensagem registra um convite para almoço, não a realização do encontro.
+- O nome e o endereço do café, a identidade das três colegas, a biografia de Nélida e o destino posterior da fita permanecem desconhecidos.
+- **Limites cartográficos:** a ficha mantém o status anterior, o marcador esquemático e a ausência de coordenadas. A porta do fundo continua fechada. Não se acrescenta ligação com o Entre, a Umbra ou o Sonhar.
+- **Contexto telefônico de época:** uma reportagem da IPS publicada em abril de 1997 registra que empresas argentinas ofereciam serviços de contestador automático com armazenamento de mensagens e que havia telefones públicos nas ruas. A fonte contextualiza o uso de tecnologia de resposta automática e telefonia pública; não identifica o aparelho doméstico ficcional nem confirma sua marca, modelo ou disponibilidade em Barracas. [IPS — Argentina: el gran salto de las telecomunicaciones](https://ipsnoticias.net/1997/04/argentina-el-gran-salto-de-las-telecomunicaciones/).
