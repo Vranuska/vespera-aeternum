@@ -202,3 +202,12 @@ A sequência editorial põe a narrativa antes do caderno. Ambas as peças estão
 
 - [Depois do terceiro toque](arquivo/pasaje-de-la-calandria/depois-do-terceiro-toque.md) — Elena Roldán, antiga telefonista, recebe a visita de Nélida e decide reencontrar antigas colegas.
 - [Transcrição da primeira mensagem guardada](arquivo/pasaje-de-la-calandria/transcricao-da-primeira-mensagem.md) — a gravação preservada por Elena registra o convite e os limites do que se pode afirmar sobre ele.
+
+
+## Ciclo editorial — 27 de novembro de 2026: O som que ficou na margem
+
+- [O som que ficou na margem](arquivo/bestiario/o-som-que-ficou-na-margem.md) — relato sem data de uma das quatro crianças da família do lago, durante uma travessia marítima de embarcação, rota e destino não identificados; a memória distingue o lamento ouvido na margem da causa da morte da avó.
+- [Correção à margem](arquivo/bestiario/correcao-a-margem.md) — folha ficcional de caderno que corrige a versão causal repetida pela família e explicita os limites do testemunho.
+- **Bestiário:** dossiê existente de Eithne aprofundado com a perspectiva de uma testemunha familiar indireta. Nenhuma aptidão, data, localização ou regra foi acrescentada; a sequência permanece sem posição na cronologia e fora dos 19 capítulos do Volume I.
+
+A narrativa vem antes do documento. A folha não identifica a fonte do lamento, não prova a culpa atribuída pelo pai e não demonstra que o som tenha acompanhado a travessia. O Atlas não foi alterado: a margem e o lago continuam sem localização geográfica identificada.

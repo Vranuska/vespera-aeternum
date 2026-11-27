@@ -22,3 +22,11 @@ Ithariel, Aurelian e Malpherion continuam como menções. Serão promovidos a do
 A afirmação de Azrakhel de que Eva é sua filha permanece em conflito com a fala do reflexo de Vespera. A identidade da mulher de vestido cinza, o destino de Eva e a possível relação entre o par de sapatos da memória e o sapatinho encontrado no Salão das Audiências não foram resolvidos. O bordado não recebeu propriedade sobrenatural.
 
 [Consultar o Bestiário no site](https://vranuska.github.io/vespera-aeternum/#bestiario)
+
+
+## Continuação do testemunho de Eithne — 27 de novembro de 2026
+
+- [O som que ficou na margem](o-som-que-ficou-na-margem.md) — relato de uma das quatro crianças da família, durante travessia sem data ou destino preservados.
+- [Correção à margem](correcao-a-margem.md) — documento complementar que separa o lamento ouvido, a busca do pai e a morte da avó, sem atribuir causalidade.
+
+O dossiê de Eithne foi aprofundado com essa perspectiva indireta. A identidade da testemunha e a origem do som continuam desconhecidas. Não foi aberta nova aptidão nem alterada a cronologia do Bestiário.

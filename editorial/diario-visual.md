@@ -544,3 +544,10 @@ O evento dynamic/Jekyll 45609354018 também concluiu com sucesso. Isso mostra qu
 Narrativamente, Amina pode reaparecer somente quando houver uma decisão profissional ou consequência comunitária concreta; Hawa e Zahra não recebem biografias adicionais por inferência. A anotação “Vespera” permanece um testemunho único, sem confirmação independente. Os onze minutos continuam sendo convenção humana, não pista automática de manipulação temporal.
 
 Tecnicamente, ainda faltam: (1) sincronizar o Lovable com a branch atual preservando a composição Reforged; (2) conferir e, se administrativamente possível, fixar GitHub Pages em GitHub Actions como única origem; (3) inspecionar preview e produção separadamente, em desktop e celular, depois da sincronização. Nenhuma dessas tarefas foi declarada concluída.
+
+
+## Registro de 27 de novembro de 2026 — O som que ficou na margem
+
+O ciclo acrescenta dois manuscritos ao arquivo de Eithne e aprofunda somente o dossiê já existente em `bestiario.json`. A narrativa e a folha documental permanecem sem data de universo; o índice editorial as mantém fora da cronologia e dos 19 capítulos aprovados. O Bestiário acrescenta uma perspectiva familiar indireta, um limite explícito e uma citação; as três aptidões de Eithne e os seis marcos de sua cronologia permanecem inalterados. O Atlas não foi alterado porque o lago e a travessia não têm localização identificada.
+
+Não houve alteração de CSS, páginas, cabeçalho, monograma, pergaminho, imagens ornamentais ou hierarquia editorial. A composição Reforged continua sendo a referência. A sincronização do Lovable e a mudança da origem do Pages para GitHub Actions permanecem tarefas separadas; não devem ser confundidas com integração dos manuscritos ou com o envio de um artefato.
