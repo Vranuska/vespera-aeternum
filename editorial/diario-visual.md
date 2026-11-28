@@ -566,3 +566,7 @@ Não houve alteração de CSS, página inicial, hierarquia do portal, cabeçalho
 ## Correção técnica — referências documentais do Atlas React · 28 de novembro de 2026
 
 A inspeção da ficha de Otaru revelou que o renderizador `AtlasReferenceLink` reconhecia o prefixo `conto:`, mas não `documento:`; por isso, a referência à *Folha de treino de Hideo* era mostrada sem navegação. O frontend passa a resolver ambos os prefixos para a rota de leitura `/diarios/$id`, com testes para os dois casos e para referências de outras seções. Os manuscritos, o Atlas canônico, os snapshots, o marcador, o CSS e a composição Reforged não foram alterados por esta correção.
+
+## Fontes históricas da ficha de Otaru — 28 de novembro de 2026
+
+A ficha existente da zona portuária recebeu duas referências externas em `historical_sources`: a linha do tempo oficial da Cidade de Otaru (início das obras do canal em 1914; primeira fase concluída em 1923) e a Agência de Turismo do Japão (Otaru como porto comercial do início do século XX, com transferência de cargas por barcaças). Fontes: https://www.city.otaru.lg.jp/docs/2020120700886/ e https://www.mlit.go.jp/tagengo-db/en/R5-00045.html. Elas sustentam o contexto geral, não a existência do escritório ficcional, o cais exato, a identidade dos trabalhadores ou a posição precisa do marcador.
