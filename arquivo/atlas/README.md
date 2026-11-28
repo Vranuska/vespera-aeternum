@@ -68,3 +68,12 @@ Não transformar uma lacuna em fato. Não estabelecer fronteiras, hierarquias, l
 - O nome e o endereço do café, a identidade das três colegas, a biografia de Nélida e o destino posterior da fita permanecem desconhecidos.
 - **Limites cartográficos:** a ficha mantém o status anterior, o marcador esquemático e a ausência de coordenadas. A porta do fundo continua fechada. Não se acrescenta ligação com o Entre, a Umbra ou o Sonhar.
 - **Contexto telefônico de época:** uma reportagem da IPS publicada em abril de 1997 registra que empresas argentinas ofereciam serviços de contestador automático com armazenamento de mensagens e que havia telefones públicos nas ruas. A fonte contextualiza o uso de tecnologia de resposta automática e telefonia pública; não identifica o aparelho doméstico ficcional nem confirma sua marca, modelo ou disponibilidade em Barracas. [IPS — Argentina: el gran salto de las telecomunicaciones](https://ipsnoticias.net/1997/04/argentina-el-gran-salto-de-las-telecomunicaciones/).
+
+
+## Zona portuária de Otaru — atualização de 23 de janeiro de 1922
+
+- [A letra de Hideo](../fragmentos/a-letra-de-hideo.md) e [Folha de treino de Hideo](../fragmentos/folha-de-treino-de-hideo.md) desenvolvem uma consequência profissional temporária para Nao Sakamoto e a prática de escrita de Hideo.
+- Nao aceita duas semanas de trabalho como copista num pequeno escritório de carga próximo ao porto. O edifício, a empresa e o endereço não são identificados.
+- A folha de Hideo conserva um modelo escrito por sua mulher, uma única marca de orientação feita por Nao e uma tentativa final escrita por ele. O nome da menina não é reproduzido; sua idade, escolaridade e eventual contato com a folha não são conhecidos.
+- **Limites cartográficos:** a ficha da zona portuária e seu marcador aproximado permanecem os mesmos. Não se acrescentam cais, armazém, escritório, coordenadas ou rota.
+- **Continuidade:** a experiência temporária não encerra a suspensão anterior de Nao nem informa o resultado da prova de escrituração.

@@ -211,3 +211,12 @@ A sequência editorial põe a narrativa antes do caderno. Ambas as peças estão
 - **Bestiário:** dossiê existente de Eithne aprofundado com a perspectiva de uma testemunha familiar indireta. Nenhuma aptidão, data, localização ou regra foi acrescentada; a sequência permanece sem posição na cronologia e fora dos 19 capítulos do Volume I.
 
 A narrativa vem antes do documento. A folha não identifica a fonte do lamento, não prova a culpa atribuída pelo pai e não demonstra que o som tenha acompanhado a travessia. O Atlas não foi alterado: a margem e o lago continuam sem localização geográfica identificada.
+
+
+## Ciclo editorial — 28 de novembro de 2026: A letra de Hideo
+
+- [A letra de Hideo](arquivo/fragmentos/a-letra-de-hideo.md) — Nao Sakamoto aceita uma experiência de duas semanas como copista num escritório de carga sem nome ou endereço identificados e acompanha Hideo numa nova tentativa de escrever o nome da filha.
+- [Folha de treino de Hideo](arquivo/fragmentos/folha-de-treino-de-hideo.md) — papel deixado temporariamente com Nao; a linha-modelo é da mulher de Hideo, a única marca de orientação é de Nao e a última tentativa é do próprio Hideo.
+- **Atlas:** atualização da ficha já existente da zona portuária de Otaru; nenhum lugar, cais, coordenada ou caminho novo foi criado.
+
+A sequência editorial acrescenta a quarta e a quinta peças de Caderno das Travessias. Ambas se situam em 23 de janeiro de 1922 e entram na cronologia do universo, mas permanecem fora dos 19 capítulos aprovados do Volume I. A suspensão anterior de Nao e o resultado da prova de escrituração continuam em aberto. O nome, a idade e a escolaridade da menina não são transcritos; não se afirma que ela tenha visto a folha.

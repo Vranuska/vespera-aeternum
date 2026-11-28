@@ -551,3 +551,14 @@ Tecnicamente, ainda faltam: (1) sincronizar o Lovable com a branch atual preserv
 O ciclo acrescenta dois manuscritos ao arquivo de Eithne e aprofunda somente o dossiê já existente em `bestiario.json`. A narrativa e a folha documental permanecem sem data de universo; o índice editorial as mantém fora da cronologia e dos 19 capítulos aprovados. O Bestiário acrescenta uma perspectiva familiar indireta, um limite explícito e uma citação; as três aptidões de Eithne e os seis marcos de sua cronologia permanecem inalterados. O Atlas não foi alterado porque o lago e a travessia não têm localização identificada.
 
 Não houve alteração de CSS, páginas, cabeçalho, monograma, pergaminho, imagens ornamentais ou hierarquia editorial. A composição Reforged continua sendo a referência. A sincronização do Lovable e a mudança da origem do Pages para GitHub Actions permanecem tarefas separadas; não devem ser confundidas com integração dos manuscritos ou com o envio de um artefato.
+
+
+## Registro de 28 de novembro de 2026 — A letra de Hideo
+
+O ciclo acrescenta duas peças ao Caderno das Travessias, em Otaru, no dia 23 de janeiro de 1922. *A letra de Hideo* acompanha Nao Sakamoto durante o início de uma experiência temporária de duas semanas como copista e mostra Hideo praticando por conta própria a escrita do nome da filha. *Folha de treino de Hideo* registra a linha-modelo escrita pela mulher, as tentativas do homem e a única marca de orientação feita por Nao. A última linha é de Hideo. O nome da menina não é transcrito, e não se afirma que ela tenha visto a folha.
+
+A ordem editorial da série passa a ser: *A maré não assina recibos* → *O primeiro quarto em terra* → *Carta de Nao a Sōta* → *A letra de Hideo* → *Folha de treino de Hideo*. A cronologia registra as duas peças em 23/01/1922, depois dos acontecimentos de 12/01/1922. O Volume I conserva os 19 capítulos aprovados. A prova de escrituração de Nao e a suspensão no porto permanecem sem resultado; a experiência de copista não representa reintegração nem carreira permanente.
+
+A ficha existente da Zona portuária de Otaru foi aprofundada sem criar novo lugar ou coordenada. O escritório não recebe nome nem endereço, e o cais exato permanece desconhecido. Nenhuma ficha do Bestiário foi criada ou modificada.
+
+Não houve alteração de CSS, página inicial, hierarquia do portal, cabeçalho, monograma, pergaminho, molduras ou imagens. A composição Reforged permanece a referência; as alterações de frontend limitam-se aos dados do arquivo, catálogo, marcador existente e testes.
