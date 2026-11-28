@@ -562,3 +562,7 @@ A ordem editorial da série passa a ser: *A maré não assina recibos* → *O pr
 A ficha existente da Zona portuária de Otaru foi aprofundada sem criar novo lugar ou coordenada. O escritório não recebe nome nem endereço, e o cais exato permanece desconhecido. Nenhuma ficha do Bestiário foi criada ou modificada.
 
 Não houve alteração de CSS, página inicial, hierarquia do portal, cabeçalho, monograma, pergaminho, molduras ou imagens. A composição Reforged permanece a referência; as alterações de frontend limitam-se aos dados do arquivo, catálogo, marcador existente e testes.
+
+## Correção técnica — referências documentais do Atlas React · 28 de novembro de 2026
+
+A inspeção da ficha de Otaru revelou que o renderizador `AtlasReferenceLink` reconhecia o prefixo `conto:`, mas não `documento:`; por isso, a referência à *Folha de treino de Hideo* era mostrada sem navegação. O frontend passa a resolver ambos os prefixos para a rota de leitura `/diarios/$id`, com testes para os dois casos e para referências de outras seções. Os manuscritos, o Atlas canônico, os snapshots, o marcador, o CSS e a composição Reforged não foram alterados por esta correção.

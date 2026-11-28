@@ -220,3 +220,5 @@ A narrativa vem antes do documento. A folha não identifica a fonte do lamento, 
 - **Atlas:** atualização da ficha já existente da zona portuária de Otaru; nenhum lugar, cais, coordenada ou caminho novo foi criado.
 
 A sequência editorial acrescenta a quarta e a quinta peças de Caderno das Travessias. Ambas se situam em 23 de janeiro de 1922 e entram na cronologia do universo, mas permanecem fora dos 19 capítulos aprovados do Volume I. A suspensão anterior de Nao e o resultado da prova de escrituração continuam em aberto. O nome, a idade e a escolaridade da menina não são transcritos; não se afirma que ela tenha visto a folha.
+
+**Navegação do Atlas React (28/11/2026):** as referências `conto:` e `documento:` da ficha de Otaru agora abrem as entradas correspondentes no leitor. A correção preserva a distinção entre narrativa e documento e não altera o Atlas canônico, a posição cartográfica ou a composição Reforged.
